@@ -427,21 +427,35 @@ nav .mb-nav-flex {
     background-color: #e5eaed;
   }
 
-  .brosis-flow .jam-satu .gambar-jam {
-    width: 23%;
-    height: 23%;
+  .gambar-jam {
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
   }
 
-  .brosis-flow .jam-satu .gambar-jam img {
-    width: 80%;
-    height: 80%;
-    border-radius: 20px;
+  .gambar-jam img {
+    width: 100%;
+    height: 100%;
   }
 
   .brosis-flow .jam-satu .judul-jam {
     font-size: 2.6rem;
     border-bottom: 2px solid royalblue;
+    width: 16%;
+    padding-bottom: 5px;
+  }
+
+  .brosis-flow .jam-satu .summary-jam {
+    font-size: 1.4rem;
     width: 20%;
+    padding-bottom: 5px;
+    color: #404040;
+  }
+
+  .line-judul-jam {
+    width: 10%;
+    height: 5px;
+    background-color: royalblue;
   }
 
   /* End Brosis Flow */
