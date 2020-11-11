@@ -457,6 +457,12 @@ nav .mb-nav-flex {
     font-size: 2.6rem;
   }
 
+  .mb-nav .mb-menu-nav:active,
+  .mb-nav .mb-menu-nav:hover {
+    color: #0161ff;
+    text-decoration: none;
+  }
+
   .mb-nav ul li a {
     color: #000000;
   }
