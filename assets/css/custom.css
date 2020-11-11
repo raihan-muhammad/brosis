@@ -431,15 +431,15 @@ nav .mb-nav-flex {
     height: 0%;
     position: fixed;
     z-index: 7;
-    transition: all 1s ease;
+    transition: all 0.8s ease;
   }
 
   .mb-nav.mb-nav-active {
     height: 100%;
     width: 100%;
     position: fixed;
+    transition: all 0.8s ease;
     z-index: 2;
-
     margin-top: 15%;
   }
 
