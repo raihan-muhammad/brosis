@@ -1177,7 +1177,7 @@ nav .mb-nav-flex {
   }
 
   .lokasi-brosis .text-lainya-mobile {
-    display: none;
+    display: none !important;
   }
 
   /* End Lokasi Brosis */
