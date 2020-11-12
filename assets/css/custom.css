@@ -289,7 +289,7 @@ nav .mb-nav-flex {
   right: 0;
   margin: 10% auto 10% auto;
   width: 20vh;
-  height: 0.7rem;
+  height: 0.5rem;
   background-color: #e5eaed;
 }
 
@@ -311,7 +311,7 @@ nav .mb-nav-flex {
   right: 0;
   margin: 10% auto 10% auto;
   width: 20vh;
-  height: 0.7rem;
+  height: 0.5rem;
   background-color: #e5eaed;
 }
 
@@ -333,7 +333,7 @@ nav .mb-nav-flex {
   right: 0;
   margin: 10% auto 10% auto;
   width: 20vh;
-  height: 0.7rem;
+  height: 0.5rem;
   background-color: #e5eaed;
 }
 
@@ -355,7 +355,7 @@ nav .mb-nav-flex {
   right: 0;
   margin: 10% auto 10% auto;
   width: 20vh;
-  height: 0.7rem;
+  height: 0.5rem;
   background-color: #e5eaed;
 }
 
@@ -377,7 +377,7 @@ nav .mb-nav-flex {
   right: 0;
   margin: 45.5% auto 10% auto;
   width: 20vh;
-  height: 0.7rem;
+  height: 0.5rem;
   background-color: #e5eaed;
 }
 
@@ -580,6 +580,114 @@ nav .mb-nav-flex {
 
 /* End Brosis Flow */
 
+/* Lokasi Brosis */
+
+.lokasi-brosis {
+  padding: 15% 10% 2% 10%;
+}
+
+.lokasi-brosis .judul-lokasi-brosis {
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.lokasi-brosis .text-lainya {
+  font-size: 1.6rem;
+}
+
+.lokasi-brosis .text-lainya-mobile {
+  display: none;
+}
+
+/* End Lokasi Brosis */
+
+/* Coursel Lokasi */
+
+.coursel-lokasi {
+  margin-left: 10%;
+}
+
+.coursel-lokasi .bungkus-lokasi {
+  background-size: contain;
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+}
+
+.coursel-lokasi .bungkus-lokasi .cover-image-lokasi {
+  border-radius: 20px;
+  width: 230px;
+  height: 230px;
+}
+
+.coursel-lokasi .bungkus-lokasi .cover-image-lokasi img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.coursel-lokasi .judul-lokasi-brosis {
+  position: absolute;
+  bottom: 25%;
+  color: #fff;
+  left: 10%;
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.coursel-lokasi .garis-lokasi {
+  position: absolute;
+  height: 2px;
+  background-color: #edfe00;
+  width: 40%;
+  left: 10.8%;
+  bottom: 19%;
+}
+
+.coursel-lokasi .summary-lokasi-brosis {
+  position: absolute;
+  color: #ffffff;
+  bottom: 8%;
+  left: 10.7%;
+  font-size: 1.3rem;
+}
+
+.slider {
+  width: 300px;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+
+  z-index: 1;
+}
+
+#items {
+  width: 10000px;
+  position: relative;
+  top: 0;
+  left: -300px;
+}
+
+#items.shifting {
+  transition: left 0.2s ease-out;
+}
+
+.slide {
+  width: 240px;
+  height: 240px;
+  margin-right: 10px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s;
+  position: relative;
+}
+/* End Lokasi Coursel */
+
 /* Responsive  */
 
 @media (max-width: 1600px) {
@@ -758,7 +866,7 @@ nav .mb-nav-flex {
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
-    height: 0.7rem;
+    height: 0.5rem;
     background-color: #e5eaed;
   }
 
@@ -780,7 +888,7 @@ nav .mb-nav-flex {
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
-    height: 0.7rem;
+    height: 0.5rem;
     background-color: #e5eaed;
   }
 
@@ -802,7 +910,7 @@ nav .mb-nav-flex {
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
-    height: 0.7rem;
+    height: 0.5rem;
     background-color: #e5eaed;
   }
 
@@ -824,7 +932,7 @@ nav .mb-nav-flex {
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
-    height: 0.7rem;
+    height: 0.5rem;
     background-color: #e5eaed;
   }
 
@@ -846,7 +954,7 @@ nav .mb-nav-flex {
     right: 0;
     margin: 45.5% auto 10% auto;
     width: 20vh;
-    height: 0.7rem;
+    height: 0.5rem;
     background-color: #e5eaed;
   }
 
@@ -1046,7 +1154,120 @@ nav .mb-nav-flex {
   .brosis-flow .bungkus-jam-flow-empat {
     margin-left: -20%;
   }
+
   /* End Brosis Flow */
+
+  /* Lokasi Brosis */
+
+  .lokasi-brosis {
+    padding: 15% 10% 2% 10%;
+  }
+
+  .lokasi-brosis .judul-lokasi-brosis {
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+
+  .lokasi-brosis .text-lainya {
+    font-size: 1.6rem;
+  }
+
+  .lokasi-brosis .text-lainya:hover {
+    text-decoration: none;
+  }
+
+  .lokasi-brosis .text-lainya-mobile {
+    display: none;
+  }
+
+  /* End Lokasi Brosis */
+
+  /* Coursel Lokasi */
+
+  .coursel-lokasi {
+    margin-left: 10%;
+  }
+
+  .coursel-lokasi .bungkus-lokasi {
+    background-size: contain;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  .coursel-lokasi .bungkus-lokasi .cover-image-lokasi {
+    border-radius: 20px;
+    width: 230px;
+    height: 230px;
+  }
+
+  .coursel-lokasi .bungkus-lokasi .cover-image-lokasi img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .coursel-lokasi .judul-lokasi-brosis {
+    position: absolute;
+    bottom: 25%;
+    color: #fff;
+    left: 10%;
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .coursel-lokasi .garis-lokasi {
+    position: absolute;
+    height: 2px;
+    background-color: #edfe00;
+    width: 40%;
+    left: 10.8%;
+    bottom: 19%;
+  }
+
+  .coursel-lokasi .summary-lokasi-brosis {
+    position: absolute;
+    color: #ffffff;
+    bottom: 8%;
+    left: 10.7%;
+    font-size: 1.3rem;
+  }
+
+  .slider {
+    width: 300px;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    position: relative;
+
+    z-index: 1;
+  }
+
+  #items {
+    width: 10000px;
+    position: relative;
+    top: 0;
+    left: -300px;
+  }
+
+  #items.shifting {
+    transition: left 0.2s ease-out;
+  }
+
+  .slide {
+    width: 240px;
+    height: 240px;
+    margin-right: 10px;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 1s;
+    position: relative;
+  }
+  /* End Lokasi Coursel */
 }
 
 /* Mobile */
@@ -1338,5 +1559,52 @@ nav .mb-nav-flex {
   }
 
   /* End Brosis Flow */
+
+  /* Coursel Lokasi */
+
+  .lokasi-brosis {
+    margin-top: 25%;
+    margin-bottom: 2%;
+    display: block !important;
+  }
+
+  .d-flex {
+    display: block !important;
+  }
+
+  .lokasi-brosis .judul-lokasi-brosis {
+    text-align: center !important;
+  }
+
+  .lokasi-brosis .text-lainya {
+    display: none;
+  }
+
+  .lokasi-brosis .text-lainya:hover {
+    text-decoration: none;
+  }
+
+  .lokasi-brosis .text-lainya-mobile {
+    display: block;
+  }
+
+  .slide {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .cover-image-lokasi {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .text-lainya-mobile {
+    display: block;
+    font-size: 1.6rem;
+    padding: 5% 0;
+    text-align: center;
+  }
+
+  /* End Lokasi Coursel */
 }
 /* End Responsive Mobile */
