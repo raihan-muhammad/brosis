@@ -266,7 +266,7 @@ nav .mb-nav-flex {
 }
 
 .brosis-flow .line-flow {
-  width: 0.7rem;
+  width: 0.5rem;
   background-color: #e5eaed;
   height: 180vh;
 }
@@ -735,7 +735,7 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .line-flow {
-    width: 0.7rem;
+    width: 0.5rem;
     background-color: #e5eaed;
     height: 180vh;
   }
@@ -1278,6 +1278,18 @@ nav .mb-nav-flex {
 
   /* Brosis Flow */
 
+  .brosis-flow {
+    padding: 5% 10%;
+  }
+
+  .brosis-flow .judul-brosis-flow {
+    margin-top: 9%;
+  }
+
+  .brosis-flow .bunder-biru {
+    margin-top: -3%;
+  }
+
   .brosis-flow .jam-satu,
   .brosis-flow .jam-dua,
   .brosis-flow .jam-tiga,
@@ -1296,13 +1308,30 @@ nav .mb-nav-flex {
     display: none !important;
   }
 
+  .brosis-flow .line-flow {
+    width: 0.4rem;
+    height: 130vh;
+  }
+
   .brosis-flow #flow-mobile-card {
     display: block;
+    margin-top: 45% !important;
+    border: 1px solid #e1e1e1 !important;
+    padding: 5%;
+    border-radius: 20px;
   }
 
   .brosis-flow #gambar-flow img {
     width: 100%;
     height: 100%;
+  }
+
+  .brosis-flow .card-body .card-title {
+    font-size: 2.4rem;
+  }
+
+  .brosis-flow .card-body .card-text {
+    font-size: 1.4rem;
   }
 
   /* End Brosis Flow */
