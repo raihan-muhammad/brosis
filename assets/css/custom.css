@@ -1287,7 +1287,7 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .bunder-biru {
-    margin-top: -1%;
+    margin-top: -3%;
   }
 
   .brosis-flow .jam-satu,
@@ -1310,12 +1310,12 @@ nav .mb-nav-flex {
 
   .brosis-flow .line-flow {
     width: 0.4rem;
-    height: 130vh;
+    height: 1100px;
   }
 
   .brosis-flow #flow-mobile-card {
     display: block;
-    margin-top: 45% !important;
+    margin-top: 51.5% !important;
     border: 1px solid #e1e1e1 !important;
     padding: 5%;
     border-radius: 20px;
