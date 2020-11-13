@@ -194,6 +194,8 @@ function slide(wrapper, items, prev, next) {
 
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 3,
+  slidesPerView: 'auto',
+
   spaceBetween: 50,
   freeMode: true,
   pagination: {
