@@ -1708,6 +1708,7 @@ nav .mb-nav-flex {
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
     height: 63vh;
+    padding: 10% 7%;
   }
 
   .testimony .judul-testimony {
