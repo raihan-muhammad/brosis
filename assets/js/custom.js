@@ -65,17 +65,6 @@ textCloseNav.addEventListener('click', () => {
   }
 });
 
-//  Library code wirh Jquery
-
-$(document).ready(function () {
-  $('.owl-carousel').owlCarousel({
-    margin: 10,
-    loop: true,
-    autoWidth: true,
-    items: 4,
-  });
-});
-
 var slider = document.getElementById('slider'),
   sliderItems = document.getElementById('items'),
   prev = document.getElementById('prev'),
@@ -113,12 +102,12 @@ function slide(wrapper, items, prev, next) {
   items.addEventListener('touchmove', dragAction);
 
   // Click events
-  prev.addEventListener('click', function () {
-    shiftSlide(-1);
-  });
-  next.addEventListener('click', function () {
-    shiftSlide(1);
-  });
+  // prev.addEventListener('click', function () {
+  //   shiftSlide(-1);
+  // });
+  // next.addEventListener('click', function () {
+  //   shiftSlide(1);
+  // });
 
   // Transition events
   items.addEventListener('transitionend', checkIndex);
@@ -200,3 +189,15 @@ function slide(wrapper, items, prev, next) {
     allowShift = true;
   }
 }
+
+// Swipper Instance
+
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 3,
+  spaceBetween: 50,
+  freeMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
