@@ -875,6 +875,36 @@ nav .mb-nav-flex {
 
 /* End Testimony */
 
+/* Vibes */
+
+.vibes {
+  margin-top: -5%;
+  padding: 0 5%;
+}
+
+.vibes .judul-vibes {
+  font-size: 2.9rem;
+}
+
+.vibes .summary-vibes {
+  font-size: 1.6rem;
+  color: #7a7a7a;
+  margin-bottom: 3%;
+}
+
+.vibes .swiper-container-vibes {
+  width: 100%;
+  height: auto;
+}
+
+.vibes .image-vibes {
+  border-radius: 20px !important;
+  height: 50vh;
+  width: 100%;
+}
+
+/* End Vibes */
+
 /* Responsive  */
 
 @media (max-width: 1600px) {
@@ -1565,6 +1595,7 @@ nav .mb-nav-flex {
 
   .vibes .judul-vibes {
     font-size: 2.9rem;
+    font-weight: bold;
   }
 
   .vibes .summary-vibes {
@@ -1585,6 +1616,53 @@ nav .mb-nav-flex {
   }
 
   /* End Vibes */
+
+  /* Footer */
+
+  .text-footer {
+    margin: 10% 0;
+  }
+
+  .text-footer .judul-footer {
+    font-weight: bold;
+    font-size: 2.9rem;
+  }
+
+  .text-footer .summary-footer {
+    font-size: 1.6rem;
+    color: #7a7a7a;
+  }
+
+  .bg-footer {
+    position: absolute;
+    z-index: -1;
+    left: -5%;
+    width: 120%;
+    top: 6%;
+    max-height: 300px;
+  }
+
+  .bg-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    padding: 0 5%;
+  }
+
+  .footer .kotak-white {
+    width: 100%;
+    height: 30vh;
+    background-color: #fff;
+    border: 1px solid #434343;
+  }
+
+  /* End Footer */
 }
 
 /* Mobile */
@@ -1937,8 +2015,7 @@ nav .mb-nav-flex {
 
   /* End Testimony */
 
-
-   /* Vibes */
+  /* Vibes */
 
   .vibes {
     margin-top: 10%;
@@ -1963,11 +2040,8 @@ nav .mb-nav-flex {
   .vibes .image-vibes {
     border-radius: 20px !important;
     height: 35vh;
-
   }
 
   /* End Vibes */
-}
-
 }
 /* End Responsive Mobile */

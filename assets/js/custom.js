@@ -229,5 +229,9 @@ var swiper2 = new Swiper('.swiper-container-vibes', {
       slidesPerView: 5,
       spaceBetween: 30,
     },
+    1025: {
+      slidesPerView: 6,
+      spaceBetween: 30,
+    },
   },
 });
