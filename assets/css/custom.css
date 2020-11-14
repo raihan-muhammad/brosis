@@ -61,7 +61,8 @@ header {
   width: 120%;
   position: absolute;
   left: -15em;
-  height: 100%;
+  height: 110%;
+  top: -5em;
 }
 
 .bg-header img {
@@ -949,8 +950,8 @@ nav .mb-nav-flex {
   }
 
   .feature .image-feature {
-    width: 100%;
-    height: 40vh;
+    width: 90%;
+    height: 45vh;
   }
 
   .feature .image-feature img {
