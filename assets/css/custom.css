@@ -1797,6 +1797,29 @@ input[type="submit"] {
     color: white;
     margin: 2% 0;
   }
+
+  .text-footer .text-footer-life, .text-footer .text-footer-privacy {
+    font-size: 1.2rem !important;
+    color: #acebff !important;
+    margin: 1.5% 0 0 1% !important;
+  }
+
+  .footer .text-footer-mobile {
+    font-size: 1.4rem !important;
+    margin-right: 3% !important;
+  }
+
+  .footer .judul-footer-komunitas {
+    margin-top: 21% !important; 
+  }
+
+  .footer #show-footer-end {
+    display: none;
+  }
+
+  .footer #bungkus-hide-komunitas {
+    display: none;
+  }
   /* End Footer */
 }
 
@@ -2204,7 +2227,7 @@ input[type="submit"] {
   /* Vibes */
 
   .vibes {
-    margin-top: 10%;
+    margin: 10% 0;
     padding: 0 5%;
   }
 
@@ -2244,6 +2267,78 @@ input[type="submit"] {
     background-color: #fff;
     border: 1px solid #434343;
   }
+
+  .footer {
+    background-color: #001A31;
+    height: auto;
+    margin-top: 15% !important;
+  }
+
+  .footer .menu-footer {
+    text-align: left;
+  }
+
+  .footer .text-footer-mobile, .footer .text-footer-mobile-dua {
+    font-size: 0.8rem !important;
+    margin-right: 3% !important;
+  }
+
+  .footer .text-footer-mobile-dua {
+    text-align: left !important;
+  }
+
+  .footer #hide-footer-mobile {
+    display: none;
+  }
+
+  .footer #jarak-bawah-mobile {
+    margin-bottom: 5%;
+  }
+
+  .footer .bungkus-hide-komunitas-mobile {
+    display: none;
+  }
+
+  .footer #bungkus-hide-komunitas {
+    display: block;
+    margin-top: -5% !important;
+  }
+  
+  .footer #show-footer-end {
+    display: block;
+  }
+
+  .footer .menu-footer {
+    font-size: 0.9rem;
+  }
+
+  #text-footer-top {
+    padding: 0 20%;
+    margin-top: 25%;
+  }
+
+  .text-footer .judul-footer {
+    font-size: 2.4rem !important;
+    margin-bottom: 5%;
+  }
+
+  .footer #show-footer-end {
+    margin-top: -2% !important;
+    margin-left: 5% !important;
+    padding-bottom: 10% !important;
+  }
+
+  .footer .judul-brand-footer-mobile {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+
+  .footer #show-footer-end a {
+    color: #acebff !important;
+    font-size: 0.9rem !important;
+  }
+
+
   /* end footer */
 }
 /* End Responsive Mobile */
