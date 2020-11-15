@@ -906,6 +906,15 @@ nav .mb-nav-flex {
 
 /* End Vibes */
 
+/* Footer */
+
+.text-footer .row .menu-footer .menu-judul-footer {
+  color: white;
+  margin: 0%;
+}
+
+/* End Footer */
+
 /* Responsive  */
 
 @media (max-width: 1600px) {
@@ -1621,7 +1630,7 @@ nav .mb-nav-flex {
   /* Footer */
 
   .text-footer {
-    margin: 10% 0;
+    margin: 5% 0;
   }
 
   .text-footer .judul-footer {
@@ -1658,11 +1667,30 @@ nav .mb-nav-flex {
 
   .footer .kotak-white {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     background-color: #fff;
     border: 1px solid #434343;
   }
 
+  .text-footer .menu-footer {
+    color: #ACEBFF;
+  }
+
+  .text-footer .row a {
+    font-size: 1.5rem;
+    margin: 1% 0;
+    color: white;
+  }
+
+  .text-footer .item-tentang  a {
+    color: white;
+    margin: 3% 0;
+  }
+
+  .text-footer #item-hubungi a {
+    color: white;
+    margin: 2% 0;
+  }
   /* End Footer */
 }
 
@@ -2046,5 +2074,21 @@ nav .mb-nav-flex {
   }
 
   /* End Vibes */
+
+  /* footer */
+
+    .bg-footer img {
+   height: 100vh;
+  }
+
+  .footer .kotak-white {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 30vh;
+    background-color: #fff;
+    border: 1px solid #434343;
+  }
+  /* end footer */
 }
 /* End Responsive Mobile */
