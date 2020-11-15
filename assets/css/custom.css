@@ -1,8 +1,8 @@
 /* Font-Face */
 
 @font-face {
-  font-family: 'swis';
-  src: url('../fonts/swis.ttf');
+  font-family: "swis";
+  src: url("../fonts/swis.ttf");
 }
 
 /* End Font-Face */
@@ -39,7 +39,7 @@
 /* End Utils */
 
 html {
-  font-family: 'swis';
+  font-family: "swis";
   font-size: 10px;
 }
 
@@ -142,6 +142,112 @@ nav .mb-nav-flex {
 }
 
 /* End Hero */
+
+/* Pertanyaan */
+.faq {
+  margin: 25% 9% 0 9%;
+}
+.judul {
+  font-size: 4rem;
+}
+.filter-box {
+  float: right;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5%;
+  border: 1px solid black;
+  height: 6vh;
+  width: 50%;
+}
+.line {
+  margin: auto;
+  background-color: #404040;
+  width: 80%;
+  height: 0.1vh;
+  margin-top: 5%;
+}
+.line2 {
+  margin: auto;
+  background-color: #404040;
+  width: 80%;
+  height: 0.1vh;
+}
+.faq2 {
+  margin: 5% 10%;
+}
+.judul2 {
+  font-size: 3rem;
+  color: #003ea4;
+}
+.container {
+  margin: 0 9%;
+}
+.descfaq {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+.path {
+  margin-top: 5%;
+}
+.judul3 {
+  font-size: 3rem;
+  color: black;
+}
+/* End Pertanyaan */
+/* Form */
+.clip-path {
+  width: 70rem;
+  height: 45vh;
+  background-color: #f8f9f4;
+  clip-path: polygon(0% 0%, 75% 0%, 87% 50%, 75% 100%, 0% 100%);
+}
+.image-path {
+  display: none;
+}
+.form-box {
+  margin: 5% 10% 0 10%;
+}
+.judul-clip {
+  font-size: 4rem;
+  padding: 5rem 0 0 8rem;
+}
+.clip-path-mobile {
+  display: none;
+}
+.desk-clip {
+  font-size: 2rem;
+  padding: 5rem 0 0 8rem;
+  z-index: -1;
+}
+.identitas {
+  width: 35rem;
+  float: right;
+  margin-right: 12rem;
+  font-size: 1.5rem;
+  margin-top: -30rem;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 2rem 1.5rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[placeholder] {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+input[type="submit"] {
+  padding: 1rem 0;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+.contain {
+  width: 100%;
+  height: 15rem;
+}
 
 /* Feature */
 
@@ -1673,7 +1779,7 @@ nav .mb-nav-flex {
   }
 
   .text-footer .menu-footer {
-    color: #ACEBFF;
+    color: #acebff;
   }
 
   .text-footer .row a {
@@ -1682,7 +1788,7 @@ nav .mb-nav-flex {
     color: white;
   }
 
-  .text-footer .item-tentang  a {
+  .text-footer .item-tentang a {
     color: white;
     margin: 3% 0;
   }
@@ -1757,6 +1863,55 @@ nav .mb-nav-flex {
   }
 
   /* End Hero */
+
+  /* FAQ */
+  .judul {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .filter-box {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10rem;
+    border: 1px solid black;
+    height: 6vh;
+    width: 40%;
+  }
+  /* End FAQ */
+  /* Form FAQ */
+  .path {
+    display: none;
+  }
+  .clip-path {
+    display: none;
+  }
+  .clip-path-mobile {
+    display: inline;
+    position: absolute;
+    margin: 4rem 0 0 4.5rem;
+    text-align: center;
+  }
+  .judul-clip-mobile {
+    font-size: 2.5rem;
+  }
+  .desk-clip-mobile {
+    font-size: 1rem;
+  }
+  .image-path {
+    display: inline;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .identitas {
+    width: 30rem;
+    height: 90vh;
+    font-size: 1.5rem;
+    margin: 6rem 6rem 0 0;
+    position: relative;
+  }
+  /* End Form FAQ */
 
   /* Mb Nav Flex */
 
@@ -2077,8 +2232,8 @@ nav .mb-nav-flex {
 
   /* footer */
 
-    .bg-footer img {
-   height: 100vh;
+  .bg-footer img {
+    height: 100vh;
   }
 
   .footer .kotak-white {
