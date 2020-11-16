@@ -193,6 +193,26 @@ function slide(wrapper, items, prev, next) {
 
 // Swipper Instance
 
+var swiper2 = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 50,
+    freeMode: true,
+    breakpoints: {
+        285: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+        },
+    },
+});
+
 var swiper = new Swiper('.swiper-container-vibes', {
     slidesPerView: 6,
     spaceBetween: 5,
