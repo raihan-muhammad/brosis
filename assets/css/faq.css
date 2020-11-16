@@ -1,0 +1,812 @@
+/* Font-Face */
+
+@font-face {
+  font-family: "swis";
+  src: url("../fonts/swis.ttf");
+}
+
+/* End Font-Face */
+
+/* Utils */
+
+.cs-bg {
+  box-shadow: 0 0px 20px #bfbbbb;
+}
+
+.btn-wa-xl {
+  border: none;
+  background-color: #25d366;
+  border-radius: 10em;
+  color: #ffffff !important;
+  width: 140px;
+  height: 45px;
+  line-height: 35px;
+  right: -10px !important;
+  text-align: center;
+  position: relative;
+}
+
+.wa-text {
+  padding-left: 1.5em;
+}
+
+#wa-icon {
+  left: 15px;
+  position: absolute;
+  font-size: 2.2rem;
+}
+
+/* End Utils */
+
+html {
+  font-family: "swis";
+  font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Header Section */
+
+header {
+  height: 60vh;
+}
+
+/* End Header Section */
+
+/* Bg Header */
+
+.bg-header {
+  width: 120%;
+  position: absolute;
+  left: -15em;
+  height: 110%;
+  top: -5em;
+}
+
+.bg-header img {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Bg Header */
+
+/* Nav */
+
+nav {
+  font-size: 1.7rem;
+  background-color: #fff;
+  height: 100px;
+  padding: 0 7% 0 10% !important;
+}
+
+nav .nav-link {
+  margin-right: 1.5em !important;
+  color: #000000;
+  border-bottom: 1.5px solid #fff;
+  transition: all 0.5s ease;
+}
+
+nav #navbar-nav-satu .nav-item .nav-link:hover {
+  border-bottom: 1.5px solid royalblue;
+  transition: all 0.5s ease;
+}
+
+nav .logo img {
+  width: 140px;
+}
+
+nav .mb-nav {
+  display: none;
+}
+
+nav .mb-nav-flex {
+  display: none;
+}
+
+/* End Nav */
+
+/* Hero */
+
+.hero {
+  margin-top: 8%;
+  padding: 0 11%;
+}
+
+.hero .judul-hero {
+  font-size: 7rem;
+  color: #003668;
+  margin-top: 15%;
+}
+
+.hero .summary-hero {
+  font-size: 2.7rem;
+  color: #434343;
+  width: 85%;
+  font-weight: 200;
+  margin-top: 5%;
+}
+
+.hero .hero-image {
+  width: 600px;
+  height: 380px;
+  margin-left: 24%;
+  margin-top: 10%;
+}
+
+.hero .hero-image img {
+  border-radius: 180px;
+  width: 100%;
+  height: 100%;
+}
+
+/* End Hero */
+
+/* Pertanyaan */
+.faq {
+  margin: 25% 9% 0 9%;
+}
+.judul {
+  font-size: 4rem;
+}
+.filter-box {
+  float: right;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5%;
+  border: 1px solid black;
+  height: 6vh;
+  width: 50%;
+}
+.line-1 {
+  margin: auto;
+  background-color: #404040;
+  width: 80%;
+  height: 0.1vh;
+  margin-top: 5%;
+}
+.line-2 {
+  margin: auto;
+  background-color: #404040;
+  width: 100%;
+  height: 0.1vh;
+}
+.line-3 {
+  margin: auto;
+  background-color: #404040;
+  width: 100%;
+  height: 0.1vh;
+}
+.line-4 {
+  margin: auto;
+  background-color: #404040;
+  width: 100%;
+  height: 0.1vh;
+}
+.line-5 {
+  margin: auto;
+  background-color: #404040;
+  width: 100%;
+  height: 0.1vh;
+}
+.faq2 {
+  margin: 5% 10%;
+}
+.judul2 {
+  margin: -3rem 0 0 -13rem;
+  float: left;
+  font-size: 3rem;
+  color: #003ea4;
+}
+.accordion {
+  margin: auto;
+  width: 80%;
+  border: none;
+}
+.card {
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+.card-body {
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: -1rem;
+}
+.card-header {
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+.ask-button-1 {
+  color: #003ea4;
+}
+.ask-button-1:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.ask-button-2:hover,
+.ask-button-3:hover,
+.ask-button-4:hover,
+.ask-button-5:hover {
+  color: black;
+}
+.ask-button-2:focus,
+.ask-button-3:focus,
+.ask-button-4:focus,
+.ask-button-5:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.ask-button-1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #003ea4;
+  margin-left: -2rem;
+}
+.ask-button-2,
+.ask-button-3,
+.ask-button-4,
+.ask-button-5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin-left: -2rem;
+}
+
+.container {
+  margin: 0 9%;
+}
+.descfaq {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+.path-1 {
+  float: right;
+  margin-top: 1rem;
+}
+.path-row-1 {
+  margin-top: -5%;
+}
+.path-row-2 {
+  margin-top: -5%;
+}
+
+.judul3 {
+  font-size: 3rem;
+  color: black;
+}
+/* End Pertanyaan */
+/* Form */
+.clip-path {
+  width: 70rem;
+  height: 45vh;
+  background-color: #f8f9f4;
+  clip-path: polygon(0% 0%, 75% 0%, 87% 50%, 75% 100%, 0% 100%);
+}
+.image-path {
+  display: none;
+}
+.form-box {
+  margin: 5% 10% 0 10%;
+}
+.judul-clip {
+  font-size: 4rem;
+  padding: 5rem 0 0 8rem;
+}
+.clip-path-mobile {
+  display: none;
+}
+.desk-clip {
+  font-size: 2rem;
+  padding: 5rem 0 0 8rem;
+  z-index: -1;
+}
+.identitas {
+  width: 35rem;
+  float: right;
+  margin-right: 12rem;
+  font-size: 1.5rem;
+  margin-top: -30rem;
+}
+.text-ponsel {
+  font-size: 1.5rem;
+  margin: auto 1rem;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 2rem 1.5rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[placeholder] {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+input[type="submit"] {
+  padding: 1rem 0;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+.contain {
+  width: 100%;
+  height: 15rem;
+}
+/* Footer */
+
+.text-footer .row .menu-footer .menu-judul-footer {
+  color: white;
+  margin: 0%;
+}
+
+/* End Footer */
+
+/* Responsive  */
+
+@media (max-width: 1600px) {
+  /* Hero */
+  .hero {
+    padding: 0 11%;
+  }
+
+  .hero .judul-hero {
+    font-size: 6rem;
+    color: #003668;
+    margin-top: 13%;
+  }
+
+  .hero .summary-hero {
+    font-size: 1.8rem;
+    color: #434343;
+    width: 85%;
+    font-weight: 200;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image {
+    width: 450px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image img {
+    border-radius: 180px;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* End Hero */
+  /* Footer */
+
+  .text-footer .row .menu-footer .menu-judul-footer {
+    color: white;
+    margin: 0%;
+  }
+
+  /* End Footer */
+}
+@media (max-width: 1600px) {
+  /* Hero */
+  .hero {
+    padding: 0 11%;
+  }
+
+  .hero .judul-hero {
+    font-size: 6rem;
+    color: #003668;
+    margin-top: 13%;
+  }
+
+  .hero .summary-hero {
+    font-size: 1.8rem;
+    color: #434343;
+    width: 85%;
+    font-weight: 200;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image {
+    width: 450px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image img {
+    border-radius: 180px;
+    width: 100%;
+    height: 100%;
+  }
+  /* Footer */
+
+  .text-footer {
+    margin: 5% 0;
+  }
+
+  .text-footer .judul-footer {
+    font-weight: bold;
+    font-size: 2.9rem;
+  }
+
+  .text-footer .summary-footer {
+    font-size: 1.6rem;
+    color: #7a7a7a;
+  }
+
+  .bg-footer {
+    position: absolute;
+    z-index: -1;
+    left: -5%;
+    width: 120%;
+    top: 6%;
+    max-height: 300px;
+  }
+
+  .bg-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    padding: 0 5%;
+  }
+
+  .footer .kotak-white {
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+    border: 1px solid #434343;
+  }
+
+  .text-footer .menu-footer {
+    color: #acebff;
+  }
+
+  .text-footer .row a {
+    font-size: 1.5rem;
+    margin: 1% 0;
+    color: white;
+  }
+
+  .text-footer .item-tentang a {
+    color: white;
+    margin: 3% 0;
+  }
+
+  .text-footer #item-hubungi a {
+    color: white;
+    margin: 2% 0;
+  }
+
+  .text-footer .text-footer-life,
+  .text-footer .text-footer-privacy {
+    font-size: 1.2rem !important;
+    color: #acebff !important;
+    margin: 1.5% 0 0 1% !important;
+  }
+
+  .footer .text-footer-mobile {
+    font-size: 1.4rem !important;
+    margin-right: 3% !important;
+  }
+
+  .footer .judul-footer-komunitas {
+    margin-top: 21% !important;
+  }
+
+  .footer #show-footer-end {
+    display: none;
+  }
+
+  .footer #bungkus-hide-komunitas {
+    display: none;
+  }
+  /* End Footer */
+}
+/* Mobile */
+@media (max-width: 570px) {
+  /* Utils */
+  .btn-burger {
+    font-size: 3.5rem;
+  }
+
+  .btn-wa {
+    font-size: 25px;
+    width: 50px;
+    padding: 0;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+  }
+
+  .text-close-nav {
+    position: relative;
+    bottom: -10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+  }
+
+  /* End Utils */
+
+  /* Bg Header */
+
+  .bg-header {
+    width: 300%;
+    position: absolute !important;
+    height: 70vh;
+  }
+
+  .bg-header img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* End Bg Header */
+
+  /* Nav */
+
+  nav {
+    z-index: 1;
+  }
+
+  /* End Nav */
+
+  /* Hero */
+
+  .hero {
+    padding-top: 24%;
+  }
+
+  /* End Hero */
+
+  /* FAQ */
+  .judul {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .filter-box {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10rem;
+    border: 1px solid black;
+    height: 6vh;
+    width: 40%;
+  }
+  .path-1 {
+    display: none;
+  }
+  /* End FAQ */
+
+  /* Form FAQ */
+  .path {
+    display: none;
+  }
+  .clip-path {
+    display: none;
+  }
+  .clip-path-mobile {
+    display: inline;
+    position: absolute;
+    margin: 4rem 0 0 3rem;
+    text-align: center;
+  }
+  .judul-clip-mobile {
+    font-size: 3rem;
+  }
+  .desk-clip-mobile {
+    font-size: 1.5rem;
+  }
+  .image-path {
+    display: inline;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .identitas {
+    width: 30rem;
+    height: 90vh;
+    font-size: 1.5rem;
+    margin: 6rem 8rem 0 0;
+    position: relative;
+  }
+  /* End Form FAQ */
+
+  /* Mb Nav Flex */
+
+  .mb-nav-flex {
+    display: flex !important;
+    justify-content: inherit !important;
+    align-items: center !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  #cs-bg {
+    z-index: 9;
+    position: fixed;
+    width: 100%;
+  }
+
+  /* End Mb Nav Flex */
+
+  .mb-nav {
+    width: 100%;
+    height: 0%;
+    position: fixed;
+    z-index: 7;
+  }
+
+  .mb-nav.mb-nav-active {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: all 0.8s ease;
+    z-index: 2;
+    margin-top: 15%;
+  }
+
+  .mb-nav ul {
+    background-color: #ffffff;
+    border-radius: 0 0 15% 15%;
+    list-style: none;
+    padding: 10px 5% 10px 10% !important;
+    display: none;
+  }
+
+  .mb-nav ul li {
+    padding: 5% 5%;
+    width: 95%;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #bebebe;
+    font-size: 2.6rem;
+  }
+
+  .mb-nav .mb-menu-nav.active {
+    color: #0161ff;
+  }
+
+  .mb-nav .mb-menu-nav:active,
+  .mb-nav .mb-menu-nav:hover {
+    color: #0161ff;
+    text-decoration: none;
+  }
+
+  .mb-nav ul li a {
+    color: #000000;
+  }
+
+  .mb-nav ul li:nth-child(3) {
+    border: none;
+  }
+
+  /* Hero */
+
+  .hero .judul-hero {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .hero .summary-hero {
+    text-align: center;
+    width: 100% !important;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image {
+    margin-left: -0.5% !important;
+    width: 100%;
+    height: 100%;
+  }
+  /* End Hero */
+  /* footer */
+
+  .bg-footer img {
+    height: 100vh;
+  }
+
+  .footer .kotak-white {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 30vh;
+    background-color: #fff;
+    border: 1px solid #434343;
+  }
+
+  .footer {
+    background-color: #001a31;
+    height: auto;
+    margin-top: 15% !important;
+  }
+
+  .footer .menu-footer {
+    text-align: left;
+  }
+
+  .footer .text-footer-mobile,
+  .footer .text-footer-mobile-dua {
+    font-size: 0.8rem !important;
+    margin-right: 4% !important;
+  }
+
+  .footer .text-footer-mobile-dua {
+    text-align: left !important;
+  }
+
+  .footer #hide-footer-mobile {
+    display: none;
+  }
+
+  .footer #jarak-bawah-mobile {
+    margin-bottom: 5%;
+  }
+
+  .footer .bungkus-hide-komunitas-mobile {
+    display: none;
+  }
+
+  .footer #bungkus-hide-komunitas {
+    display: block;
+    margin-top: -5% !important;
+  }
+
+  .footer #show-footer-end {
+    display: block;
+  }
+
+  .footer .menu-footer {
+    font-size: 0.9rem;
+  }
+
+  #text-footer-top {
+    padding: 0 20%;
+    margin-top: 25%;
+  }
+
+  .text-footer .judul-footer {
+    font-size: 2.4rem !important;
+    margin-bottom: 5%;
+  }
+
+  .footer #show-footer-end {
+    margin-top: -2% !important;
+    margin-left: 5% !important;
+    padding-bottom: 10% !important;
+  }
+
+  .footer .judul-brand-footer-mobile {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+
+  .footer #show-footer-end a {
+    color: #acebff !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* end footer */
+}
+/* End Responsive Mobile */
