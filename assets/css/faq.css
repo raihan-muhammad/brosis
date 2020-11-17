@@ -392,6 +392,13 @@ input[type="submit"] {
   /* End Footer */
 }
 @media (max-width: 1600px) {
+
+/* nav */
+nav {
+  height: 70px;
+}
+/* end nav */
+
   /* Hero */
   .hero {
     padding: 0 11%;
@@ -565,6 +572,15 @@ input[type="submit"] {
 
   nav {
     z-index: 1;
+  }
+
+  .mb-nav.mb-nav-active {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: all 0.8s ease;
+    z-index: 2;
+    margin-top: 13%;
   }
 
   /* End Nav */

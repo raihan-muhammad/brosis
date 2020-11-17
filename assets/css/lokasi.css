@@ -185,7 +185,7 @@ header {
 nav {
   font-size: 1.7rem;
   background-color: #fff;
-  height: 100px;
+  height: 70px;
   padding: 0 7% 0 10% !important;
 }
 
@@ -750,6 +750,7 @@ input[type="submit"] {
 
   nav {
     z-index: 1;
+    height: 70px;
   }
 
   /* End Nav */
@@ -793,7 +794,7 @@ input[type="submit"] {
     position: fixed;
     transition: all 0.8s ease;
     z-index: 2;
-    margin-top: -3%;
+    margin-top: -11%;
   }
 
   .mb-nav ul {
