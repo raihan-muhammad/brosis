@@ -1692,12 +1692,7 @@ nav .mb-nav-flex {
     margin: 2% 0;
   }
 
-<<<<<<< HEAD
-  .text-footer .text-footer-life,
-  .text-footer .text-footer-privacy {
-=======
   .text-footer .text-footer-life, .text-footer .text-footer-privacy {
->>>>>>> fbb8ba809d8b8b071b77628d97035a2ed1c8845f
     font-size: 1.2rem !important;
     color: #acebff !important;
     margin: 1.5% 0 0 1% !important;
@@ -1709,11 +1704,7 @@ nav .mb-nav-flex {
   }
 
   .footer .judul-footer-komunitas {
-<<<<<<< HEAD
-    margin-top: 21% !important;
-=======
     margin-top: 21% !important; 
->>>>>>> fbb8ba809d8b8b071b77628d97035a2ed1c8845f
   }
 
   .footer #show-footer-end {
@@ -2123,11 +2114,7 @@ nav .mb-nav-flex {
   }
 
   .footer {
-<<<<<<< HEAD
-    background-color: #001a31;
-=======
     background-color: #001A31;
->>>>>>> fbb8ba809d8b8b071b77628d97035a2ed1c8845f
     height: auto;
     margin-top: 15% !important;
   }
@@ -2136,12 +2123,7 @@ nav .mb-nav-flex {
     text-align: left;
   }
 
-<<<<<<< HEAD
-  .footer .text-footer-mobile,
-  .footer .text-footer-mobile-dua {
-=======
   .footer .text-footer-mobile, .footer .text-footer-mobile-dua {
->>>>>>> fbb8ba809d8b8b071b77628d97035a2ed1c8845f
     font-size: 0.8rem !important;
     margin-right: 4% !important;
   }
@@ -2166,11 +2148,7 @@ nav .mb-nav-flex {
     display: block;
     margin-top: -5% !important;
   }
-<<<<<<< HEAD
-
-=======
   
->>>>>>> fbb8ba809d8b8b071b77628d97035a2ed1c8845f
   .footer #show-footer-end {
     display: block;
   }
@@ -2205,10 +2183,6 @@ nav .mb-nav-flex {
     font-size: 0.9rem !important;
   }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> fbb8ba809d8b8b071b77628d97035a2ed1c8845f
   /* end footer */
 }
 /* End Responsive Mobile */
