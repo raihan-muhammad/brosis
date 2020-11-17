@@ -1072,7 +1072,7 @@ nav .mb-nav-flex {
   .brosis-flow .line-flow {
     width: 0.5rem;
     background-color: #e5eaed;
-    height: 180vh;
+    height: 190vh;
   }
 
   .brosis-flow .dot-satu {
@@ -1089,7 +1089,7 @@ nav .mb-nav-flex {
   .brosis-flow .line-dot-kiri-satu {
     position: absolute;
     left: -10%;
-    top: 11.5%;
+    top: 11%;
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
@@ -1111,7 +1111,7 @@ nav .mb-nav-flex {
   .brosis-flow .line-dot-kanan-satu {
     position: absolute;
     left: 10%;
-    top: 24%;
+    top: 25.2%;
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
@@ -1133,7 +1133,7 @@ nav .mb-nav-flex {
   .brosis-flow .line-dot-kiri-dua {
     position: absolute;
     left: -10%;
-    top: 37.3%;
+    top: 39.5%;
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
@@ -1155,7 +1155,7 @@ nav .mb-nav-flex {
   .brosis-flow .line-dot-kanan-dua {
     position: absolute;
     left: 10%;
-    top: 52.6%;
+    top: 55.5%;
     right: 0;
     margin: 10% auto 10% auto;
     width: 20vh;
@@ -1177,7 +1177,7 @@ nav .mb-nav-flex {
   .brosis-flow .line-dot-kiri-tiga {
     position: absolute;
     left: -10%;
-    top: 35.1%;
+    top: 37%;
     right: 0;
     margin: 45.5% auto 10% auto;
     width: 20vh;
@@ -1186,7 +1186,8 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .jam-satu {
-    margin-top: 31%;
+    margin-top: 30.5%;
+    margin-left: 8%;
   }
 
   .brosis-flow .jam-satu .gambar-jam {
@@ -1203,7 +1204,7 @@ nav .mb-nav-flex {
   .brosis-flow .jam-satu .judul-jam {
     font-size: 2.6rem;
     border-bottom: 2px solid royalblue;
-    width: 16%;
+    width: 14%;
     padding-bottom: 5px;
   }
 
@@ -1215,19 +1216,20 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .jam-satu .line-judul-jam {
-    width: 10%;
+    width: 20%;
     height: 5px;
     background-color: royalblue;
   }
 
   .brosis-flow .jam-dua {
     position: absolute;
-    right: 7%;
-    margin-top: 36%;
+    right: 10%;
+    margin-top: 35.5%;
+    margin-right: 1%;
   }
 
   .brosis-flow .jam-dua .gambar-jam {
-    width: 70%;
+    width: 83%;
     height: 70%;
     border-radius: 20px;
     margin-left: 5%;
@@ -1236,12 +1238,13 @@ nav .mb-nav-flex {
   .brosis-flow .jam-dua .gambar-jam img {
     width: 100%;
     height: 100%;
+    margin-left: -20%;
   }
 
   .brosis-flow .jam-dua .judul-jam {
     font-size: 2.6rem;
     border-bottom: 2px solid royalblue;
-    width: 55%;
+    width: 40%;
     padding-bottom: 5px;
     text-align: right;
   }
@@ -1252,6 +1255,7 @@ nav .mb-nav-flex {
     padding-bottom: 5px;
     color: #404040;
     text-align: right;
+    margin-left: -10%;
   }
 
   .brosis-flow .jam-dua .line-judul-jam {
@@ -1261,7 +1265,8 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .jam-tiga {
-    margin-top: 23%;
+    margin-top: 25%;
+    margin-left: 8%;
   }
 
   .brosis-flow .jam-tiga .gambar-jam {
@@ -1278,7 +1283,7 @@ nav .mb-nav-flex {
   .brosis-flow .jam-tiga .judul-jam {
     font-size: 2.6rem;
     border-bottom: 2px solid royalblue;
-    width: 16%;
+    width: 14%;
     padding-bottom: 5px;
   }
 
@@ -1298,32 +1303,37 @@ nav .mb-nav-flex {
   .brosis-flow .jam-empat {
     position: absolute;
     right: 7%;
-    margin-top: 68%;
+    margin-top: 71%;
+    margin-right: 1%;
   }
 
   .brosis-flow .jam-empat .gambar-jam {
-    width: 70%;
+    width: 75%;
     height: 70%;
     border-radius: 20px;
-    margin-left: 5%;
+    margin-left: -4%;
+    margin-top: -16%;
   }
 
   .brosis-flow .jam-empat .gambar-jam img {
-    width: 100%;
+    width: 133%;
     height: 100%;
+    margin-left: -40%;
   }
 
   .brosis-flow .jam-empat .judul-jam {
     font-size: 2.6rem;
     border-bottom: 2px solid royalblue;
-    width: 55%;
+    width: 40%;
     padding-bottom: 5px;
-    text-align: right;
+    text-align: left;
+    margin-top: -18%;
   }
 
   .brosis-flow .jam-empat .summary-jam {
     font-size: 1.4rem;
     width: 55%;
+    margin-left: -10%;
     padding-bottom: 5px;
     color: #404040;
     text-align: right;
@@ -1336,7 +1346,8 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .jam-lima {
-    margin-top: 28.5%;
+    margin-top: 30%;
+    margin-left: 8%;
   }
 
   .brosis-flow .jam-lima .gambar-jam {
@@ -1353,7 +1364,7 @@ nav .mb-nav-flex {
   .brosis-flow .jam-lima .judul-jam {
     font-size: 2.6rem;
     border-bottom: 2px solid royalblue;
-    width: 16%;
+    width: 14%;
     padding-bottom: 5px;
   }
 
@@ -1379,7 +1390,7 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .bungkus-jam-flow-empat {
-    margin-left: -20%;
+    margin-left: -14%;
   }
 
   /* End Brosis Flow */

@@ -219,6 +219,7 @@ nav .mb-nav-flex {
 .hero {
   padding: 0 11%;
   margin-top: -2%;
+  margin-bottom: 5%;
 }
 
 .hero .judul-hero {
@@ -248,7 +249,7 @@ nav .mb-nav-flex {
 
 .swiper-container {
     margin-left: 4%;
-    margin-top: 2%;
+    margin-top: 0.5%;
 }
 
 .daftar-lokasi {
@@ -859,7 +860,8 @@ input[type="submit"] {
 /* daftar lokasi */
 
 .swiper-container {
-    margin-top: 10%;
+    margin-top: 0.5%;
+
 }
 
 .daftar-lokasi {
