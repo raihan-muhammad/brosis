@@ -175,7 +175,7 @@ header {
 
 .bg-header img {
   width: 100%;
-  height: 100%;
+  height: 105%;
 }
 
 /* End Bg Header */
@@ -218,11 +218,11 @@ nav .mb-nav-flex {
 /* hero */
 .hero {
   padding: 0 11%;
-  margin-top: -3%;
+  margin-top: -2%;
 }
 
 .hero .judul-hero {
-  font-size: 6rem;
+  font-size: 5rem;
   margin-top: 15%;
   font-weight: 700;
 }
@@ -248,6 +248,7 @@ nav .mb-nav-flex {
 
 .swiper-container {
     margin-left: 4%;
+    margin-top: 2%;
 }
 
 .daftar-lokasi {
@@ -306,10 +307,10 @@ nav .mb-nav-flex {
 
 .clip-path {
   margin-left: 8%;
-  width: 65rem;
-  height: 40vh;
+  width: 60rem;
+  height: 50vh;
   background-color: #f8f9f4;
-  clip-path: polygon(0% 0%, 75% 0%, 87% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0% 100%, 0 50%, 0% 0%);
 }
 .image-path {
   display: none;
@@ -319,9 +320,8 @@ nav .mb-nav-flex {
 }
 
 .judul-clip {
-  font-size: 4rem;
-  font-weight: 700;
-  padding: 5rem 0 0 5rem;
+  font-size: 4.5rem;
+  padding: 8rem 0 0 5rem;
 }
 
 .desk-clip {
@@ -377,21 +377,21 @@ input[type="submit"] {
 
 .hero2 {
   width: 110%;
-  height: 95vh;
+  height: 85vh;
   background-color: #f8f5ff;
   clip-path: polygon(18% 0, 100% 7%, 100% 96%, 78% 100%, 0 94%, 0 4%);
   padding: 7% 15%;
 }
 
 .hero2 .judul-hero2 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #003668;
   margin-top: 15%;
   font-weight: bold;
 }
 
 .hero2 .summary-hero2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #434343;
   width: 85%;
   font-weight: 200;
@@ -449,7 +449,7 @@ input[type="submit"] {
   }
 
   .feature .summary-feature {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: 5%;
   }
 
@@ -465,6 +465,226 @@ input[type="submit"] {
     padding-left: 8%;
   }
   /* End Feature */
+
+  /* Testimony */
+
+  .testimony {
+    width: 100%;
+    padding: 10% 10% 0% 10%;
+    height: 100vh;
+    margin: 10% 0;
+    clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
+    -ms-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
+    -moz-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
+    background-color: #f8f9f4;
+  }
+
+  .testimony .judul-testimony {
+    font-size: 2.8rem;
+    margin-bottom: 3%;
+  }
+
+  .testimony .gambar-petik {
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    top: -1%;
+  }
+
+  .testimony .card-testi {
+    width: 95%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10%;
+    margin: 5%;
+    font-size: 1.5rem;
+    box-shadow: 0 0px 10px #d8d8d8;
+    min-height: 180px;
+  }
+
+  .testimony .person-testi {
+    display: flex;
+    margin: 10% 0 0 15%;
+  }
+
+  .testimony .person-testi .foto-person {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+  }
+
+  .testimony .person-testi .foto-person img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .testimony .person-testi .person-text {
+    margin-left: 5%;
+    padding-top: 3%;
+  }
+
+  .testimony .person-testi .person-text .judul-person {
+    font-size: 1.8rem;
+  }
+
+  .testimony .person-testi .person-text .status-person {
+    font-size: 1.4rem;
+  }
+
+  /* Swipper Testimony */
+
+  .swiper-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide:hover {
+    cursor: grab;
+  }
+
+  /* End Swipper Testimony */
+
+  /* End Testimony */
+
+  /* Vibes */
+
+  .vibes {
+    margin-top: -5%;
+    padding: 0 5%;
+  }
+
+  .vibes .judul-vibes {
+    font-size: 2.9rem;
+    font-weight: bold;
+  }
+
+  .vibes .summary-vibes {
+    font-size: 1.6rem;
+    color: #7a7a7a;
+    margin-bottom: 3%;
+  }
+
+  .vibes .swiper-container-vibes {
+    width: 100%;
+    height: auto;
+  }
+
+  .vibes .image-vibes {
+    border-radius: 20px !important;
+    height: 50vh;
+    width: 100%;
+  }
+
+  /* End Vibes */
+
+  /* Footer */
+
+  .text-footer {
+    margin: 5% 0;
+  }
+
+  .text-footer .judul-footer {
+    font-weight: bold;
+    font-size: 2.9rem;
+  }
+
+  .text-footer .summary-footer {
+    font-size: 1.6rem;
+    color: #7a7a7a;
+  }
+
+  .bg-footer {
+    position: absolute;
+    z-index: -1;
+    left: -5%;
+    width: 120%;
+    top: 6%;
+    max-height: 300px;
+  }
+
+  .bg-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    padding: 0 5%;
+  }
+
+  .footer .kotak-white {
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+    border: 1px solid #434343;
+  }
+
+  .text-footer .menu-footer {
+    color: #acebff;
+  }
+
+  .text-footer .row a {
+    font-size: 1.5rem;
+    margin: 1% 0;
+    color: white;
+  }
+
+  .text-footer .item-tentang a {
+    color: white;
+    margin: 3% 0;
+  }
+
+  .text-footer #item-hubungi a {
+    color: white;
+    margin: 2% 0;
+  }
+
+  .text-footer .text-footer-life, .text-footer .text-footer-privacy {
+    font-size: 1.2rem !important;
+    color: #acebff !important;
+    margin: 1.5% 0 0 1% !important;
+  }
+
+  .footer .text-footer-mobile {
+    font-size: 1.4rem !important;
+    margin-right: 3% !important;
+  }
+
+  .footer .judul-footer-komunitas {
+    margin-top: 21% !important; 
+  }
+
+  .footer #show-footer-end {
+    display: none;
+  }
+
+  .footer #bungkus-hide-komunitas {
+    display: none;
+  }
+  /* End Footer */
 
 }
 
@@ -691,20 +911,24 @@ input[type="submit"] {
 
 .clip-path {
   width: 100%;
-  height: 40vh;
+  height: 35vh;
   margin-left: -3%;
   background-color: #f8f9f4;
-  clip-path: polygon(0% 0%, 100% 0, 100% 68%, 48% 100%, 0 69%);
+  clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
 }
 
   
 .judul-clip {
+  width: 80%;
   font-size: 2rem;
   text-align: center;
-  margin-left: -16%;
+  padding-top: -8rem;
+  margin-left: 4%;
+
 }
 .desk-clip {
-  font-size: 1.3rem;
+  width: 100%;
+  font-size: 1.2rem;
   margin-left: -5%;
   z-index: -1;
 }
@@ -716,7 +940,7 @@ input[type="submit"] {
 .hero2 {
     clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
     padding: 15% 3%;
-    height: 80vh;
+    height: 75vh;
     margin-top: 10%;
     width: 110%;
 }
@@ -752,7 +976,7 @@ input[type="submit"] {
 /* Feature */
 
   .feature {
-    padding-top: 15vh;
+    padding-top: 5vh;
     width: 70%;
   }
 
@@ -798,6 +1022,141 @@ input[type="submit"] {
   }
 
   /* End Feature */
+
+  
+  /* Testimony */
+
+  .testimony {
+    clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
+    height: 70vh;
+    padding: 10% 7%;
+  }
+
+  .testimony .judul-testimony {
+    color: #003668;
+    text-align: center;
+    margin-bottom: 5%;
+    height: auto !important;
+  }
+
+  /* End Testimony */
+
+  /* Vibes */
+
+  .vibes {
+    margin: 10% 0;
+    padding: 0 5%;
+  }
+
+  .vibes .judul-vibes {
+    font-size: 2.9rem;
+  }
+
+  .vibes .summary-vibes {
+    font-size: 1.6rem;
+    color: #7a7a7a;
+    margin-bottom: 10%;
+  }
+
+  .vibes .swiper-container-vibes {
+    width: 100%;
+    height: auto;
+  }
+
+  .vibes .image-vibes {
+    border-radius: 20px !important;
+    height: 35vh;
+  }
+
+  /* End Vibes */
+
+/* footer */
+
+  .bg-footer img {
+    height: 100vh;
+  }
+
+  .footer .kotak-white {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 30vh;
+    background-color: #fff;
+    border: 1px solid #434343;
+  }
+
+  .footer {
+    background-color: #001A31;
+    height: auto;
+    margin-top: 15% !important;
+  }
+
+  .footer .menu-footer {
+    text-align: left;
+  }
+
+  .footer .text-footer-mobile, .footer .text-footer-mobile-dua {
+    font-size: 0.8rem !important;
+    margin-right: 4% !important;
+  }
+
+  .footer .text-footer-mobile-dua {
+    text-align: left !important;
+  }
+
+  .footer #hide-footer-mobile {
+    display: none;
+  }
+
+  .footer #jarak-bawah-mobile {
+    margin-bottom: 5%;
+  }
+
+  .footer .bungkus-hide-komunitas-mobile {
+    display: none;
+  }
+
+  .footer #bungkus-hide-komunitas {
+    display: block;
+    margin-top: -5% !important;
+  }
+  
+  .footer #show-footer-end {
+    display: block;
+  }
+
+  .footer .menu-footer {
+    font-size: 0.9rem;
+  }
+
+  #text-footer-top {
+    padding: 0 20%;
+    margin-top: 25%;
+  }
+
+  .text-footer .judul-footer {
+    font-size: 2.4rem !important;
+    margin-bottom: 5%;
+  }
+
+  .footer #show-footer-end {
+    margin-top: -2% !important;
+    margin-left: 5% !important;
+    padding-bottom: 10% !important;
+  }
+
+  .footer .judul-brand-footer-mobile {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+
+  .footer #show-footer-end a {
+    color: #acebff !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* end footer */
+
 
 
 
