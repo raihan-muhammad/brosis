@@ -1813,7 +1813,7 @@ nav .mb-nav-flex {
     position: fixed;
     transition: all 0.8s ease;
     z-index: 2;
-    margin-top: 13%;
+    margin-top: 8%;
   }
 
   .mb-nav ul {
