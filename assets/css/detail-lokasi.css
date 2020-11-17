@@ -111,6 +111,7 @@ nav .mb-nav-flex {
 .hero {
   margin-top: 8%;
   padding: 0 11%;
+  margin-left: 1%;
 }
 
 .hero .judul-hero {
@@ -178,6 +179,7 @@ nav .mb-nav-flex {
 
   .lokasi-brosis .judul-lokasi-brosis {
     font-weight: bold;
+    margin-left: 3%;
     font-size: 2.8rem;
   }
 
@@ -287,10 +289,11 @@ nav .mb-nav-flex {
 .hero2 {
   margin-top: 8%;
   padding: 0 11%;
+  margin-left: -7%;
 }
 
 .hero2 .judul-hero2 {
-  font-size: 5rem;
+  font-size: 2rem;
   color: #003668;
   margin-top: 15%;
 }
@@ -380,7 +383,7 @@ header {
   width: 120%;
   position: absolute;
   left: -15em;
-  height: 110%;
+  height: 100%;
   top: -5em;
 }
 
@@ -428,7 +431,6 @@ nav .mb-nav-flex {
 
 /* hero */
 .hero {
-  margin-top: 8%;
   padding: 0 11%;
 }
 
@@ -441,7 +443,7 @@ nav .mb-nav-flex {
 
 /* unit */
 .unit-brosis {
-  margin: 20% 13% 7%;
+  margin: 13% 13% 7% ;
 }
 
 .unit-brosis h2 {
@@ -615,14 +617,14 @@ nav .mb-nav-flex {
 }
 
 .hero2 .judul-hero2 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #003668;
   margin-top: 15%;
     font-weight: bold;
 }
 
 .hero2 .summary-hero2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #434343;
   width: 85%;
   font-weight: 200;
@@ -633,7 +635,7 @@ nav .mb-nav-flex {
   width: 600px;
   height: 380px;
   margin-right: 20%;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-top: 10%;
 }
 
@@ -681,7 +683,7 @@ nav .mb-nav-flex {
   }
 
   .feature .summary-feature {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: 5%;
   }
 
@@ -917,7 +919,6 @@ nav .mb-nav-flex {
     display: none;
   }
   /* End Footer */
-
 }
 
 /* Mobile */
@@ -1063,21 +1064,28 @@ nav .mb-nav-flex {
 
   /* unit brosis */
   .unit-brosis {
-  margin: 50% 13% 10% !important;
+  width: 80%;
+  margin: 50% 13% 5% 5% !important;
 }
 
   .unit-brosis h2 {
+    margin-left: 7%;
     font-size: 2.2rem;
     font-weight: bold;
 }
 
 .unit-brosis .card {
-  width: 16rem;
+  width: 15rem;
+  margin-left: 15%;
+}
+
+.unit-brosis .card-body {
+  margin-left: -8%;
 }
 
 .unit-brosis .card-body p {
     color: #979797;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .unit-brosis .card-body h4 {
@@ -1089,6 +1097,7 @@ nav .mb-nav-flex {
 }
 /* map */
 .map .left h2 {
+  width: 100%;
     font-size: 3rem;
     margin-top: 10%;
     margin-left: -8%;
@@ -1097,10 +1106,10 @@ nav .mb-nav-flex {
 }
 
 .map .left p {
-    font-size: 12px;
+    font-size: 1.5rem;
     margin-top: 5%;
     margin-left: -8%;
-    text-align: center;
+    text-align: justify;
 }
 
 .map .right img {
@@ -1158,12 +1167,14 @@ nav .mb-nav-flex {
   /* hero2 */
 
 .hero2 {
-  clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
+    clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
     padding: 15% 3%;
-    height: 80vh;
+    width: 110%;
+    height: 70vh;
 }
 
 .hero2 .judul-hero2 {
+  width: 100%;
   font-size: 3.5rem;
   color: #003668;
   margin-top: 2%;
@@ -1171,12 +1182,14 @@ nav .mb-nav-flex {
 }
 
 .hero2 .summary-hero2 {
-  font-size: 1.4rem;
+  width: 90%;
+  font-size: 1.8rem;
   color: #434343;
   width: 100%;
   font-weight: 200;
   margin-top: 10%;
   text-align: center;
+  margin-left: 2%;
 }
 
 .hero2 .hero-image2 {
@@ -1186,6 +1199,7 @@ nav .mb-nav-flex {
 .hero2 .hero-image2 img {
   width: 80%;
   height: 50%;
+  margin-left: -7%;
 }
 
 /* End Hero */
@@ -1217,10 +1231,10 @@ nav .mb-nav-flex {
 
   .feature .summary-feature {
     font-weight: 300;
-    width: 120%;
-    font-size: 1.5rem;
+    width: 110%;
+    font-size: 1.9rem;
     padding-top: 5%;
-    margin-left: -10%;
+    margin-left: -4%;
     text-align: center;
   }
 
@@ -1243,7 +1257,7 @@ nav .mb-nav-flex {
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 80vh;
+    height: 60vh;
     padding: 10% 7%;
   }
 
