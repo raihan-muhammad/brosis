@@ -746,7 +746,7 @@ input[type="submit"] {
 
   /* End Bg Header */
 
-  /* Nav */
+ /* Nav */
 
   nav {
     z-index: 1;
@@ -793,7 +793,7 @@ input[type="submit"] {
     position: fixed;
     transition: all 0.8s ease;
     z-index: 2;
-    margin-top: 15%;
+    margin-top: -3%;
   }
 
   .mb-nav ul {
@@ -830,7 +830,6 @@ input[type="submit"] {
   .mb-nav ul li:nth-child(3) {
     border: none;
   }
-
 
   /* hero */
 .hero {
