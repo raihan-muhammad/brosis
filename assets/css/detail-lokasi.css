@@ -183,18 +183,6 @@ nav .mb-nav-flex {
     font-size: 2.8rem;
   }
 
-  .lokasi-brosis .text-lainya {
-    font-size: 1.6rem;
-  }
-
-  .lokasi-brosis .text-lainya:hover {
-    text-decoration: none;
-  }
-
-  .lokasi-brosis .text-lainya-mobile {
-    display: none !important;
-  }
-
   /* End Lokasi Brosis */
 
   /* Coursel Lokasi */
@@ -503,17 +491,29 @@ nav .mb-nav-flex {
     font-size: 2.8rem;
   }
 
-  .lokasi-brosis .text-lainya {
-    font-size: 1.6rem;
-  }
+  .lokasi-brosis ul.pagination li {
+  margin-right: 10%;
+}
 
-  .lokasi-brosis .text-lainya:hover {
+.lokasi-brosis ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 15px 20px;
+    margin-top: -20%;
     text-decoration: none;
-  }
+    transition: background-color .3s;
+    border: 1px solid #707070;
+    border-radius : 50%;
+    
+}
 
-  .lokasi-brosis .text-lainya-mobile {
-    display: none !important;
-  }
+.lokasi-brosis ul.pagination li a.active {
+    background-color: #eee;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.lokasi-brosis ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 
   /* End Lokasi Brosis */
 
@@ -1124,6 +1124,10 @@ nav .mb-nav-flex {
     margin-top: 25%;
     margin-bottom: 2%;
     display: block !important;
+  }
+
+  .lokasi-brosis .pagination {
+    display: none;
   }
 
   .d-flex {

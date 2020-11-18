@@ -243,6 +243,34 @@ nav .mb-nav-flex {
     padding: 1% 3%;
     text-align: center;
 }
+
+.hero .right .pagination {
+  margin-top: 52%;
+  margin-left: 70%;
+}
+
+.hero .right ul.pagination li {
+  margin-right: 10%;
+}
+
+.hero .right ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #707070;
+    border-radius : 50%;
+    font-size: 18px;
+}
+
+.hero .right ul.pagination li a.active {
+    background-color: #eee;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.hero .right ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 /* end hero */
 
 /* daftar lokasi */
@@ -859,6 +887,10 @@ input[type="submit"] {
     margin-top: 10%;
     margin-left: 28%;
     padding: 3% 6%;
+}
+
+.hero .right .pagination {
+  display: none;
 }
 
 /* daftar lokasi */
