@@ -169,7 +169,7 @@ header {
   width: 120%;
   position: absolute;
   left: -15em;
-  height: 90%;
+  height: 85%;
   top: -5em;
 }
 
@@ -219,7 +219,7 @@ nav .mb-nav-flex {
 .hero {
   padding: 0 11%;
   margin-top: -2%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .hero .judul-hero {
@@ -249,11 +249,11 @@ nav .mb-nav-flex {
 
 .swiper-container {
     margin-left: 4%;
-    margin-top: 0.5%;
+    margin-top: -2%;
 }
 
 .daftar-lokasi {
-    margin-left: 5%;
+    margin-left: 3.5%;
 }
 
 .daftar-lokasi .bungkus-lokasi {
@@ -309,7 +309,7 @@ nav .mb-nav-flex {
 .clip-path {
   margin-left: 8%;
   width: 60rem;
-  height: 50vh;
+  height: 45vh;
   background-color: #f8f9f4;
   clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0% 100%, 0 50%, 0% 0%);
 }
@@ -321,13 +321,15 @@ nav .mb-nav-flex {
 }
 
 .judul-clip {
-  font-size: 4.5rem;
-  padding: 8rem 0 0 5rem;
+  font-size: 3.3rem;
+  font-weight: 700;
+  padding: 8rem 0 0 8rem;
 }
 
 .desk-clip {
-  font-size: 2rem;
-  padding: 1.5rem 0 0 5rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 0 0 8rem;
+  font-weight: 200;
   z-index: -1;
 }
 
@@ -385,7 +387,7 @@ input[type="submit"] {
 }
 
 .hero2 .judul-hero2 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #003668;
   margin-top: 15%;
   font-weight: bold;
@@ -438,7 +440,7 @@ input[type="submit"] {
   }
 
   .feature .judul-feature {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #003ea4;
     font-weight: 600;
     line-height: 4.5rem;
@@ -450,6 +452,7 @@ input[type="submit"] {
   }
 
   .feature .summary-feature {
+    width: 75%;
     font-size: 1.5rem;
     margin-top: 5%;
   }
@@ -837,6 +840,7 @@ input[type="submit"] {
 .hero {
   padding: 0 11%;
   margin-top: 30%;
+  margin-bottom: 6%;
 }
 
 .hero .judul-hero {
@@ -860,12 +864,11 @@ input[type="submit"] {
 /* daftar lokasi */
 
 .swiper-container {
-    margin-top: 0.5%;
-
+margin-top: 0%;
 }
 
 .daftar-lokasi {
-    margin-left: 2%;
+    margin-left: 0%;
 }
 
  .daftar-lokasi .img-lokasi img {
@@ -913,7 +916,7 @@ input[type="submit"] {
 
 .clip-path {
   width: 100%;
-  height: 35vh;
+  height: 25vh;
   margin-left: -3%;
   background-color: #f8f9f4;
   clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
@@ -921,17 +924,17 @@ input[type="submit"] {
 
   
 .judul-clip {
-  width: 80%;
-  font-size: 2rem;
+  width: 100%;
+  font-size: 2.7rem;
   text-align: center;
-  padding-top: -8rem;
-  margin-left: 4%;
+  padding-top: 4rem;
+  margin-left: -10%;
 
 }
 .desk-clip {
-  width: 100%;
-  font-size: 1.2rem;
-  margin-left: -5%;
+  width: 120%;
+  font-size: 1.7rem;
+  margin-left: -17%;
   z-index: -1;
 }
 
@@ -948,19 +951,21 @@ input[type="submit"] {
 }
 
 .hero2 .judul-hero2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #003668;
   margin-top: 2%;
   text-align: center;
-  margin-left: 2%;
+  margin-left: -1%;
 }
 
 .hero2 .summary-hero2 {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: #434343;
-  width: 100%;
+  width: 95%;
+  line-height: 2.5rem;
   font-weight: 200;
   margin-top: 10%;
+  margin-left: 2%;
   text-align: center;
 }
 
@@ -970,7 +975,7 @@ input[type="submit"] {
 
 .hero2 .hero-image2 img {
   width: 80%;
-  height: 50%;
+  height: 60%;
 }
 
 /* End Hero */
@@ -985,7 +990,7 @@ input[type="submit"] {
   .feature .judul-feature.hide-start,
   .feature .judul-feature {
     display: block;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     line-height: 3.4rem;
     text-align: center;
     padding: 11% 0;
@@ -1003,10 +1008,10 @@ input[type="submit"] {
 
   .feature .summary-feature {
     font-weight: 300;
-    width: 120%;
-    font-size: 1.5rem;
+    width: 110%;
+    font-size: 1.7rem;
     padding-top: 5%;
-    margin-left: -10%;
+    margin-left: -4%;
     text-align: center;
   }
 
