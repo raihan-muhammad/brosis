@@ -491,29 +491,32 @@ nav .mb-nav-flex {
     font-size: 2.8rem;
   }
 
-  .lokasi-brosis ul.pagination li {
-  margin-right: 10%;
+  .lokasi-brosis .pagination {
+  margin-left: 10%;
 }
 
-.lokasi-brosis ul.pagination li a {
-    color: black;
-    float: left;
-    padding: 15px 20px;
-    margin-top: -20%;
+.lokasi-brosis .pagination .button-next,
+.lokasi-brosis .pagination .button-prev{
+  color: black;
+    padding: 10px 20px;
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #707070;
     border-radius : 50%;
+    font-size: 18px;
+    cursor: pointer;
     
 }
 
-.lokasi-brosis ul.pagination li a.active {
+.lokasi-brosis .pagination .button-next.active,
+.lokasi-brosis .pagination .button-prev.active {
     background-color: #eee;
     color: black;
     border: 1px solid #ddd;
 }
 
-.lokasi-brosis ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+.lokasi-brosis .pagination .button-next:hover:not(.active) {background-color: #ddd;}
+.lokasi-brosis .pagination .button-prev:hover:not(.active) {background-color: #ddd;}
 
   /* End Lokasi Brosis */
 

@@ -249,28 +249,28 @@ nav .mb-nav-flex {
   margin-left: 70%;
 }
 
-.hero .right ul.pagination li {
-  margin-right: 10%;
-}
 
-.hero .right ul.pagination li a {
+.hero .right .pagination .button-next,
+.hero .right .pagination .button-prev {
     color: black;
-    float: left;
     padding: 10px 20px;
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #707070;
     border-radius : 50%;
     font-size: 18px;
+    cursor: pointer;
 }
 
-.hero .right ul.pagination li a.active {
+.hero .right .pagination .button-next.active,
+.hero .right .pagination .button-prev.active {
     background-color: #eee;
     color: black;
     border: 1px solid #ddd;
 }
 
-.hero .right ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+.hero .right .pagination .button-next:hover:not(.active) {background-color: #ddd;}
+.hero .right .pagination .button-prev:hover:not(.active) {background-color: #ddd;}
 /* end hero */
 
 /* daftar lokasi */
