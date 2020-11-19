@@ -1089,7 +1089,7 @@ nav .mb-nav-flex {
     width: 100%;
     height: 75vh;
     padding: 7% 5%;
-    margin-bottom: 6rem;
+    margin-bottom: -6rem;
   }
 
   .fasilitas .judul-fasilitas {
@@ -1131,7 +1131,7 @@ nav .mb-nav-flex {
     border: none;
   }
   .outer-room {
-    margin-bottom: 15rem;
+    margin-bottom: 25rem;
   }
   .border-room {
     height: 80vh;
@@ -1210,11 +1210,11 @@ nav .mb-nav-flex {
     margin-left: 0;
     margin-top: -7rem;
     font-size: small;
-    width: 40%;
+    width: 45%;
     height: 5vh;
   }
   .button-1 {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   /* End Room Section */
   /* Map */
@@ -1242,7 +1242,7 @@ nav .mb-nav-flex {
     margin: 0;
     margin-left: 2rem;
     width: 90%;
-    height: 50vh;
+    height: 100%;
   }
 
   .desc-map {
@@ -1319,7 +1319,7 @@ nav .mb-nav-flex {
     width: 80%;
     font-size: 3rem;
     text-align: center;
-    padding-top: 2rem;
+
     margin-left: 4%;
   }
   .clip-path h3 {
