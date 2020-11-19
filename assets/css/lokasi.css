@@ -270,6 +270,9 @@ nav .mb-nav-flex {
 }
 
 
+.hero .right .pagination .button-next:hover:active {
+  outline: none;
+}
 .hero .right .pagination .button-next:hover:not(.active) {
   background-color: #ddd;
 }
