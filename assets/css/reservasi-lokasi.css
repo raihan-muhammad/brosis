@@ -69,6 +69,7 @@ header {
   width: 100%;
   height: 100%;
 }
+
 .carousel-indicators {
   left: -80%;
   top: 110%;
@@ -259,6 +260,8 @@ nav .mb-nav-flex {
 }
 .bungkus-card {
   border: 1px solid #707070;
+  max-width: 80%;
+  height: 45vh;
 }
 .judul-card-1,
 .judul-card-2,
@@ -580,6 +583,9 @@ nav .mb-nav-flex {
   /* end Map */
 
   /* Hal */
+  .hal-mobile {
+    display: none;
+  }
   .hal {
     width: 80%;
     height: 60vh;
@@ -887,19 +893,97 @@ nav .mb-nav-flex {
   /* End Utils */
 
   /* Bg Header */
-
   .bg-header {
     width: 300%;
     position: absolute !important;
     height: 69vh;
+  }
+  .carousel-indicators {
+    left: 0;
+    top: 105%;
+  }
+  .carousel-indicators li {
+    opacity: 100%;
+    width: 1rem;
+    height: 1vh;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #e2e2e2;
   }
 
   .bg-header img {
     width: 100%;
     height: 100%;
   }
+  .image-first img {
+    width: 100%;
+    height: 45vh;
+    margin-top: 6rem;
+  }
+  .image-first-2 img {
+    width: 100%;
+    height: 45vh;
+    margin-top: 6rem;
+  }
+  .image-first-3 img {
+    width: 100%;
+    height: 45vh;
+    margin-top: 6rem;
+  }
+  .image-first-4 img {
+    width: 100%;
+    height: 45vh;
+    margin-top: 6rem;
+  }
+  .image-first-5 img {
+    width: 100%;
+    height: 45vh;
+    margin-top: 6rem;
+  }
+  .image-first-6 img {
+    width: 100%;
+    height: 45vh;
+    margin-top: 6rem;
+  }
+  .image-1-4 {
+    display: none;
+  }
+
+  .image-2-4 {
+    display: none;
+  }
+
+  .image-3-4 {
+    display: none;
+  }
+  .image-4-4 {
+    display: none;
+  }
+  .image-5-4 {
+    display: none;
+  }
+  .image-6-4 {
+    display: none;
+  }
 
   /* End Bg Header */
+
+  /* Welcome */
+  .welcome {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .welcome h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .welcome p {
+    font-size: 1.5rem;
+  }
+
+  /* end Welcome */
 
   /* Nav */
 
@@ -986,6 +1070,217 @@ nav .mb-nav-flex {
   .mb-nav ul li:nth-child(3) {
     border: none;
   }
+  /* Fasilitas */
+
+  .fasilitas {
+    width: 100%;
+    height: 75vh;
+    padding: 7% 5%;
+    margin-bottom: 6rem;
+  }
+
+  .fasilitas .judul-fasilitas {
+    font-size: 3.5rem;
+    padding-bottom: 4rem;
+    padding-left: 5%;
+  }
+
+  .fasilitas .summary-fasilitas {
+    font-size: 1.5rem;
+    color: #7a7a7a;
+  }
+
+  .fasilitas .icon-fas {
+    width: 50%;
+    height: 50%;
+    padding: 0 2rem;
+  }
+
+  .fasilitas .summary-icon-fas {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: #7a7a7a;
+  }
+  .fasilitas #bungkus-icon {
+    margin: 5% 0;
+  }
+  .fasilitas .row {
+    margin-left: 0.5rem;
+  }
+
+  /* End Fasilitas */
+  /* Room Section */
+
+  .image-card {
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    border: none;
+  }
+  .outer-room {
+    margin-bottom: 15rem;
+  }
+  .border-room {
+    height: 80vh;
+    border: 1px solid black;
+  }
+  .bungkus-card {
+    border: none;
+    margin-top: 5rem;
+    max-width: 80%;
+    height: 80vh;
+  }
+  .judul-desc {
+    font-weight: normal;
+    font-size: medium;
+    margin: 2rem 14rem 0 0;
+    padding-bottom: 3rem;
+  }
+  .desc-room-left-1 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: 0rem 10rem 0 0;
+    border: none;
+  }
+  .desc-room-right-2 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: 0rem 4rem 0 0;
+    border: none;
+  }
+  .desc-room-left-1-2 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: 0rem 10rem 0 0;
+    border: none;
+  }
+  .desc-room-right-2-2 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: 0rem 4rem 0 0;
+    border: none;
+  }
+  .desc-room-left-1-3 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: 0rem 10rem 0 0;
+    border: none;
+  }
+  .desc-room-right-2-3 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: 0rem 4rem 0 0;
+    border: none;
+  }
+  .room-right {
+    height: 20vh;
+    background-color: #f8f9f4;
+    border-right: 1px solid #707070;
+  }
+  .judul-card-1,
+  .judul-card-2,
+  .judul-card-3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem 0 0 3rem;
+    padding-bottom: 2rem;
+  }
+  .unit-available {
+    color: #00a82d;
+    padding-bottom: 0;
+  }
+  .price {
+    font-size: 1.5rem;
+  }
+  .room-right button {
+    float: right;
+    margin-left: 0;
+    margin-top: -7rem;
+    font-size: small;
+    width: 40%;
+    height: 5vh;
+  }
+  .button-1 {
+    margin-bottom: 2rem;
+  }
+  /* End Room Section */
+  /* Map */
+  .map {
+    margin-left: 0;
+    width: 100%;
+    padding-bottom: 40rem;
+  }
+
+  .map h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+  }
+  .map h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+  .map p {
+    line-height: 4rem;
+  }
+  .map img {
+    margin: 0;
+    margin-left: 2rem;
+    width: 90%;
+    height: 50vh;
+  }
+
+  .desc-map {
+    font-size: 2rem;
+
+    font-weight: small;
+  }
+  .map-detail {
+    float: left;
+    margin-top: 2rem;
+    margin-right: 0;
+    margin-left: 3rem;
+  }
+  .map span {
+    color: #0061fe;
+  }
+  /* end Map */
+
+  /* Hal */
+  .hal-desktop {
+    display: none;
+  }
+  .hal-mobile {
+    display: inline;
+  }
+  .hal {
+    width: 80%;
+    height: 150vh;
+    background-color: #fff9eb;
+    margin: auto;
+  }
+
+  .isi-hal h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .desc-hal-1 p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 80%;
+    text-align: justify;
+    padding-top: 2rem;
+    margin-left: 3rem;
+  }
+  .desc-hal-1 span {
+    color: #0061fe;
+  }
+
+  /* end Hal */
+
   /* form */
 
   .form {
@@ -1001,23 +1296,32 @@ nav .mb-nav-flex {
   .clip-path {
     width: 100%;
     height: 35vh;
-    margin-left: -3%;
+    margin-left: -5%;
     background-color: #f8f9f4;
     clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
   }
 
   .judul-clip {
     width: 80%;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    margin-left: 4%;
+  }
+  .clip-path h3 {
+    width: 90%;
     font-size: 2rem;
     text-align: center;
-    padding-top: -8rem;
-    margin-left: 4%;
+    padding-top: 0;
+    margin-left: 0;
+    color: #003ea4;
   }
   .desk-clip {
     width: 100%;
     font-size: 1.2rem;
     margin-left: -5%;
     z-index: -1;
+    text-align: center;
   }
 
   /* end form */
