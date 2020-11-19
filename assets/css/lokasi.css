@@ -260,23 +260,24 @@ nav .mb-nav-flex {
     border-radius : 50%;
     font-size: 18px;
     cursor: pointer;
+    background-color: #ffff;
 }
 
-.hero .right .pagination .button-next.active,
-.hero .right .pagination .button-prev.active {
-    background-color: #eee;
-    color: black;
-    border: 1px solid #ddd;
-}
-
-
-.hero .right .pagination .button-next:hover:active {
+.hero .right .pagination .button-next:active,
+.hero .right .pagination .button-next:focus{
   outline: none;
 }
-.hero .right .pagination .button-next:hover:not(.active) {
+.hero .right .pagination .button-prev:active,
+.hero .right .pagination .button-prev:focus{
+  outline: none;
+}
+
+.hero .right .pagination .button-next:hover {
   background-color: #ddd;
 }
-.hero .right .pagination .button-prev:hover:not(.active) {background-color: #ddd;}
+.hero .right .pagination .button-prev:hover {
+  background-color: #ddd;
+}
 /* end hero */
 
 /* daftar lokasi */

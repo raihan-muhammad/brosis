@@ -412,7 +412,6 @@ nav .mb-nav-flex {
 
 .lokasi-brosis .pagination .button-next,
 .lokasi-brosis .pagination .button-prev{
-  color: black;
     padding: 10px 20px;
     text-decoration: none;
     transition: background-color .3s;
@@ -420,18 +419,24 @@ nav .mb-nav-flex {
     border-radius : 50%;
     font-size: 18px;
     cursor: pointer;
-    
+    background-color: #ffff;
 }
 
-.lokasi-brosis .pagination .button-next.active,
-.lokasi-brosis .pagination .button-prev.active {
-    background-color: #eee;
-    color: black;
-    border: 1px solid #ddd;
+.lokasi-brosis .pagination .button-next:active,
+.lokasi-brosis .pagination .button-next:focus{
+  outline: none;
+}
+.lokasi-brosis .pagination .button-prev:active,
+.lokasi-brosis .pagination .button-prev:focus{
+  outline: none;
 }
 
-.lokasi-brosis .pagination .button-next:hover:not(.active) {background-color: #ddd;}
-.lokasi-brosis .pagination .button-prev:hover:not(.active) {background-color: #ddd;}
+.lokasi-brosis .pagination .button-next:hover {
+  background-color: #ddd;
+}
+.lokasi-brosis .pagination .button-prev:hover {
+  background-color: #ddd;
+}
 
   /* End Lokasi Brosis */
 
