@@ -269,7 +269,10 @@ nav .mb-nav-flex {
     border: 1px solid #ddd;
 }
 
-.hero .right .pagination .button-next:hover:not(.active) {background-color: #ddd;}
+
+.hero .right .pagination .button-next:hover:not(.active) {
+  background-color: #ddd;
+}
 .hero .right .pagination .button-prev:hover:not(.active) {background-color: #ddd;}
 /* end hero */
 

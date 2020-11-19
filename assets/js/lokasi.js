@@ -68,7 +68,13 @@ textCloseNav.addEventListener('click', () => {
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 4,
     spaceBetween: 5,
-    freeMode: true,
+    navigation: {
+        nextEl: '.button-next',
+        prevEl: '.button-prev',
+    },
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
     breakpoints: {
         285: {
             slidesPerView: 2,
