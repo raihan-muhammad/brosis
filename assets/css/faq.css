@@ -280,12 +280,20 @@ nav .mb-nav-flex {
   color: black;
 }
 /* End Pertanyaan */
-/* Form */
+/* form */
+
+.form {
+  margin-left: 7%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
 .clip-path {
-  width: 70rem;
+  margin-left: 8%;
+  width: 60rem;
   height: 45vh;
   background-color: #f8f9f4;
-  clip-path: polygon(0% 0%, 75% 0%, 87% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0% 100%, 0 50%, 0% 0%);
 }
 .image-path {
   display: none;
@@ -293,29 +301,43 @@ nav .mb-nav-flex {
 .form-box {
   margin: 5% 10% 0 10%;
 }
+
 .judul-clip {
-  font-size: 4rem;
-  padding: 5rem 0 0 8rem;
+  font-size: 3.3rem;
+  font-weight: 700;
+  padding: 8rem 0 0 8rem;
 }
-.clip-path-mobile {
-  display: none;
-}
+
 .desk-clip {
-  font-size: 2rem;
-  padding: 5rem 0 0 8rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 0 0 8rem;
+  font-weight: 200;
   z-index: -1;
 }
-.identitas {
-  width: 35rem;
-  float: right;
-  margin-right: 12rem;
-  font-size: 1.5rem;
-  margin-top: -30rem;
+
+.form .form-right {
+  margin-top: -3%;
 }
-.text-ponsel {
+
+.form .form-right .form-group {
+  width: 70%;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.form .form-right .form-group label {
+  font-size: 1.4rem;
+}
+
+.form .form-right .form-group .input-group-text .text-ponsel {
   font-size: 1.5rem;
   margin: auto 1rem;
 }
+
+.form .form-right .form-group .btn-form {
+  border-radius: 8px;
+}
+
 input[type="text"] {
   width: 100%;
   padding: 2rem 1.5rem;
@@ -333,6 +355,8 @@ input[type="submit"] {
   font-style: normal;
   font-size: 1.5rem;
 }
+
+/* end form */
 .contain {
   width: 100%;
   height: 15rem;
@@ -596,39 +620,41 @@ input[type="submit"] {
   }
   /* End FAQ */
 
-  /* Form FAQ */
-  .path {
-    display: none;
-  }
-  .clip-path {
-    display: none;
-  }
-  .clip-path-mobile {
-    display: inline;
-    position: absolute;
-    margin: 4rem 0 0 3rem;
-    text-align: center;
-  }
-  .judul-clip-mobile {
-    font-size: 3rem;
-  }
-  .desk-clip-mobile {
-    font-size: 1.5rem;
-  }
-  .image-path {
-    display: inline;
-    width: 100%;
-    height: 30vh;
+  /* form */
+
+  .form {
+    margin-left: 8%;
   }
 
-  .identitas {
-    width: 30rem;
-    height: 90vh;
-    font-size: 1.5rem;
-    margin: 6rem 8rem 0 0;
-    position: relative;
+  .form .form-right .form-group {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 1%;
   }
-  /* End Form FAQ */
+
+  .clip-path {
+    width: 100%;
+    height: 25vh;
+    margin-left: -3%;
+    background-color: #f8f9f4;
+    clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
+  }
+
+  .judul-clip {
+    width: 100%;
+    font-size: 2.7rem;
+    text-align: center;
+    padding-top: 4rem;
+    margin-left: -10%;
+  }
+  .desk-clip {
+    width: 120%;
+    font-size: 1.7rem;
+    margin-left: -17%;
+    z-index: -1;
+  }
+
+  /* end form */
 
   /* Mb Nav Flex */
 

@@ -861,43 +861,9 @@ nav .mb-nav-flex {
 
 /* Mobile */
 @media (max-width: 570px) {
-  /* Utils */
-  .btn-burger {
-    font-size: 3.5rem;
-  }
-
-  .btn-wa {
-    font-size: 25px;
-    width: 50px;
-    padding: 0;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #25d366;
-    color: #fff;
-    border: none;
-  }
-
-  .text-close-nav {
-    position: relative;
-    bottom: -10px;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-    display: none;
-  }
-
   /* End Utils */
 
   /* Bg Header */
-  .bg-header {
-    width: 300%;
-    position: absolute !important;
-    height: 69vh;
-  }
   .carousel-indicators {
     left: 0;
     top: 105%;
@@ -985,6 +951,52 @@ nav .mb-nav-flex {
 
   /* end Welcome */
 
+  /* Utils */
+  .btn-burger {
+    font-size: 3.5rem;
+  }
+
+  .btn-wa {
+    font-size: 25px;
+    width: 50px;
+    padding: 0;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+  }
+
+  .text-close-nav {
+    position: relative;
+    bottom: -10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+  }
+
+  /* End Utils */
+
+  /* Bg Header */
+
+  .bg-header {
+    width: 300%;
+    position: absolute !important;
+    height: 69vh;
+  }
+
+  .bg-header img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* End Bg Header */
+
   /* Nav */
 
   nav {
@@ -1033,7 +1045,7 @@ nav .mb-nav-flex {
     position: fixed;
     transition: all 0.8s ease;
     z-index: 2;
-    margin-top: -12%;
+    margin-top: 15%;
   }
 
   .mb-nav ul {
@@ -1070,6 +1082,7 @@ nav .mb-nav-flex {
   .mb-nav ul li:nth-child(3) {
     border: none;
   }
+
   /* Fasilitas */
 
   .fasilitas {
