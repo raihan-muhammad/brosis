@@ -67,7 +67,7 @@ textCloseNav.addEventListener('click', () => {
 
 // Swipper Instance
 var swiper4 = new Swiper('.swiper-container-lokasi', {
-    slidesPerView: 4,
+    slidesPerView: 5,
     spaceBetween: 5,
     navigation: {
         nextEl: '.button-next',
@@ -75,7 +75,6 @@ var swiper4 = new Swiper('.swiper-container-lokasi', {
     },
     slidesPerGroup: 1,
     loop: true,
-    loopFillGroupWithBlank: true,
     breakpoints: {
         285: {
             slidesPerView: 2,

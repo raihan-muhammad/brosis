@@ -346,7 +346,7 @@ nav .mb-nav-flex {
 }
 
 .hero .judul-hero {
-  font-size: 6rem;
+  font-size: 5.5rem;
   color: #003668;
   margin-top: 15%;
 }
@@ -354,7 +354,7 @@ nav .mb-nav-flex {
 
 /* unit */
 .unit-brosis {
-  margin: 13% 13% 7% ;
+  margin: 20% 13% 7% ;
 }
 
 .unit-brosis h2 {
@@ -388,12 +388,13 @@ nav .mb-nav-flex {
 
 .map .left h2 {
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin-top: 10%;
 }
 
 .map .left p {
-    font-size: 1.5rem;
+  width: 100%;
+    font-size: 1.8rem;
     margin-top: 3%;
     text-align: justify;
 }
@@ -451,11 +452,12 @@ nav .mb-nav-flex {
   /* daftar lokasi */
 
 .swiper-container-lokasi {
-    margin-left: 10%;
+    width: 100%;
+    margin-left: 96%;
 }
 
 .daftar-lokasi {
-    margin-left: 3.5%;
+    margin-left: 1%;
 }
 
 .daftar-lokasi .bungkus-lokasi {
@@ -466,7 +468,7 @@ nav .mb-nav-flex {
   }
 
   .daftar-lokasi .img-lokasi img {
-      width: 135%;
+      width: 120%;
       cursor: pointer;
   }
 
@@ -515,16 +517,16 @@ nav .mb-nav-flex {
 }
 
 .hero2 .judul-hero2 {
-  font-size: 4.5rem;
+  font-size: 4.3rem;
   color: #003668;
   margin-top: 15%;
     font-weight: bold;
 }
 
 .hero2 .summary-hero2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #434343;
-  width: 85%;
+  width: 90%;
   font-weight: 200;
   margin-top: 5%;
 }
@@ -569,19 +571,20 @@ nav .mb-nav-flex {
   }
 
   .feature .judul-feature {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     color: #003ea4;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 4.5rem;
     padding-top: 6%;
   }
+
 
   .feature #text-feature {
     padding-left: 5%;
   }
 
   .feature .summary-feature {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 5%;
   }
 
@@ -968,12 +971,12 @@ nav .mb-nav-flex {
 
   .unit-brosis h2 {
     margin-left: 7%;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .unit-brosis .card {
-  width: 15rem;
+  width: 16.5rem;
   margin-left: 15%;
 }
 
@@ -982,37 +985,39 @@ nav .mb-nav-flex {
 }
 
 .unit-brosis .card-body p {
+  width: 130%;
     color: #979797;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .unit-brosis .card-body h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .unit-brosis .card-body h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 /* map */
 .map .left h2 {
   width: 100%;
     font-size: 2.5rem;
     margin-top: 10%;
-    margin-left: -4%;
+    margin-left: -2%;
     font-weight: bold;
     text-align: center;
 }
 
 .map .left p {
+  width: 100%;
     font-size: 1.5rem;
     margin-top: 5%;
-    margin-left: -8%;
-    text-align: justify;
+    margin-left: -2%;
 }
 
 .map .right img {
-    width: 100%; 
+    width: 90%; 
     margin-top: 10% !important;
+    margin-right: 8%;
 }
 /* end map */
 
@@ -1029,6 +1034,11 @@ nav .mb-nav-flex {
   }
 
   /* daftar lokasi */
+
+  .swiper-container-lokasi {
+    width: 90%;
+    margin-left: 57%;
+  }
 
 .daftar-lokasi {
     margin-left: 0%;
@@ -1086,7 +1096,7 @@ nav .mb-nav-flex {
 }
 
 .hero2 .summary-hero2 {
-  width: 90%;
+  width: 100%;
   font-size: 1.8rem;
   color: #434343;
   width: 100%;
@@ -1118,8 +1128,9 @@ nav .mb-nav-flex {
 
   .feature .judul-feature.hide-start,
   .feature .judul-feature {
+    width: 100%;
     display: block;
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     line-height: 3.4rem;
     text-align: center;
     padding: 11% 0;
@@ -1138,7 +1149,7 @@ nav .mb-nav-flex {
   .feature .summary-feature {
     font-weight: 300;
     width: 110%;
-    font-size: 1.9rem;
+    font-size: 2rem;
     padding-top: 5%;
     margin-left: -4%;
     text-align: center;
