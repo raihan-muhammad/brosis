@@ -1031,9 +1031,9 @@ nav .mb-nav-flex {
   }
 
 .daftar-lokasi .judul-lokasi {
-    top: 60%;
-    left: 20.7%;
-    font-size: 1.5rem;
+    top: 56%;
+    left: 10.7%;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
 }
@@ -1044,7 +1044,7 @@ nav .mb-nav-flex {
     height: 2px;
     background-color: #edfe00;
     width: 40%;
-    left: 20.8%;
+    left: 10.8%;
     bottom: 19%;
   }
 
@@ -1052,8 +1052,8 @@ nav .mb-nav-flex {
     position: absolute;
     color: #ffffff;
     bottom: 13%;
-    left: 20.7%;
-    font-size: 1rem;
+    left: 10.7%;
+    font-size: 1.1rem;
   }
 
 
