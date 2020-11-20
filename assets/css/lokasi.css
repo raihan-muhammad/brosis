@@ -88,6 +88,10 @@ nav .nav-link {
   transition: all 0.5s ease;
 }
 
+nav #navbar-nav-satu .lokasi .nav-link {
+  border-bottom: 1.5px solid royalblue;
+}
+
 nav #navbar-nav-satu .nav-item .nav-link:hover {
   border-bottom: 1.5px solid royalblue;
   transition: all 0.5s ease;
