@@ -354,7 +354,7 @@ nav .mb-nav-flex {
 
 /* unit */
 .unit-brosis {
-  margin: 20% 13% 7% ;
+  margin: 15% 13% 7% ;
 }
 
 .unit-brosis h2 {
@@ -517,7 +517,7 @@ nav .mb-nav-flex {
 }
 
 .hero2 .judul-hero2 {
-  font-size: 4.3rem;
+  font-size: 4.5rem;
   color: #003668;
   margin-top: 15%;
     font-weight: bold;
@@ -571,9 +571,8 @@ nav .mb-nav-flex {
   }
 
   .feature .judul-feature {
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     color: #003ea4;
-    font-weight: 700;
     line-height: 4.5rem;
     padding-top: 6%;
   }

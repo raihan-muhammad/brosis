@@ -88,9 +88,20 @@ nav .nav-link {
   transition: all 0.5s ease;
 }
 
+nav #navbar-nav-satu .nav-item .active {
+  border-bottom: 1.5px solid royalblue;
+}
+
 nav #navbar-nav-satu .nav-item .nav-link:hover {
   border-bottom: 1.5px solid royalblue;
   transition: all 0.5s ease;
+}
+
+.navbar-nav .nav-item .panah {
+  margin-top: 11px;
+  margin-left: -25px;
+  margin-right: 30px;
+  color: black;
 }
 
 nav .logo img {
@@ -116,6 +127,7 @@ nav .mb-nav-flex {
 
 .hero .judul-hero {
   font-size: 7rem;
+  font-weight: 700;
   color: #003668;
   margin-top: 15%;
 }
@@ -955,7 +967,7 @@ nav .mb-nav-flex {
   /* Feature */
 
   .feature {
-    margin: 25% 13% 10%;
+    margin: 25% 13% 5%;
   }
 
   .feature .image-feature {
@@ -987,7 +999,7 @@ nav .mb-nav-flex {
   }
 
   .feature #bungkus-feature {
-    margin-bottom: 10%;
+    margin-bottom: 7%;
   }
 
   .feature .summary-feature.hide-start-summary {
@@ -1003,7 +1015,7 @@ nav .mb-nav-flex {
 
   .fasilitas {
     width: 100%;
-    height: 95vh;
+    height: 110vh;
     background-color: #f8f5ff;
     clip-path: polygon(18% 0, 100% 7%, 100% 96%, 78% 100%, 0 94%, 0 4%);
     padding: 7% 15%;
@@ -1014,7 +1026,8 @@ nav .mb-nav-flex {
   }
 
   .fasilitas .summary-fasilitas {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-top: 1.5%;
     padding-bottom: 5%;
     color: #7a7a7a;
   }
@@ -1029,6 +1042,18 @@ nav .mb-nav-flex {
     color: #7a7a7a;
   }
 
+  .fasilitas .row .judul-fas {
+    font-size: 2rem;
+  }
+
+  .fasilitas .row .summary-icon-fas {
+    font-size: 1.8rem;
+  }
+
+  .fasilitas .row #bungkus-icon {
+    margin-top: 2%;
+  }
+
   /* End Fasilitas */
 
   /* Brosis Flow */
@@ -1038,11 +1063,12 @@ nav .mb-nav-flex {
   }
 
   .brosis-flow .judul-brosis-flow {
-    font-size: 3.6rem;
+    font-size: 3.5rem;
+    font-weight: 700;
   }
 
   .brosis-flow .summary-brosis-flow {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #7a7a7a;
   }
 
@@ -1403,11 +1429,12 @@ nav .mb-nav-flex {
 
   .lokasi-brosis .judul-lokasi-brosis {
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 3.5rem;
   }
 
   .lokasi-brosis .text-lainya {
-    font-size: 1.6rem;
+    margin-top: 1%;
+    font-size: 1.8rem;
   }
 
   .lokasi-brosis .text-lainya:hover {
@@ -1512,8 +1539,8 @@ nav .mb-nav-flex {
   .testimony {
     width: 100%;
     padding: 10% 10% 0% 10%;
-    height: 100vh;
-    margin: 10% 0;
+    height: 90vh;
+    margin: 6% 0;
     clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
     -ms-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
     -moz-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
@@ -1523,7 +1550,9 @@ nav .mb-nav-flex {
   .testimony .judul-testimony {
     font-size: 2.8rem;
     margin-bottom: 3%;
+    margin-top: -6%;
   }
+
 
   .testimony .gambar-petik {
     position: absolute;
@@ -1615,12 +1644,12 @@ nav .mb-nav-flex {
   }
 
   .vibes .judul-vibes {
-    font-size: 2.9rem;
+    font-size: 3.5rem;
     font-weight: bold;
   }
 
   .vibes .summary-vibes {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #7a7a7a;
     margin-bottom: 3%;
   }
@@ -1646,7 +1675,7 @@ nav .mb-nav-flex {
 
   .text-footer .judul-footer {
     font-weight: bold;
-    font-size: 2.9rem;
+    font-size: 3.5rem;
   }
 
   .text-footer .summary-footer {
@@ -1687,6 +1716,7 @@ nav .mb-nav-flex {
     color: #acebff;
   }
 
+
   .text-footer .row a {
     font-size: 1.5rem;
     margin: 1% 0;
@@ -1703,19 +1733,33 @@ nav .mb-nav-flex {
     margin: 2% 0;
   }
 
+   .text-footer #hide-footer-mobile {
+     position: relative;
+   }
+  .text-footer #hide-footer-mobile .logo-brand-footer {
+    position: absolute;
+  }
+
   .text-footer .text-footer-life, .text-footer .text-footer-privacy {
     font-size: 1.2rem !important;
     color: #acebff !important;
-    margin: 1.5% 0 0 1% !important;
+    margin: 1.5% 0 0% 12% !important;
+  }
+
+  .text-footer .text-footer-privacy-1,
+  .text-footer .text-footer-life-1 {
+    font-size: 1.2rem !important;
+    color: #acebff !important;
+    margin: 1.5% 0 !important;
   }
 
   .footer .text-footer-mobile {
-    font-size: 1.4rem !important;
+    font-size: 1.5rem !important;
     margin-right: 3% !important;
   }
 
   .footer .judul-footer-komunitas {
-    margin-top: 21% !important; 
+    margin-top: 19% !important; 
   }
 
   .footer #show-footer-end {
@@ -2191,10 +2235,26 @@ nav .mb-nav-flex {
   }
 
   .footer #show-footer-end a {
-    color: #acebff !important;
-    font-size: 0.9rem !important;
+    /* color: #acebff !important;
+    font-size: 0.9rem !important; */
   }
 
+  .text-footer #hide-footer-mobile .logo-brand-footer {
+    width: 160%;
+  }
+
+   .text-footer #hide-footer-mobile .logo-brand-footer {
+    display: none;
+  }
+
+  .text-footer .text-footer-life, .text-footer .text-footer-privacy {
+    display: none;
+  }
+
+  .text-footer .text-footer-privacy-1,
+  .text-footer .text-footer-life-1 {
+    display: none;
+  }
   /* end footer */
 }
 /* End Responsive Mobile */
