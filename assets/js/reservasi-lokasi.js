@@ -2,17 +2,17 @@ function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
-  
+
     if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Tampilkan Semuanya"; 
-      moreText.style.display = "none";
+        dots.style.display = "inline";
+        btnText.innerHTML = "Tampilkan Semuanya";
+        moreText.style.display = "none";
     } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Lebih Sedikit"; 
-      moreText.style.display = "inline";
+        dots.style.display = "none";
+        btnText.innerHTML = "Lebih Sedikit";
+        moreText.style.display = "inline";
     }
-  }
+}
 // Deklarasi Element
 
 const body = document.getElementById('body');
@@ -145,3 +145,15 @@ var swiper3 = new Swiper('.swiper-container-vibes', {
         },
     },
 });
+
+// gambar lokasi
+
+const big_img = document.getElementById('img-big');
+const small_img_1 = document.getElementById('img-small-1');
+const small_img_2 = document.getElementById('img-small-2');
+const small_img_3 = document.getElementById('img-small-3');
+const small_img_4 = document.getElementById('img-small-4');
+
+small_img_1.addEventListener('click', () => {
+    big_img.innerHTML = `<img src="assets/img/Image 13.png" class="img-thumbnail float-left" alt="...">`
+})
