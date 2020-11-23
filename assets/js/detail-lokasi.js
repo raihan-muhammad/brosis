@@ -74,7 +74,6 @@ var swiper4 = new Swiper('.swiper-container-lokasi', {
         prevEl: '.button-prev',
     },
     slidesPerGroup: 1,
-    loop: true,
     breakpoints: {
         285: {
             slidesPerView: 2,

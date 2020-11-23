@@ -73,7 +73,6 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.button-prev',
     },
     slidesPerGroup: 1,
-    loop: true,
     breakpoints: {
         285: {
             slidesPerView: 2,
@@ -97,7 +96,8 @@ var swiper = new Swiper('.swiper-container', {
 var swiper2 = new Swiper('.swiper-container-testi', {
     slidesPerView: 3,
     spaceBetween: 50,
-    freeMode: true,
+    slidesPerGroup: 3,
+    loop: true,
     breakpoints: {
         285: {
             slidesPerView: 1,
@@ -115,7 +115,7 @@ var swiper2 = new Swiper('.swiper-container-testi', {
 });
 
 var swiper3 = new Swiper('.swiper-container-vibes', {
-    slidesPerView: 6,
+    slidesPerView: 4,
     spaceBetween: 5,
     freeMode: true,
     breakpoints: {
@@ -132,7 +132,7 @@ var swiper3 = new Swiper('.swiper-container-vibes', {
             spaceBetween: 30,
         },
         1025: {
-            slidesPerView: 6,
+            slidesPerView: 4,
             spaceBetween: 30,
         },
     },

@@ -28,8 +28,8 @@
         <div class="btn-burger" id="btn-burger">
           <i class="ri-menu-fill" id="icon-burger"></i>
         </div>
-        <a class="logo" href="index.html">
-          <img src="assets/img/Logo.png" alt="Logo Brosis" />
+        <a class="logo" href="keseharian.html">
+          <img src="assets/img/LOGO BROSIS new.png" alt="Logo Brosis" />
         </a>
         <button class="btn-wa">
           <i class="ri-whatsapp-line"></i>
@@ -39,24 +39,28 @@
       <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
         <ul class="navbar-nav" id="navbar-nav-satu">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Keseharian</a>
+            <a class="nav-link" href="keseharian.html">Keseharian</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="lokasi.html">Lokasi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Lokasi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="margin-right: 0 !important" href="#">Bantuan</a>
+            <a class="nav-link active" style="margin-right: 0 !important" href="faq.html">Bantuan</a>
           </li>
         </ul>
 
         <!--   Show this only lg screens and up   -->
-        <a class="navbar-brand d-none d-lg-block logo" href="index.html">
-          <img src="assets/img/Logo.png" alt="Logo Brosis" />
+        <a class="navbar-brand d-none d-lg-block logo" href="keseharian.html">
+          <img src="assets/img/LOGO BROSIS new.png" alt="Logo Brosis" />
         </a>
 
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Bahasa Indonesia <i class="ri-arrow-down-s-line"></i></a>
+          <li class="nav-item row mr-5">
+            <a class="nav-link mt-2" href="#">Bahasa Indonesia
+            </a>
+            <a class="panah" href="#">
+              <i class="ri-arrow-down-s-line"></i>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link btn-wa-xl" style="margin-right: 0 !important" href="#">
@@ -70,10 +74,10 @@
     <section class="mb-nav" id="mb-menu-nav">
       <ul id="mb-list-menu">
         <li>
-          <a href="index.html" class="mb-menu-nav active">Keseharian</a>
+          <a href="keseharian.html" class="mb-menu-nav ">Keseharian</a>
         </li>
-        <li><a href="#" class="mb-menu-nav">Lokasi</a></li>
-        <li><a href="#" class="mb-menu-nav">Bantuan</a></li>
+        <li><a href="lokasi.html" class="mb-menu-nav">Lokasi</a></li>
+        <li><a href="faq.html" class="mb-menu-nav active">Bantuan</a></li>
       </ul>
       <p class="text-close-nav" id="text-close-nav">
         Sentuh dimana saja untuk menutup
@@ -97,12 +101,14 @@
   </header>
   <!-- Ask Section -->
   <section class="row faq">
-    <div class="col-md-8">
+    <div class="col-md-8 col">
       <h2 class="judul">Paling Sering Ditanyakan</h2>
     </div>
-    <button type="button" class="btn btn-light filter-box">
-      Filter Lokasi >
-  </button>
+    <div class="col-md-4 col">
+      <a href="" class="filter-box">
+        Filter Kategori >
+      </a>
+    </div>
     </div>
   </section>
 
@@ -113,8 +119,9 @@
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left ask-button-1 text-decoration-none" type="button"
-              data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn btn-link btn-block text-left ask-button-1 text-decoration-none" id="tanya-1"
+              type="button" data-toggle="collapse" data-arget="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
               Pertanyaan?
               <img class="path-1" src="assets/img/Path 74.png" alt="">
             </button>
@@ -136,8 +143,9 @@
       <div class="card">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed ask-button-2 text-decoration-none" type="button"
-              data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="btn btn-link btn-block text-left collapsed ask-button-2 text-decoration-none" id="tanya-2"
+              type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+              aria-controls="collapseTwo">
               Pertanyaan?
               <img class="path-1" src="assets/img/Path 74.png" alt="">
             </button>
@@ -157,8 +165,9 @@
       <div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed ask-button-3 text-decoration-none" type="button"
-              data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="btn btn-link btn-block text-left collapsed ask-button-3 text-decoration-none" id="tanya-3"
+              type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+              aria-controls="collapseThree">
               Pertanyaan?
               <img class="path-1" src="assets/img/Path 74.png" alt="">
             </button>
@@ -178,8 +187,9 @@
       <div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed ask-button-4 text-decoration-none" type="button"
-              data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="btn btn-link btn-block text-left collapsed ask-button-4 text-decoration-none" id="tanya-4"
+              type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+              aria-controls="collapseFour">
               Pertanyaan?
               <img class="path-1" src="assets/img/Path 74.png" alt="">
             </button>
@@ -199,8 +209,9 @@
       <div class="card">
         <div class="card-header" id="headingFive">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed ask-button-5 text-decoration-none" type="button"
-              data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button class="btn btn-link btn-block text-left collapsed ask-button-5 text-decoration-none" id="tanya-5"
+              type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+              aria-controls="collapseFive">
               Pertanyaan?
               <img class="path-1" src="assets/img/Path 74.png" alt="">
             </button>
@@ -222,172 +233,182 @@
     <!-- Clip Path Section -->
 
     <div class="line2"></div>
-            <!-- form box -->
-            <section class="form">
-              <div class="row">
-                  <div class="col-md-6 col-sm-12 form-left">
-                      <div class="clip-path">
-                          <h2 class="judul-clip">
-                              Butuh bantuan lebih, <br>
-                              Beritahukan Pada Kami
-                          </h2>
-                          <p class="desk-clip">Kami akan bantu mempersiapkan tempat terbaik.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-6 col-sm-12 form-right">
-                      <form class="identitas">
-                          <div class="form-group">
-                              <label for="name">Nama Kamu</label>
-                              <input type="text" class="form-control" id="name" placeholder="isi nama lengkap kamu" />
-                          </div>
-  
-  
-                          <div class="form-group">
-                              <label for="inlineFormInputGroup">Nomor Ponsel</label>
-                              <div class="input-group mb-2">
-                                  <div class="input-group-prepend">
-                                      <div class="input-group-text">
-                                          <p class="text-ponsel">+62</p>
-                                      </div>
-                                  </div>
-                                  <input type="text" class="form-control" id="inlineFormInputGroup">
-                              </div>
-  
-                          </div>
-                          <div class="form-group">
-                              <label for="email">Email</label>
-                              <input type="text" class="form-control" id="email" placeholder="Alamat email kamu" />
-                          </div>
-                          <div class="form-group">
-                              <label for="lokasi">Lokasi Universitas</label>
-                              <input type="text" class="form-control" id="lokasi" placeholder="Nama universitas kamu" />
-                          </div>
-                          <div class="form-group">
-                              <label for="keterangan">Keterangan(Optional)</label>
-                              <input type="text" class="form-control" id="keterangan"
-                                  placeholder="Brosis, bantuin aku dong :)" />
-                          </div>
-  
-                          <div class="form-group">
-                              <input type="submit" class="btn btn-primary btn-lg btn-block btn-form" value="kirimkan">
-                              </input>
-                          </div>
-                      </form>
-                  </div>
-              </div>
-          </section>
-          <!-- end form -->
-  <section class="contain">
-  </section>
-  <!--End Form Faq Section -->
-
-  <!-- Footer -->
-
-  <section class="text-footer text-center" id="text-footer-top">
-    <h1 class="judul-footer">Welcome to your new vibrant family!</h1>
-    <p class="summary-footer">Brosis 2020 - All rights reserved</p>
-  </section>
-
-  <footer class="footer">
-    <div class="bg-footer" id="bg-footer">
-      <img src="assets/img/back-footer.png" alt="Back Footer" />
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <div class="kotak-white"></div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="kotak-white"></div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="kotak-white"></div>
-      </div>
-    </div>
-
-    <div class="text-footer">
-      <!-- Page Footer -->
-      <section class="page-footer font-small blue pt-4">
-
-        <!-- Footer Links -->
-        <div class="container-fluid text-md-left">
-
-          <!-- Grid row -->
-          <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-md-7" id="jarak-bawah-mobile">
-
-              <!-- Content -->
-              <h5 class="menu-footer">
-                Lokasi Brosis
-              </h5>
-              <div class="row ml-1 mt-3">
-                <a href="#" class="text-footer-mobile">Universitas Bina Nusantara</a>
-                <a href="#" class="text-footer-mobile">Universitas Esa Unggul</a>
-                <a href="#" class="text-footer-mobile">Universitas Tarumanagara</a>
-              </div>
-              <div class="row ml-1">
-                <a href="#" class="text-footer-mobile">Universitas Kristen Petra</a>
-                <a href="#" class="text-footer-mobile">Universitas Parahyangan</a>
-                <a href="#" class="text-footer-mobile">Universitas Widya Mandala</a>
-              </div>
-              <div class="row ml-1">
-                <a href="#" class="text-footer-mobile">Universitas Indonesia</a>
-                <a href="#" class="text-footer-mobile">Institut Teknologi Bandung</a>
-                <a href="#" class="text-footer-mobile">Universitas Prasetiya Mulya</a>
-              </div>
-              <div class="row ml-1">
-                <a href="#" class="text-footer-mobile">Universitas Diponegoro</a>
-                <a href="#" class="text-footer-mobile">Universitas Gadjah Mada</a>
-                <a href="#" class="text-footer-mobile">Universitas Airlangga</a>
-              </div>
-              <div class="row ml-1 mt-5" id="hide-footer-mobile">
-                <a href="">BROSIS' v.1.2 </a>
-                <a href="" class="text-footer-life">- Life at Brosis - </a>
-                <a href="" class="text-footer-privacy"> Privacy Policy</a>
-              </div>
+    <!-- form box -->
+    <section class="form">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 form-left">
+          <div class="clip-path">
+            <h2 class="judul-clip">
+              Butuh bantuan lebih, <br>
+              Beritahukan Pada Kami
+            </h2>
+            <p class="desk-clip">
+              Kami akan membantumu dengan senang hati.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 form-right">
+          <form class="identitas">
+            <div class="form-group">
+              <label for="name">Nama Kamu</label>
+              <input type="text" class="form-control" id="name" placeholder="isi nama lengkap kamu" />
             </div>
-            <div class="col-md-2 col-4">
-              <h5 class="menu-footer">Tentang Brosis</h5>
-              <div class="d-flex flex-column mt-3 item-tentang">
-                <a href="" class="text-footer-mobile-dua">Keseharian</a>
-                <a href="" class="text-footer-mobile-dua">Lokasi</a>
-                <a href="" class="text-footer-mobile-dua">Bantuan</a>
+
+
+            <div class="form-group">
+              <label for="inlineFormInputGroup">Nomor Ponsel</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <p class="text-ponsel">+62</p>
+                  </div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup">
               </div>
+
             </div>
-            <div class="col-md-3 col-4">
-              <h5 class="menu-footer">Hubungi Brosis</h5>
-              <div class="d-flex flex-column mt-3" id="item-hubungi">
-                <a href="" class="text-footer-mobile-dua">+62 88 906 320515</a>
-                <a href="" class="text-footer-mobile-dua">lifeatbrosis@gmail.com</a>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email" placeholder="Alamat email kamu" />
+            </div>
+            <div class="form-group">
+              <label for="lokasi">Lokasi Universitas</label>
+              <input type="text" class="form-control" id="lokasi" placeholder="Nama universitas kamu" />
+            </div>
+            <div class="form-group">
+              <label for="keterangan">Keterangan(Optional)</label>
+              <input type="text" class="form-control" id="keterangan" placeholder="Brosis, bantuin aku dong :)" />
+            </div>
+
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary btn-lg btn-block btn-form" value="kirimkan">
+              </input>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end form -->
+
+    <!-- Footer -->
+
+    <section class="text-footer text-center" id="text-footer-top">
+      <h1 class="judul-footer">Welcome to your new vibrant family!</h1>
+      <p class="summary-footer">Brosis 2020 - All rights reserved</p>
+    </section>
+
+    <footer class="footer">
+      <div class="bg-footer" id="bg-footer">
+        <img src="assets/img/back-footer.png" alt="Back Footer" />
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="kotak-white"></div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="kotak-white"></div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="kotak-white"></div>
+        </div>
+      </div>
+
+      <div class="text-footer">
+        <!-- Page Footer -->
+        <section class="page-footer font-small blue pt-4">
+
+          <!-- Footer Links -->
+          <div class="container-fluid text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-7" id="jarak-bawah-mobile">
+
+                <!-- Content -->
+                <h5 class="menu-footer">
+                  Lokasi Brosis
+                </h5>
+                <div class="row ml-1 mt-3">
+                  <a href="#" class="text-footer-mobile">Universitas Bina Nusantara</a>
+                  <a href="#" class="text-footer-mobile">Universitas Esa Unggul</a>
+                  <a href="#" class="text-footer-mobile">Universitas Tarumanagara</a>
+                </div>
+                <div class="row ml-1">
+                  <a href="#" class="text-footer-mobile">Universitas Kristen Petra</a>
+                  <a href="#" class="text-footer-mobile">Universitas Parahyangan</a>
+                  <a href="#" class="text-footer-mobile">Universitas Widya Mandala</a>
+                </div>
+                <div class="row ml-1">
+                  <a href="#" class="text-footer-mobile">Universitas Indonesia</a>
+                  <a href="#" class="text-footer-mobile">Institut Teknologi Bandung</a>
+                  <a href="#" class="text-footer-mobile">Universitas Prasetiya Mulya</a>
+                </div>
+                <div class="row ml-1">
+                  <a href="#" class="text-footer-mobile">Universitas Diponegoro</a>
+                  <a href="#" class="text-footer-mobile">Universitas Gadjah Mada</a>
+                  <a href="#" class="text-footer-mobile">Universitas Airlangga</a>
+                </div>
+                <div class="row ml-1 mt-5 d-flex flex-column" id="hide-footer-mobile">
+                  <a href="" class="logo-brand-footer">
+                    <span class="versi-brosis">
+                      <img src="assets/img/LOGO BROSIS BW.png" width="10%" alt="">
+                    </span>
+                  </a>
+                  <div class="row">
+                    <a href="" class="text-footer-life">- v.1.2 - </a>
+                    <a href="" class="text-footer-life-1"> Life at Brosis - </a>
+                    <a href="" class="text-footer-privacy-1"> Privacy Policy</a>
+                  </div>
+                </div>
               </div>
-              <section class="bungkus-hide-komunitas-mobile">
+              <div class="col-md-2 col-4">
+                <h5 class="menu-footer">Tentang Brosis</h5>
+                <div class="d-flex flex-column mt-3 item-tentang">
+                  <a href="" class="text-footer-mobile-dua">Keseharian</a>
+                  <a href="" class="text-footer-mobile-dua">Lokasi</a>
+                  <a href="" class="text-footer-mobile-dua">Bantuan</a>
+                </div>
+              </div>
+              <div class="col-md-3 col-4">
+                <h5 class="menu-footer">Hubungi Brosis</h5>
+                <div class="d-flex flex-column mt-3" id="item-hubungi">
+                  <a href="" class="text-footer-mobile-dua">+62 88 906 320515</a>
+                  <a href="" class="text-footer-mobile-dua">lifeatbrosis@gmail.com</a>
+                </div>
+                <section class="bungkus-hide-komunitas-mobile">
+                  <h5 class="menu-footer judul-footer-komunitas">Jaringan Komunitas</h5>
+                  <div class="d-flex flex-column" id="item-hubungi">
+                    <a href="" class="text-footer-mobile-dua">Trust Youth Community</a>
+                    <a href="" class="text-footer-mobile-dua">Kefas Christian Livingstone</a>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-3 col-4" id="bungkus-hide-komunitas">
                 <h5 class="menu-footer judul-footer-komunitas">Jaringan Komunitas</h5>
                 <div class="d-flex flex-column" id="item-hubungi">
                   <a href="" class="text-footer-mobile-dua">Trust Youth Community</a>
                   <a href="" class="text-footer-mobile-dua">Kefas Christian Livingstone</a>
                 </div>
-              </section>
-            </div>
-            <div class="col-md-3 col-4" id="bungkus-hide-komunitas">
-              <h5 class="menu-footer judul-footer-komunitas">Jaringan Komunitas</h5>
-              <div class="d-flex flex-column" id="item-hubungi">
-                <a href="" class="text-footer-mobile-dua">Trust Youth Community</a>
-                <a href="" class="text-footer-mobile-dua">Kefas Christian Livingstone</a>
-              </div>
-      </section>
-    </div>
-    <div class="row ml-1 mt-5" id="show-footer-end">
-      <a href=""><span class="judul-brand-footer-mobile">BROSIS'</span></a>
-      <a href="" class="text-footer-mobile-bottom"><span style="color: #ffffff">v.1.2 </span> - Life at Brosis - </a>
-      <a href="" class="text-footer-mobile-bottom"> Privacy Policy</a>
-    </div>
-    </div>
-    </div>
-    </section>
+        </section>
+      </div>
+      <div class="row ml-1 mt-5" id="show-footer-end">
+        <a href=""><span class="judul-brand-footer-mobile">
+            <img src="assets/img/LOGO BROSIS BW.png" width="15%" alt="">
+          </span></a>
+        <a href="" class="text-footer-mobile-bottom"><span style="color: #ffffff">v.1.2 </span> - Life at Brosis - </a>
+        <a href="" class="text-footer-mobile-bottom"> Privacy Policy</a>
+      </div>
+      </div>
+      </div>
+  </section>
   </footer>
-  <!-- end Footer -->
+
+  <!-- End Footer -->
+
+
   <!-- JS File -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>

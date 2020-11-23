@@ -102,6 +102,7 @@ nav #navbar-nav-satu .nav-item .nav-link:hover {
   margin-left: -25px;
   margin-right: 30px;
   color: black;
+  text-decoration: none;
 }
 
 nav .logo img {
@@ -896,11 +897,11 @@ nav .mb-nav-flex {
 }
 
 .vibes .judul-vibes {
-  font-size: 2.9rem;
+  font-size: 3.5rem;
 }
 
 .vibes .summary-vibes {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #7a7a7a;
   margin-bottom: 3%;
 }
@@ -999,7 +1000,7 @@ nav .mb-nav-flex {
   }
 
   .feature #bungkus-feature {
-    margin-bottom: 7%;
+    margin-bottom: 6%;
   }
 
   .feature .summary-feature.hide-start-summary {
@@ -2234,10 +2235,6 @@ nav .mb-nav-flex {
     color: #ffffff;
   }
 
-  .footer #show-footer-end a {
-    /* color: #acebff !important;
-    font-size: 0.9rem !important; */
-  }
 
   .text-footer #hide-footer-mobile .logo-brand-footer {
     width: 160%;

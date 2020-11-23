@@ -237,3 +237,21 @@ var swiper2 = new Swiper('.swiper-container-vibes', {
     },
   },
 });
+
+
+
+// halaman faq
+
+// const tanya_1 = document.getElementById('tanya-1');
+// const tanya_2 = document.getElementById('tanya-2');
+
+// tanya_1.addEventListener('click', () => {
+//   alert('test')
+//   tanya_1.classList.add("faq-active")
+//   tanya_2.classList.remove("faq-active");
+// })
+// tanya_2.addEventListener(() => {
+//   tanya_2.classList.add("faq-active")
+//   tanya_1.classList.remove("faq-active")
+// })
+
