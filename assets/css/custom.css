@@ -615,179 +615,59 @@ nav .mb-nav-flex {
 
 /* End Lokasi Brosis */
 
-/* Coursel Lokasi */
+/* daftar lokasi */
 
-.coursel-lokasi {
-  margin-left: 10%;
+.swiper-container-lokasi {
+  width: 80%;
+    margin: auto;
+    overflow-x: hidden;
 }
 
-.coursel-lokasi .bungkus-lokasi {
-  background-size: contain;
-  width: 100%;
-  position: relative;
-  border-radius: 20px;
+.daftar-lokasi .bungkus-lokasi {
+    background-size: contain;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  .daftar-lokasi .img-lokasi img {
+      width: 110%;
+      height: 38vh;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+
+.daftar-lokasi .judul-lokasi {
+    position: absolute;
+    width: 80%;
+    bottom: 28%;
+    color: #fff;
+    left: 10%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 
-.coursel-lokasi .bungkus-lokasi .cover-image-lokasi {
-  border-radius: 20px;
-  width: 230px;
-  height: 230px;
-}
 
-.coursel-lokasi .bungkus-lokasi .cover-image-lokasi img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-}
+  .daftar-lokasi .garis-lokasi {
+    position: absolute;
+    height: 2px;
+    background-color: #edfe00;
+    width: 60%;
+    left: 10.8%;
+    bottom: 19%;
+  }
 
-.coursel-lokasi .judul-lokasi-brosis {
-  position: absolute;
-  bottom: 25%;
-  color: #fff;
-  left: 10%;
-  font-size: 2.4rem;
-  letter-spacing: 0.1rem;
-}
+  .daftar-lokasi .text-lokasi {
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    bottom: 8%;
+    left: 10.7%;
+    font-size: 1.2rem;
+  }
 
-.coursel-lokasi .garis-lokasi {
-  position: absolute;
-  height: 2px;
-  background-color: #edfe00;
-  width: 40%;
-  left: 10.8%;
-  bottom: 19%;
-}
-
-.coursel-lokasi .summary-lokasi-brosis {
-  position: absolute;
-  color: #ffffff;
-  bottom: 8%;
-  left: 10.7%;
-  font-size: 1.3rem;
-}
-
-.slider {
-  width: 300px;
-}
-
-.wrapper {
-  overflow: hidden;
-  position: relative;
-
-  z-index: 1;
-}
-
-#items {
-  width: 10000px;
-  position: relative;
-  top: 0;
-  left: -300px;
-}
-
-#items.shifting {
-  transition: left 0.2s ease-out;
-}
-
-.slide {
-  width: 240px;
-  height: 240px;
-  margin-right: 10px;
-  cursor: pointer;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transition: all 1s;
-  position: relative;
-}
-/* End Lokasi Coursel */
-
-/* Coursel Lokasi */
-
-.coursel-lokasi {
-  margin-left: 10%;
-}
-
-.coursel-lokasi .bungkus-lokasi {
-  background-size: contain;
-  width: 100%;
-  position: relative;
-  border-radius: 20px;
-}
-
-.coursel-lokasi .bungkus-lokasi .cover-image-lokasi {
-  border-radius: 20px;
-  width: 230px;
-  height: 230px;
-}
-
-.coursel-lokasi .bungkus-lokasi .cover-image-lokasi img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-}
-
-.coursel-lokasi .judul-lokasi-brosis {
-  position: absolute;
-  bottom: 25%;
-  color: #fff;
-  left: 10%;
-  font-size: 2.4rem;
-  letter-spacing: 0.1rem;
-}
-
-.coursel-lokasi .garis-lokasi {
-  position: absolute;
-  height: 2px;
-  background-color: #edfe00;
-  width: 40%;
-  left: 10.8%;
-  bottom: 19%;
-}
-
-.coursel-lokasi .summary-lokasi-brosis {
-  position: absolute;
-  color: #ffffff;
-  bottom: 8%;
-  left: 10.7%;
-  font-size: 1.3rem;
-}
-
-.slider {
-  width: 300px;
-}
-
-.wrapper {
-  overflow: hidden;
-  position: relative;
-
-  z-index: 1;
-}
-
-#items {
-  width: 10000px;
-  position: relative;
-  top: 0;
-  left: -300px;
-}
-
-#items.shifting {
-  transition: left 0.2s ease-out;
-}
-
-.slide {
-  width: 240px;
-  height: 240px;
-  margin-right: 10px;
-  cursor: pointer;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transition: all 1s;
-  position: relative;
-}
-/* End Lokasi Coursel */
+/* end daftar lokasi */
 
 /* Testimony */
 
@@ -1448,92 +1328,59 @@ nav .mb-nav-flex {
 
   /* End Lokasi Brosis */
 
-  /* Coursel Lokasi */
+  /* daftar lokasi */
 
-  .coursel-lokasi {
-    margin-left: 10%;
-  }
+.swiper-container-lokasi {
+  width: 80%;
+    margin: auto;
+    overflow-x: hidden;
+}
 
-  .coursel-lokasi .bungkus-lokasi {
+.daftar-lokasi .bungkus-lokasi {
     background-size: contain;
     width: 100%;
     position: relative;
     border-radius: 20px;
   }
 
-  .coursel-lokasi .bungkus-lokasi .cover-image-lokasi {
-    border-radius: 20px;
-    width: 230px;
-    height: 230px;
+  .daftar-lokasi .img-lokasi img {
+      width: 110%;
+      height: 38vh;
+      border-radius: 20px;
+      cursor: pointer;
   }
 
-  .coursel-lokasi .bungkus-lokasi .cover-image-lokasi img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-  }
-
-  .coursel-lokasi .judul-lokasi-brosis {
+.daftar-lokasi .judul-lokasi {
     position: absolute;
-    bottom: 25%;
+    width: 80%;
+    bottom: 28%;
     color: #fff;
     left: 10%;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
+    font-weight: 700;
     letter-spacing: 0.1rem;
-  }
+}
 
-  .coursel-lokasi .garis-lokasi {
+
+  .daftar-lokasi .garis-lokasi {
     position: absolute;
     height: 2px;
     background-color: #edfe00;
-    width: 40%;
+    width: 60%;
     left: 10.8%;
     bottom: 19%;
   }
 
-  .coursel-lokasi .summary-lokasi-brosis {
+  .daftar-lokasi .text-lokasi {
     position: absolute;
+    width: 100%;
     color: #ffffff;
-    bottom: 8%;
+    bottom: 12%;
     left: 10.7%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
-  .slider {
-    width: 300px;
-  }
-
-  .wrapper {
-    overflow: hidden;
-    position: relative;
-
-    z-index: 1;
-  }
-
-  #items {
-    width: 10000px;
-    position: relative;
-    top: 0;
-    left: -300px;
-  }
-
-  #items.shifting {
-    transition: left 0.2s ease-out;
-  }
-
-  .slide {
-    width: 240px;
-    height: 240px;
-    margin-right: 10px;
-    cursor: pointer;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: all 1s;
-    position: relative;
-  }
-  /* End Lokasi Coursel */
+/* end daftar lokasi */
 
   /* Testimony */
 
@@ -1606,9 +1453,10 @@ nav .mb-nav-flex {
 
   /* Swipper Testimony */
 
-  .swiper-container {
+  .testimony .swiper-container-testi {
     width: 100%;
     height: auto;
+    overflow: hidden;
   }
 
   .swiper-slide {
@@ -1662,8 +1510,8 @@ nav .mb-nav-flex {
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 50vh;
-    width: 100%;
+    height: 60vh;
+    width: 90%;
   }
 
   /* End Vibes */
@@ -2090,23 +1938,49 @@ nav .mb-nav-flex {
     text-decoration: none;
   }
 
-  .slide {
-    width: 200px !important;
-    height: 200px !important;
+  /* daftar lokasi */
+
+  .swiper-container-lokasi {
+    width: 90%;
   }
 
-  .cover-image-lokasi {
-    width: 200px !important;
-    height: 200px !important;
+.daftar-lokasi {
+    margin-left: 0%;
+}
+
+ .daftar-lokasi .img-lokasi img {
+      width: 110%;
+      height: 28vh;
   }
 
-  .text-lainya-mobile {
-    display: block !important;
-    font-size: 1.6rem;
-    padding: 5% 0;
-    text-align: center;
+.daftar-lokasi .judul-lokasi {
+    top: 60%;
+    left: 10.7%;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+
+  .daftar-lokasi .garis-lokasi {
+    position: absolute;
+    height: 2px;
+    background-color: #edfe00;
+    width: 40%;
+    left: 10.8%;
+    bottom: 17%;
   }
 
+  .daftar-lokasi .text-lokasi {
+    position: absolute;
+    color: #ffffff;
+    bottom: 10%;
+    left: 10.7%;
+    font-size: 1.1rem;
+  }
+
+
+  /* End Lokasi Coursel */
   /* End Lokasi Coursel */
 
   /* Testimony */
@@ -2150,7 +2024,8 @@ nav .mb-nav-flex {
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 35vh;
+    height: 30vh;
+    width: 100%;
   }
 
   /* End Vibes */
