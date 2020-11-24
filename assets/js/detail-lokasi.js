@@ -97,11 +97,13 @@ var swiper4 = new Swiper('.swiper-container-lokasi', {
 var swiper2 = new Swiper('.swiper-container-testi', {
     slidesPerView: 3,
     spaceBetween: 50,
-    freeMode: true,
+    slidesPerGroup: 3,
+    loop: true,
     breakpoints: {
         285: {
             slidesPerView: 1,
             spaceBetween: 20,
+            slidesPerGroup: 1,
         },
         768: {
             slidesPerView: 2,
