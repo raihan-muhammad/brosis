@@ -100,6 +100,7 @@ var swiper = new Swiper('.swiper-container-testi', {
     285: {
       slidesPerView: 1,
       spaceBetween: 20,
+      slidesPerGroup: 1,
     },
     768: {
       slidesPerView: 2,

@@ -921,6 +921,8 @@ nav .mb-nav-flex {
   .fasilitas .summary-icon-fas {
     font-size: 1.3rem;
     color: #7a7a7a;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .fasilitas .row .judul-fas {
@@ -1380,6 +1382,10 @@ nav .mb-nav-flex {
     font-size: 1.2rem;
   }
 
+  .text-lokasi-mobile .text-lainya {
+    display: none;
+  }
+
 /* end daftar lokasi */
 
   /* Testimony */
@@ -1450,6 +1456,7 @@ nav .mb-nav-flex {
   .testimony .person-testi .person-text .status-person {
     font-size: 1.4rem;
   }
+
 
   /* Swipper Testimony */
 
@@ -1833,7 +1840,8 @@ nav .mb-nav-flex {
   .fasilitas {
     clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
     padding: 15% 3%;
-    height: auto;
+    height: 135vh;
+    margin-top: 10%;
   }
 
   .fasilitas .judul-fasilitas {
@@ -1846,7 +1854,7 @@ nav .mb-nav-flex {
   }
 
   .fasilitas #bungkus-icon {
-    margin: 5% 0;
+    margin: 8% 0;
   }
 
   /* End Fasilitas */
@@ -1942,6 +1950,7 @@ nav .mb-nav-flex {
 
   .swiper-container-lokasi {
     width: 90%;
+    margin-bottom: 5%;
   }
 
 .daftar-lokasi {
@@ -1979,6 +1988,13 @@ nav .mb-nav-flex {
     font-size: 1.1rem;
   }
 
+    .text-lokasi-mobile .text-lainya {
+    font-size: 2rem;
+    margin-left: 38%;
+    text-decoration: none;
+      display: block;
+  }
+
 
   /* End Lokasi Coursel */
   /* End Lokasi Coursel */
@@ -1988,15 +2004,22 @@ nav .mb-nav-flex {
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
     height: 63vh;
-    padding: 10% 7%;
+    margin-top: 10%;
   }
 
   .testimony .judul-testimony {
     color: #003668;
     text-align: center;
+    font-weight: 700;
     margin-bottom: 5%;
+    margin-top: 10%;
     height: auto !important;
   }
+
+  .testimony .swiper-container-testi {
+    margin-top: 10%;
+  }
+
 
   /* End Testimony */
 
