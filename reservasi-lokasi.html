@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Detail Lokasi</title>
+    <title>Reservasi Lokasi</title>
     <!-- CSS File -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/remixicon.css" />
@@ -15,470 +15,426 @@
 
 <body id="body">
     <!-- Header -->
-    <header>
 
-        <!-- End Bg Header -->
-        <!-- Nav Section -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-fixed-top cs-bg" id="cs-bg">
-            <section class="mb-nav-flex">
-                <div class="btn-burger" id="btn-burger">
-                    <i class="ri-menu-fill" id="icon-burger"></i>
-                </div>
-                <a class="logo" href="index.html">
-                    <img src="assets/img/Logo.png" alt="Logo Brosis" />
-                </a>
-                <button class="btn-wa">
-                    <i class="ri-whatsapp-line"></i>
-                </button>
-            </section>
-
-            <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
-                <ul class="navbar-nav" id="navbar-nav-satu">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Keseharian</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="lokasi.html">Lokasi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="margin-right: 0 !important" href="faq.html">Bantuan</a>
-                    </li>
-                </ul>
-
-                <!--   Show this only lg screens and up   -->
-                <a class="navbar-brand d-none d-lg-block logo" href="index.html">
-                    <img src="assets/img/Logo.png" alt="Logo Brosis" />
-                </a>
-
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bahasa Indonesia <i class="ri-arrow-down-s-line"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-wa-xl" style="margin-right: 0 !important" href="#">
-                            <i class="ri-whatsapp-line" id="wa-icon"></i>
-                            <span class="wa-text"> WhatsApp </span>
-                        </a>
-                    </li>
-                </ul>
+    <!-- End Bg Header -->
+    <!-- Nav Section -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-fixed-top cs-bg" id="cs-bg">
+        <section class="mb-nav-flex">
+            <div class="btn-burger" id="btn-burger">
+                <i class="ri-menu-fill" id="icon-burger"></i>
             </div>
-        </nav>
-        <section class="mb-nav" id="mb-menu-nav">
-            <ul id="mb-list-menu">
-                <li>
-                    <a href="index.html" class="mb-menu-nav active">Keseharian</a>
+            <a class="logo" href="keseharian.html">
+                <img src="assets/img/LOGO BROSIS new.png" alt="Logo Brosis" />
+            </a>
+            <button class="btn-wa">
+                <i class="ri-whatsapp-line"></i>
+            </button>
+        </section>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+            <ul class="navbar-nav" id="navbar-nav-satu">
+                <li class="nav-item">
+                    <a class="nav-link" href="keseharian.html">Keseharian</a>
                 </li>
-                <li><a href="lokasi.html" class="mb-menu-nav">Lokasi</a></li>
-                <li><a href="faq.html" class="mb-menu-nav">Bantuan</a></li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="lokasi.html">Lokasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="margin-right: 0 !important" href="faq.html">Bantuan</a>
+                </li>
             </ul>
-            <p class="text-close-nav" id="text-close-nav">
-                Sentuh dimana saja untuk menutup
-            </p>
-        </section>
 
-        <!-- End Nav Section -->
+            <!--   Show this only lg screens and up   -->
+            <a class="navbar-brand d-none d-lg-block logo" href="keseharian.html">
+                <img src="assets/img/LOGO BROSIS new.png" alt="Logo Brosis" />
+            </a>
 
-        <!-- Swiper -->
-        <section class="carousel-swiper">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators carousel-indicators-mobile rounded">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="image-first" id="img-big">
-                            <img src="assets/img/Image 11.png" class="float-left" alt="...">
-                        </div>
-                        <div class="image-1-4">
-                            <div id="img-small-1">
-                                <img src="assets/img/Image 13.png" class="img-thumbnail float-right" alt="...">
-                            </div>
-                            <div id="img-small-2">
-                                <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
-                            </div>
-                            <div id="img-small-3">
-                                <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
-                            </div>
-                            <div id="img-small-4">
-                                <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
-                            </div>
-                        </div>
+            <ul class="navbar-nav">
+                <li class="nav-item row mr-5">
+                    <a class="nav-link mt-2" href="#">Bahasa Indonesia
+                    </a>
+                    <a class="panah" href="#">
+                        <i class="ri-arrow-down-s-line"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-wa-xl" style="margin-right: 0 !important" href="#">
+                        <i class="ri-whatsapp-line" id="wa-icon"></i>
+                        <span class="wa-text"> WhatsApp </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="mb-nav" id="mb-menu-nav">
+        <ul id="mb-list-menu">
+            <li>
+                <a href="keseharian.html" class="mb-menu-nav">Keseharian</a>
+            </li>
+            <li><a href="lokasi.html" class="mb-menu-nav">Lokasi</a></li>
+            <li><a href="faq.html" class="mb-menu-nav">Bantuan</a></li>
+        </ul>
+        <p class="text-close-nav" id="text-close-nav">
+            Sentuh dimana saja untuk menutup
+        </p>
+    </section>
+
+    <!-- End Nav Section -->
+
+
+    <!-- Swiper -->
+    <section class="carousel-swiper">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators carousel-indicators-mobile rounded">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="image-first" id="img-big">
+                        <img src="assets/img/Image 11.png" class="float-left" alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <div class="image-first" id="img-big">
-                            <img src="assets/img/Image 11.png" class="float-left" alt="...">
+                    <div class="image-1-4">
+                        <div id="img-small-1">
+                            <img src="assets/img/Image 13.png" class="img-thumbnail float-right" alt="...">
                         </div>
-                        <div class="image-1-4">
-                            <div id="img-small-1">
-                                <img src="assets/img/Image 13.png" class="img-thumbnail float-right" alt="...">
-                            </div>
-                            <div id="img-small-2">
-                                <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
-                            </div>
-                            <div id="img-small-3">
-                                <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
-                            </div>
-                            <div id="img-small-4">
-                                <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
-                            </div>
+                        <div id="img-small-2">
+                            <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
+                        </div>
+                        <div id="img-small-3">
+                            <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
+                        </div>
+                        <div id="img-small-4">
+                            <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
                         </div>
                     </div>
                 </div>
-
+                <div class="carousel-item">
+                    <div class="image-first" id="img-big">
+                        <img src="assets/img/Image 11.png" class="float-left" alt="...">
+                    </div>
+                    <div class="image-1-4">
+                        <div id="img-small-1">
+                            <img src="assets/img/Image 13.png" class="img-thumbnail float-right" alt="...">
+                        </div>
+                        <div id="img-small-2">
+                            <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
+                        </div>
+                        <div id="img-small-3">
+                            <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
+                        </div>
+                        <div id="img-small-4">
+                            <img src="assets/img/Image 11.png" class="img-thumbnail float-right" alt="...">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- End Swiper -->
-        <!-- Welcome -->
-        <section class="welcome">
-            <div class="row">
-                <div class="col-md-8 left">
-                    <div class="d-flex flex-column">
-                        <h2 class="mt-0">Selamat Datang di Bro' House Kemanggisan</h2>
-                        <p>
+
+        </div>
+    </section>
+    <!-- End Swiper -->
+    <!-- Welcome -->
+    <section class="welcome">
+        <div class="row">
+            <div class="col-md-8 left">
+                <div class="d-flex flex-column">
+                    <h2 class="mt-0">Selamat Datang di Bro' House Kemanggisan</h2>
+                    <p>
+                        Tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
+                        keterangan deskripsi
+                        tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
+                        keterangan deskripsi
+                        tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
+                        keterangan deskripsi
+                        tulis keterangan deskripsi tulis<span id="dots">...</span><span id="more">
+
                             Tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
                             keterangan deskripsi
                             tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
                             keterangan deskripsi
                             tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
                             keterangan deskripsi
-                            tulis keterangan deskripsi tulis<span id="dots">...</span><span id="more">
+                            tulis keterangan deskripsi tulis</span><button onclick="myFunction()" id="myBtn">Tampilkan
+                            Semuanya</button>
 
-                                Tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
-                                keterangan deskripsi
-                                tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
-                                keterangan deskripsi
-                                tulis keterangan deskripsi tulis keterangan deskripsi tulis keterangan deskripsi tulis
-                                keterangan deskripsi
-                                tulis keterangan deskripsi tulis</span><button onclick="myFunction()"
-                                id="myBtn">Tampilkan Semuanya</button>
-
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </div>
-        </section>
-        <!-- End Welcome -->
-        <!-- Fasilitas -->
-        <section class="fasilitas" id="fasilitas">
-            <h1 class="judul-fasilitas">Fasilitas Gedung</h1>
-            <div class="row">
-                <div class="" id="bungkus-icon">
-                    <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
-                        alt="Icon Fasilitas" />
-                    <p class="text-center summary-icon-fas">
-                        Fasilitas
-                    </p>
-                </div>
-                <div class="" id="bungkus-icon">
-                    <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
-                        alt="Icon Fasilitas" />
-                    <p class="text-center summary-icon-fas">
-                        Fasilitas
-                    </p>
-                </div>
-                <div class="" id="bungkus-icon">
-                    <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
-                        alt="Icon Fasilitas" />
-                    <p class="text-center summary-icon-fas">
-                        Fasilitas
-                    </p>
-                </div>
-                <div class="" id="bungkus-icon">
-                    <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
-                        alt="Icon Fasilitas" />
-                    <p class="text-center summary-icon-fas">
-                        Fasilitas
-                    </p>
-                </div>
-                <div class=" " id="bungkus-icon">
-                    <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
-                        alt="Icon Fasilitas" />
-                    <p class="text-center summary-icon-fas">
-                        Fasilitas
-                    </p>
-                </div>
-                <div class="" id="bungkus-icon">
-                    <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
-                        alt="Icon Fasilitas" />
-                    <p class="text-center summary-icon-fas">
-                        Fasilitas
-                    </p>
-                </div>
-
+        </div>
+    </section>
+    <!-- End Welcome -->
+    <!-- Fasilitas -->
+    <section class="fasilitas" id="fasilitas">
+        <h1 class="judul-fasilitas">Fasilitas Gedung</h1>
+        <div class="row">
+            <div class="" id="bungkus-icon">
+                <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
+                    alt="Icon Fasilitas" />
+                <p class="text-center summary-icon-fas">
+                    Fasilitas
+                </p>
             </div>
-        </section>
+            <div class="" id="bungkus-icon">
+                <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
+                    alt="Icon Fasilitas" />
+                <p class="text-center summary-icon-fas">
+                    Fasilitas
+                </p>
+            </div>
+            <div class="" id="bungkus-icon">
+                <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
+                    alt="Icon Fasilitas" />
+                <p class="text-center summary-icon-fas">
+                    Fasilitas
+                </p>
+            </div>
+            <div class="" id="bungkus-icon">
+                <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
+                    alt="Icon Fasilitas" />
+                <p class="text-center summary-icon-fas">
+                    Fasilitas
+                </p>
+            </div>
+            <div class=" " id="bungkus-icon">
+                <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
+                    alt="Icon Fasilitas" />
+                <p class="text-center summary-icon-fas">
+                    Fasilitas
+                </p>
+            </div>
+            <div class="" id="bungkus-icon">
+                <img src="assets/img/icon-fasilitas.svg" class="rounded mx-auto d-block icon-fas"
+                    alt="Icon Fasilitas" />
+                <p class="text-center summary-icon-fas">
+                    Fasilitas
+                </p>
+            </div>
 
-        <!-- End Fasilitas -->
+        </div>
+    </section>
 
-        <!-- Room Type -->
-        <h2 class="judul-ruangan">Tipe Ruangan</h2>
-        <div class="outer-room">
-            <div class="card mb-3 mx-auto bungkus-card">
-                <div class="row no-gutters">
-                    <div class="col-md-9 border-room">
-                        <h2 class="judul-card-1">Standard (isi 2 orang)</h2>
-                        <img src="assets/img/Image 17.png" class="card-img image-card" alt="...">
-                        <h3 class="judul-desc">Unit Sudah Termasuk</h3>
-                        <p class="desc-room-left-1">- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>-
-                            Meja Tulis</p>
-                        <p class="desc-room-right-2 ">- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>-
-                            Meja Tulis</p>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card-body room-right">
-                            <p class="card-text" style="font-size: small;">Harga sewa per orangan.</p>
-                            <h5 class="card-title price">IDR 850.000 / bulan</h5>
-                            <h5 class="card-title unit-available">Unit Tersedia</h5>
-                            <div class="button-1">
-                                <button type="button" class="btn btn-primary mb-3">Reservasi Sekarang</button><br></div>
-                            <button type="button" class="btn btn-outline-primary">Informasi Lokasi</button>
+    <!-- End Fasilitas -->
+
+    <!-- Room Type -->
+    <h2 class="judul-ruangan">Tipe Ruangan</h2>
+    <div class="outer-room">
+        <div class="card mb-3 mx-auto bungkus-card">
+            <div class="row no-gutters">
+                <div class="col-md-9 border-room">
+                    <h2 class="judul-card-1">Standard (isi 2 orang)</h2>
+                    <img src="assets/img/Image 17.png" class="card-img image-card" alt="...">
+                    <h3 class="judul-desc">Unit Sudah Termasuk</h3>
+                    <p class="desc-room-left-1">- Meja Tulis<br>
+                        - Kursi<br>- Lemari Pakaian<br>- Ranjang Susun<br>-
+                        Pendingin Ruangan</p>
+                    <p class="desc-room-right-2 ">- Lampu<br>- Balkon<br>- Springbed Single<br></p>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-body room-right">
+                        <p class="card-text" style="font-size: 1.8rem;">Harga sewa per orangan.</p>
+                        <h5 class="card-title price">IDR 850.000 / bulan</h5>
+                        <h5 class="card-title unit-available">Unit Tersedia</h5>
+                        <div class="button-1">
+                            <button type="button" class="btn btn-primary mb-3 btn-reservasi">Reservasi
+                                Sekarang</button><br>
+                            <button type="button" class="btn btn-outline-primary btn-info">Informasi Lokasi</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="outer-room">
-            <div class="card mb-3 mx-auto bungkus-card">
-                <div class="row no-gutters">
-                    <div class="col-md-9 border-room">
-                        <h2 class="judul-card-2">Standard (isi 2 orang)</h2>
-                        <img src="assets/img/Image 17.png" class="card-img image-card" alt="...">
-                        <h3 class="judul-desc">Unit Sudah Termasuk</h3>
-                        <p class="desc-room-left-1-2">- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>-
-                            Meja Tulis</p>
-                        <p class="desc-room-right-2-2">- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>-
-                            Meja Tulis</p>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card-body room-right">
-                            <p class="card-text" style="font-size: small;">Harga sewa per orangan.</p>
-                            <h5 class="card-title price">IDR 850.000 / bulan</h5>
-                            <h5 class="card-title unit-available">Unit Tersedia</h5>
-                            <div class="button-1">
-                                <button type="button" class="btn btn-primary mb-3">Reservasi Sekarang</button><br></div>
-                            <button type="button" class="btn btn-outline-primary">Informasi Lokasi</button>
+    </div>
+    <div class="outer-room">
+        <div class="card mb-3 mx-auto bungkus-card">
+            <div class="row no-gutters">
+                <div class="col-md-9 border-room">
+                    <h2 class="judul-card-1">Besar (isi 3 orang)</h2>
+                    <img src="assets/img/Image 17.png" class="card-img image-card" alt="...">
+                    <h3 class="judul-desc">Unit Sudah Termasuk</h3>
+                    <p class="desc-room-left-1">- Meja Tulis<br>
+                        - Kursi<br>- Lemari Pakaian<br>- Ranjang Susun<br>-
+                        Pendingin Ruangan</p>
+                    <p class="desc-room-right-2 ">- Lampu<br>- Balkon<br>- Springbed Single<br></p>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-body room-right">
+                        <p class="card-text" style="font-size: 1.8rem;">Harga sewa per orangan.</p>
+                        <h5 class="card-title price">IDR 900.000 / bulan</h5>
+                        <h5 class="card-title unit-warning">Tersedia 3 Kamar</h5>
+                        <div class="button-1">
+                            <button type="button" class="btn btn-primary mb-3 btn-reservasi">Reservasi
+                                Sekarang</button><br>
+                            <button type="button" class="btn btn-outline-primary btn-info">Informasi Lokasi</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="outer-room">
-            <div class="card mb-3 mx-auto bungkus-card">
-                <div class="row no-gutters">
-                    <div class="col-md-9 border-room">
-                        <h2 class="judul-card-3">Standard (isi 2 orang)</h2>
-                        <img src="assets/img/Image 17.png" class="card-img image-card" alt="...">
-                        <h3 class="judul-desc">Unit Sudah Termasuk</h3>
-                        <p class="desc-room-left-1-3">- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>-
-                            Meja Tulis</p>
-                        <p class="desc-room-right-2-3">- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>- Meja Tulis<br>-
-                            Meja Tulis</p>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card-body room-right">
-                            <p class="card-text" style="font-size: small;">Harga sewa per orangan.</p>
-                            <h5 class="card-title price">IDR 850.000 / bulan</h5>
-                            <h5 class="card-title unit-available">Unit Tersedia</h5>
-                            <div class="button-1">
-                                <button type="button" class="btn btn-primary mb-3">Reservasi Sekarang</button><br>
-                            </div>
-                            <button type="button" class="btn btn-outline-primary">Informasi Lokasi</button>
+    </div>
+    <div class="outer-room">
+        <div class="card mb-3 mx-auto bungkus-card">
+            <div class="row no-gutters">
+                <div class="col-md-9 border-room">
+                    <h2 class="judul-card-1">Besar (isi 2 orang)</h2>
+                    <img src="assets/img/Image 17.png" class="card-img image-card" alt="...">
+                    <h3 class="judul-desc">Unit Sudah Termasuk</h3>
+                    <p class="desc-room-left-1">- Meja Tulis<br>
+                        - Kursi<br>- Lemari Pakaian<br>- Ranjang Compact<br>-
+                        Pendingin Ruangan</p>
+                    <p class="desc-room-right-2 ">- Lampu<br>- Balkon<br>- Springbed Single<br></p>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-body room-right">
+                        <p class="card-text" style="font-size: 1.8rem;">Harga sewa per orangan.</p>
+                        <h5 class="card-title price">IDR 1.000.000 / bulan</h5>
+                        <h5 class="card-title unit-warning">Unit Penuh</h5>
+                        <div class="button-1">
+                            <button type="button" class="btn btn-primary mb-3 btn-reservasi">Reservasi
+                                Sekarang</button><br>
+                            <button type="button" class="btn btn-outline-primary btn-info">Informasi Lokasi</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-        <!-- Room Type -->
-        <!-- Map -->
-        <section class="map">
-            <h2 class="">Informasi Lokasi</h2>
-            <div class="col-md-7 col-sm-12 left">
+    </div>
+    <!-- Room Type -->
+    <!-- Map -->
+    <section class="map">
+        <h2 class="">Informasi Lokasi</h2>
+        <div class="row">
+            <div class="col-md-6 left">
                 <img src="./assets/img/Image 13.png" alt="lokasi-brosis" class="">
             </div>
-            <div class="map-detail">
+            <div class="col-md-6 right">
                 <h3 class="judul-map">Amenitas</h3>
-                <p class="desc-map"><span>-</span> Meja Tulis<br><span>-</span> Meja Tulis<br><span>-</span> Meja
-                    Tulis<br><span>-</span> Meja Tulis<br><span>-</span> Pendingin Ruangan</p>
+                <p class="desc-map">
+                    - Kampus Binus Syahdan<br>
+                    - Kampus Binus Anggrek<br>
+                    - Komplek Gelora Bung Karno<br>
+                    - Mall Taman Anggrek<br>
+                    - Central Park Mall <br>
+                    - Sentra Kuliner Tanjung Duren<br>
+                    - Stasiun KRL Palmerah<br>
+                    - Halte TransJakarta Slipi</p>
+                </p>
+                </p>
             </div>
-        </section>
-        <!-- End Map -->
+        </div>
+    </section>
+    <!-- End Map -->
 
-        <!-- Hal-Hal -->
+    <!-- Hal-Hal -->
 
-        <section class="hal">
-            <div class="isi-hal col-md-12 pt-5 hal-desktop">
-                <h1>Hal-hal yang Perlu Diperhatikan</h1>
-                <div class="desc-hal-1 col-sm-12">
-                    <div class="row">
-                        <div class="col">
-                            <p><span>1</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-
-                        </div>
-                        <div class="col">
-                            <p><span>2</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>3</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-
-                        </div>
-                        <div class="col">
-                            <p><span>4</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>5</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-
-                        </div>
-                        <div class="col">
-                            <p><span>6</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>7</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-
-                        </div>
-                        <div class="col">
-                            <p><span>8</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Hal Moblie -->
-            <div class="isi-hal col-md-12 pt-5 hal-mobile">
-                <h1>Hal-hal yang Perlu Diperhatikan</h1>
-                <div class="desc-hal-1 col-sm-12">
-                    <div class="row">
-                        <div class="col">
-                            <p><span>1</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>2</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>3</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>4</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>5</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>6</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>7</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p><span>8</span>. Tata tertib tulis disini tata tertib tulis disini
-                                Tata tertib tulis disini tata tertib tulis disini
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Hal Moblie -->
-        <!-- End Hal -->
-
-        <!-- form box -->
-        <section class="form">
+    <section class="hal">
+        <h1>Hal-hal yang Perlu Diperhatikan</h1>
+        <div class="desc-hal-1 col-sm-12">
             <div class="row">
-                <div class="col-md-6 col-sm-12 form-left">
-                    <div class="clip-path">
-                        <h2 class="judul-clip">
-                            Reservasi Tempat
-                        </h2>
-                        <h3 class="desk-clip-1">Brothers House Kemanggisan
-                        </h3>
-                        <p class="desk-clip">Jalan K.H. Syahdan, Komplek Sandang<br>
-                            nomor 1, Kemanggisan, Palmerah,<br>
-                            Jakarta Barat 11480</p>
-                    </div>
+                <div class="col">
+                    <p><span>1</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
                 </div>
-                <div class="col-md-6 col-sm-12 form-right">
-                    <form class="identitas">
-                        <div class="form-group">
-                            <label for="name">Nama Kamu</label>
-                            <input type="text" class="form-control" id="name" placeholder="isi nama lengkap kamu" />
-                        </div>
-                        <div class="form-group">
-                            <label for="inlineFormInputGroup">Nomor Ponsel</label>
-                            <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">
-                                        <p class="text-ponsel">+62</p>
-                                    </div>
-                                </div>
-                                <input type="text" class="form-control" id="inlineFormInputGroup">
-                            </div>
-
-                        </div>
-                        <div class="form-group">
-                            <label for="keterangan">Keterangan(Optional)</label>
-                            <input type="text" class="form-control" id="keterangan"
-                                placeholder="Brosis, bantuin aku dong :)" />
-                        </div>
-
-                        <div class="form-group">
-                            <input type="submit" class="btn btn-primary btn-lg btn-block btn-form" value="kirimkan">
-                            </input>
-                        </div>
-                    </form>
+                <div class="col">
+                    <p><span>2</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
                 </div>
             </div>
-        </section>
-        <!-- end form -->
-        <!-- unit -->
-        <section class="unit-brosis">
-            <h2>Unit Lain di Brosis Kemanggisann</h2>
-            <div class="row mt-5">
-                <div class="col-md-4 col-sm-6">
+            <div class="row">
+                <div class="col">
+                    <p><span>3</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
+
+                </div>
+                <div class="col">
+                    <p><span>4</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><span>5</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
+
+                </div>
+                <div class="col">
+                    <p><span>6</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><span>7</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
+
+                </div>
+                <div class="col">
+                    <p><span>8</span>. Tata tertib tulis disini tata tertib tulis disini
+                        Tata tertib tulis disini tata tertib tulis disini</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End Hal -->
+
+    <!-- form box -->
+    <section class="form">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 form-left">
+                <div class="clip-path">
+                    <h2 class="judul-clip">
+                        Reservasi Tempat
+                    </h2>
+                    <h3 class="desk-clip-1">Brothers House Kemanggisan
+                    </h3>
+                    <p class="desk-clip">Jalan K.H. Syahdan, Komplek Sandang
+                        nomor 1, Kemanggisan, Palmerah,
+                        Jakarta Barat 11480</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 form-right">
+                <form class="identitas">
+                    <div class="form-group">
+                        <label for="name">Nama Kamu</label>
+                        <input type="text" class="form-control" id="name" placeholder="isi nama lengkap kamu" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inlineFormInputGroup">Nomor Ponsel</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <p class="text-ponsel">+62</p>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="keterangan">Keterangan(Optional)</label>
+                        <input type="text" class="form-control" id="keterangan"
+                            placeholder="Brosis, bantuin aku dong :)" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-lg btn-block btn-form" value="Kirimkan">
+                        </input>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end form -->
+    <!-- unit -->
+    <section class="unit-brosis">
+        <h2>Unit Lain di Brosis Kemanggisann</h2>
+        <div class="row mt-5">
+            <div class="col-md-4 col-sm-6">
+                <a href="">
                     <div class="card">
                         <img src="./assets/img/Image 16.png" class="card-img-top" alt="Unit-brosis">
                         <div class="card-body">
@@ -487,8 +443,10 @@
                             <h4>Mulai IDR 850.000 / bulan</h4>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="">
                     <div class="card">
                         <img src="./assets/img/Image 16.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -497,8 +455,10 @@
                             <h4>Mulai IDR 850.000 / bulan</h4>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <a href="">
                     <div class="card">
                         <img src="./assets/img/Image 16.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -507,284 +467,296 @@
                             <h4>Mulai IDR 850.000 / bulan</h4>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
-        </section>
-        <!-- end unit -->
-        <!-- Testimony -->
-        <section class="testimony" id="testimony">
-            <h1 class="judul-testimony">Kata Penghuni</h1>
-            <div class="swiper-container-testi">
-                <div class="swiper-wrapper">
-                    <section class="swiper-slide">
-                        <div class="card-testi">
-                            <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
-                            <p class="summary-testi">
-                                Fasilitas bintang lima.<br />
-                                Harga kaki lima.<br />
-                                Balonku ada lima. <br />
-                                rupa-rupa warnanya, <br />
-                                hijau kuning kelabu merah muda dan biru.
-                            </p>
-                        </div>
+        </div>
+    </section>
+    <!-- end unit -->
+    <!-- Testimony -->
+    <section class="testimony" id="testimony">
+        <h1 class="judul-testimony">Kata Penghuni</h1>
+        <div class="swiper-container-testi">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide">
+                    <div class="card-testi">
+                        <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
+                        <p class="summary-testi">
+                            Fasilitas bintang lima.<br />
+                            Harga kaki lima.<br />
+                            Balonku ada lima. <br />
+                            rupa-rupa warnanya, <br />
+                            hijau kuning kelabu merah muda dan biru.
+                        </p>
+                    </div>
 
-                        <div class="person-testi">
-                            <div class="foto-person">
-                                <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
-                            </div>
-                            <div class="person-text">
-                                <h1 class="judul-person">Endro Tjoik</h1>
-                                <p class="status-person">Mahasiswa</p>
-                            </div>
+                    <div class="person-testi">
+                        <div class="foto-person">
+                            <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
                         </div>
-                    </section>
-                    <section class="swiper-slide">
-                        <div class="card-testi">
-                            <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
-                            <p class="summary-testi">
-                                Fasilitas bintang lima.<br />
-                                Harga kaki lima.<br />
-                                Balonku ada lima. <br />
-                                rupa-rupa warnanya, <br />
-                                hijau kuning kelabu merah muda dan biru.
-                            </p>
+                        <div class="person-text">
+                            <h1 class="judul-person">Endro Tjoik</h1>
+                            <p class="status-person">Mahasiswa</p>
                         </div>
+                    </div>
+                </section>
+                <section class="swiper-slide">
+                    <div class="card-testi">
+                        <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
+                        <p class="summary-testi">
+                            Fasilitas bintang lima.<br />
+                            Harga kaki lima.<br />
+                            Balonku ada lima. <br />
+                            rupa-rupa warnanya, <br />
+                            hijau kuning kelabu merah muda dan biru.
+                        </p>
+                    </div>
 
-                        <div class="person-testi">
-                            <div class="foto-person">
-                                <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
-                            </div>
-                            <div class="person-text">
-                                <h1 class="judul-person">Endro Tjoik</h1>
-                                <p class="status-person">Mahasiswa</p>
-                            </div>
+                    <div class="person-testi">
+                        <div class="foto-person">
+                            <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
                         </div>
-                    </section>
-                    <section class="swiper-slide">
-                        <div class="card-testi">
-                            <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
-                            <p class="summary-testi">
-                                Fasilitas bintang lima.<br />
-                                Harga kaki lima.<br />
-                                Balonku ada lima. <br />
-                                rupa-rupa warnanya, <br />
-                                hijau kuning kelabu merah muda dan biru.
-                            </p>
+                        <div class="person-text">
+                            <h1 class="judul-person">Endro Tjoik</h1>
+                            <p class="status-person">Mahasiswa</p>
                         </div>
+                    </div>
+                </section>
+                <section class="swiper-slide">
+                    <div class="card-testi">
+                        <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
+                        <p class="summary-testi">
+                            Fasilitas bintang lima.<br />
+                            Harga kaki lima.<br />
+                            Balonku ada lima. <br />
+                            rupa-rupa warnanya, <br />
+                            hijau kuning kelabu merah muda dan biru.
+                        </p>
+                    </div>
 
-                        <div class="person-testi">
-                            <div class="foto-person">
-                                <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
-                            </div>
-                            <div class="person-text">
-                                <h1 class="judul-person">Endro Tjoik</h1>
-                                <p class="status-person">Mahasiswa</p>
-                            </div>
+                    <div class="person-testi">
+                        <div class="foto-person">
+                            <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
                         </div>
-                    </section>
-                    <section class="swiper-slide">
-                        <div class="card-testi">
-                            <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
-                            <p class="summary-testi">
-                                Fasilitas bintang lima.<br />
-                                Harga kaki lima.<br />
-                                Balonku ada lima. <br />
-                                rupa-rupa warnanya, <br />
-                                hijau kuning kelabu merah muda dan biru.
-                            </p>
+                        <div class="person-text">
+                            <h1 class="judul-person">Endro Tjoik</h1>
+                            <p class="status-person">Mahasiswa</p>
                         </div>
+                    </div>
+                </section>
+                <section class="swiper-slide">
+                    <div class="card-testi">
+                        <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
+                        <p class="summary-testi">
+                            Fasilitas bintang lima.<br />
+                            Harga kaki lima.<br />
+                            Balonku ada lima. <br />
+                            rupa-rupa warnanya, <br />
+                            hijau kuning kelabu merah muda dan biru.
+                        </p>
+                    </div>
 
-                        <div class="person-testi">
-                            <div class="foto-person">
-                                <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
-                            </div>
-                            <div class="person-text">
-                                <h1 class="judul-person">Endro Tjoik</h1>
-                                <p class="status-person">Mahasiswa</p>
-                            </div>
+                    <div class="person-testi">
+                        <div class="foto-person">
+                            <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
                         </div>
-                    </section>
-                    <section class="swiper-slide">
-                        <div class="card-testi">
-                            <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
-                            <p class="summary-testi">
-                                Fasilitas bintang lima.<br />
-                                Harga kaki lima.<br />
-                                Balonku ada lima. <br />
-                                rupa-rupa warnanya, <br />
-                                hijau kuning kelabu merah muda dan biru.
-                            </p>
+                        <div class="person-text">
+                            <h1 class="judul-person">Endro Tjoik</h1>
+                            <p class="status-person">Mahasiswa</p>
                         </div>
+                    </div>
+                </section>
+                <section class="swiper-slide">
+                    <div class="card-testi">
+                        <img src="assets/img/petik.png" alt="Petik Testimony" class="gambar-petik" />
+                        <p class="summary-testi">
+                            Fasilitas bintang lima.<br />
+                            Harga kaki lima.<br />
+                            Balonku ada lima. <br />
+                            rupa-rupa warnanya, <br />
+                            hijau kuning kelabu merah muda dan biru.
+                        </p>
+                    </div>
 
-                        <div class="person-testi">
-                            <div class="foto-person">
-                                <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
-                            </div>
-                            <div class="person-text">
-                                <h1 class="judul-person">Endro Tjoik</h1>
-                                <p class="status-person">Mahasiswa</p>
-                            </div>
+                    <div class="person-testi">
+                        <div class="foto-person">
+                            <img src="assets/img/hero.png" alt="Person testi" width="200" height="200" />
                         </div>
-                    </section>
-                </div>
+                        <div class="person-text">
+                            <h1 class="judul-person">Endro Tjoik</h1>
+                            <p class="status-person">Mahasiswa</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- End Testimony -->
+    <!-- End Testimony -->
 
-        <!-- Vibes -->
+    <!-- Vibes -->
 
-        <section class="vibes text-center" id="vibes">
-            <h1 class="judul-vibes">Brosis Vibes</h1>
-            <p class="summary-vibes">Komunitas berkembang. Keluarga bermain</p>
+    <section class="vibes text-center" id="vibes">
+        <h1 class="judul-vibes">Brosis Vibes</h1>
+        <p class="summary-vibes">Komunitas berkembang. Keluarga bermain</p>
 
-            <div class="swiper-container-vibes">
-                <div class="swiper-wrapper">
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                    <section class="swiper-slide">
-                        <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
-                    </section>
-                </div>
+        <div class="swiper-container-vibes">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
+                <section class="swiper-slide">
+                    <img src="assets/img/vibes-image.png" alt="Vibes Image" class="image-vibes" />
+                </section>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- End Vibes -->
-        <!-- Footer -->
+    <!-- End Vibes -->
 
-        <section class="text-footer text-center" id="text-footer-top">
-            <h1 class="judul-footer">Welcome to your new vibrant family!</h1>
-            <p class="summary-footer">Brosis 2020 - All rights reserved</p>
-        </section>
+    <!-- Footer -->
 
-        <footer class="footer">
-            <div class="bg-footer" id="bg-footer">
-                <img src="assets/img/back-footer.png" alt="Back Footer" />
+    <section class="text-footer text-center" id="text-footer-top">
+        <h1 class="judul-footer">Welcome to your new vibrant family!</h1>
+        <p class="summary-footer">Brosis 2020 - All rights reserved</p>
+    </section>
+
+    <footer class="footer">
+        <div class="bg-footer" id="bg-footer">
+            <img src="assets/img/back-footer.png" alt="Back Footer" />
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="kotak-white"></div>
             </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="kotak-white"></div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="kotak-white"></div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="kotak-white"></div>
-                </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="kotak-white"></div>
             </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="kotak-white"></div>
+            </div>
+        </div>
 
-            <div class="text-footer">
-                <!-- Page Footer -->
-                <section class="page-footer font-small blue pt-4">
+        <div class="text-footer">
+            <!-- Page Footer -->
+            <section class="page-footer font-small blue pt-4">
 
-                    <!-- Footer Links -->
-                    <div class="container-fluid text-md-left">
+                <!-- Footer Links -->
+                <div class="container-fluid text-md-left">
 
-                        <!-- Grid row -->
-                        <div class="row">
+                    <!-- Grid row -->
+                    <div class="row">
 
-                            <!-- Grid column -->
-                            <div class="col-md-7" id="jarak-bawah-mobile">
+                        <!-- Grid column -->
+                        <div class="col-md-7" id="jarak-bawah-mobile">
 
-                                <!-- Content -->
-                                <h5 class="menu-footer">
-                                    Lokasi Brosis
-                                </h5>
-                                <div class="row ml-1 mt-3">
-                                    <a href="#" class="text-footer-mobile">Universitas Bina Nusantara</a>
-                                    <a href="#" class="text-footer-mobile">Universitas Esa Unggul</a>
-                                    <a href="#" class="text-footer-mobile">Universitas Tarumanagara</a>
-                                </div>
-                                <div class="row ml-1">
-                                    <a href="#" class="text-footer-mobile">Universitas Kristen Petra</a>
-                                    <a href="#" class="text-footer-mobile">Universitas Parahyangan</a>
-                                    <a href="#" class="text-footer-mobile">Universitas Widya Mandala</a>
-                                </div>
-                                <div class="row ml-1">
-                                    <a href="#" class="text-footer-mobile">Universitas Indonesia</a>
-                                    <a href="#" class="text-footer-mobile">Institut Teknologi Bandung</a>
-                                    <a href="#" class="text-footer-mobile">Universitas Prasetiya Mulya</a>
-                                </div>
-                                <div class="row ml-1">
-                                    <a href="#" class="text-footer-mobile">Universitas Diponegoro</a>
-                                    <a href="#" class="text-footer-mobile">Universitas Gadjah Mada</a>
-                                    <a href="#" class="text-footer-mobile">Universitas Airlangga</a>
-                                </div>
-                                <div class="row ml-1 mt-5" id="hide-footer-mobile">
-                                    <a href="">BROSIS' v.1.2 </a>
-                                    <a href="" class="text-footer-life">- Life at Brosis - </a>
-                                    <a href="" class="text-footer-privacy"> Privacy Policy</a>
+                            <!-- Content -->
+                            <h5 class="menu-footer">
+                                Lokasi Brosis
+                            </h5>
+                            <div class="row ml-1 mt-3">
+                                <a href="#" class="text-footer-mobile">Universitas Bina Nusantara</a>
+                                <a href="#" class="text-footer-mobile">Universitas Esa Unggul</a>
+                                <a href="#" class="text-footer-mobile">Universitas Tarumanagara</a>
+                            </div>
+                            <div class="row ml-1">
+                                <a href="#" class="text-footer-mobile">Universitas Kristen Petra</a>
+                                <a href="#" class="text-footer-mobile">Universitas Parahyangan</a>
+                                <a href="#" class="text-footer-mobile">Universitas Widya Mandala</a>
+                            </div>
+                            <div class="row ml-1">
+                                <a href="#" class="text-footer-mobile">Universitas Indonesia</a>
+                                <a href="#" class="text-footer-mobile">Institut Teknologi Bandung</a>
+                                <a href="#" class="text-footer-mobile">Universitas Prasetiya Mulya</a>
+                            </div>
+                            <div class="row ml-1">
+                                <a href="#" class="text-footer-mobile">Universitas Diponegoro</a>
+                                <a href="#" class="text-footer-mobile">Universitas Gadjah Mada</a>
+                                <a href="#" class="text-footer-mobile">Universitas Airlangga</a>
+                            </div>
+                            <div class="row ml-1 mt-5 d-flex flex-column" id="hide-footer-mobile">
+                                <a href="" class="logo-brand-footer">
+                                    <span class="versi-brosis">
+                                        <img src="assets/img/LOGO BROSIS BW.png" width="10%" alt="">
+                                    </span>
+                                </a>
+                                <div class="row">
+                                    <a href="" class="text-footer-life">- v.1.2 - </a>
+                                    <a href="" class="text-footer-life-1"> Life at Brosis - </a>
+                                    <a href="" class="text-footer-privacy-1"> Privacy Policy</a>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-4">
-                                <h5 class="menu-footer">Tentang Brosis</h5>
-                                <div class="d-flex flex-column mt-3 item-tentang">
-                                    <a href="index.html" class="text-footer-mobile-dua">Keseharian</a>
-                                    <a href="lokasi.html" class="text-footer-mobile-dua">Lokasi</a>
-                                    <a href="faq.html" class="text-footer-mobile-dua">Bantuan</a>
-                                </div>
+                        </div>
+                        <div class="col-md-2 col-4">
+                            <h5 class="menu-footer">Tentang Brosis</h5>
+                            <div class="d-flex flex-column mt-3 item-tentang">
+                                <a href="" class="text-footer-mobile-dua">Keseharian</a>
+                                <a href="" class="text-footer-mobile-dua">Lokasi</a>
+                                <a href="" class="text-footer-mobile-dua">Bantuan</a>
                             </div>
-                            <div class="col-md-3 col-4">
-                                <h5 class="menu-footer">Hubungi Brosis</h5>
-                                <div class="d-flex flex-column mt-3" id="item-hubungi">
-                                    <a href="" class="text-footer-mobile-dua">+62 88 906 320515</a>
-                                    <a href="" class="text-footer-mobile-dua">lifeatbrosis@gmail.com</a>
-                                </div>
-                                <section class="bungkus-hide-komunitas-mobile">
-                                    <h5 class="menu-footer judul-footer-komunitas">Jaringan Komunitas</h5>
-                                    <div class="d-flex flex-column" id="item-hubungi">
-                                        <a href="" class="text-footer-mobile-dua">Trust Youth Community</a>
-                                        <a href="" class="text-footer-mobile-dua">Kefas Christian Livingstone</a>
-                                    </div>
-                                </section>
+                        </div>
+                        <div class="col-md-3 col-4">
+                            <h5 class="menu-footer">Hubungi Brosis</h5>
+                            <div class="d-flex flex-column mt-3" id="item-hubungi">
+                                <a href="" class="text-footer-mobile-dua">+62 88 906 320515</a>
+                                <a href="" class="text-footer-mobile-dua">lifeatbrosis@gmail.com</a>
                             </div>
-                            <div class="col-md-3 col-4" id="bungkus-hide-komunitas">
+                            <section class="bungkus-hide-komunitas-mobile">
                                 <h5 class="menu-footer judul-footer-komunitas">Jaringan Komunitas</h5>
                                 <div class="d-flex flex-column" id="item-hubungi">
                                     <a href="" class="text-footer-mobile-dua">Trust Youth Community</a>
                                     <a href="" class="text-footer-mobile-dua">Kefas Christian Livingstone</a>
                                 </div>
-                </section>
-            </div>
-            <div class="row ml-1 mt-5" id="show-footer-end">
-                <a href=""><span class="judul-brand-footer-mobile">BROSIS'</span></a>
-                <a href="" class="text-footer-mobile-bottom"><span style="color: #ffffff">v.1.2 </span> - Life at Brosis
-                    - </a>
-                <a href="" class="text-footer-mobile-bottom"> Privacy Policy</a>
-            </div>
-            </div>
-            </div>
+                            </section>
+                        </div>
+                        <div class="col-md-3 col-4" id="bungkus-hide-komunitas">
+                            <h5 class="menu-footer judul-footer-komunitas">Jaringan Komunitas</h5>
+                            <div class="d-flex flex-column" id="item-hubungi">
+                                <a href="" class="text-footer-mobile-dua">Trust Youth Community</a>
+                                <a href="" class="text-footer-mobile-dua">Kefas Christian Livingstone</a>
+                            </div>
             </section>
-        </footer>
+        </div>
+        <div class="row ml-1 mt-5" id="show-footer-end">
+            <a href=""><span class="judul-brand-footer-mobile">
+                    <img src="assets/img/LOGO BROSIS BW.png" width="15%" alt="">
+                </span></a>
+            <a href="" class="text-footer-mobile-bottom"><span style="color: #ffffff">v.1.2 </span> - Life at
+                Brosis
+                - </a>
+            <a href="" class="text-footer-mobile-bottom"> Privacy Policy</a>
+        </div>
+        </div>
+        </div>
+        </section>
+    </footer>
 
-        <!-- End Footer -->
+    <!-- End Footer -->
 
 
-        <!-- JS File -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/swipper.js"></script>
-        <script src='assets//js/reservasi-lokasi.js'></script>
+    <!-- JS File -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swipper.js"></script>
+    <script src='assets//js/reservasi-lokasi.js'></script>
 </body>
 
 </html>

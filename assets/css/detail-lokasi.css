@@ -592,6 +592,9 @@ nav .mb-nav-flex {
 .testimony .judul-testimony {
   font-size: 2.8rem;
   margin-bottom: 3%;
+    color: #003668;
+    margin-left: 1.5rem;
+    font-weight: 700;
 }
 
 .testimony .gambar-petik {
