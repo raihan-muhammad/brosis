@@ -133,32 +133,6 @@ nav .mb-nav-flex {
 }
 /* end hero */
 
-/* unit */
-.unit-brosis {
-  margin: 20% 13% 7%;
-}
-
-.unit-brosis h2 {
-    font-size: 3.5rem;
-    font-weight: bold;
-}
-
-.unit-brosis .card {
-    border: none;
-}
-
-.unit-brosis .card-body {
-    margin-left: -4%;
-}
-
-.unit-brosis .card-body p {
-    color: #979797;
-    font-size: 1.5rem;
-}
-
-.unit-brosis .card-body h4 {
-    color: #0161FF;
-}
 
 /* map */
 .map {
@@ -199,42 +173,7 @@ nav .mb-nav-flex {
 
   
 
-  /* Hero */
 
-.hero2 {
-  margin-top: 8%;
-  padding: 0 11%;
-  margin-left: -7%;
-}
-
-.hero2 .judul-hero2 {
-  font-size: 2rem;
-  color: #003668;
-  margin-top: 15%;
-}
-
-.hero2 .summary-hero2 {
-  font-size: 2.7rem;
-  color: #434343;
-  width: 85%;
-  font-weight: 200;
-  margin-top: 5%;
-}
-
-.hero2 .hero-image2 {
-  width: 600px;
-  height: 380px;
-  margin-left: 10%;
-  margin-top: 10%;
-}
-
-.hero2 .hero-image2 img {
-  border-radius: 180px;
-  width: 80%;
-  height: 80%;
-}
-
-/* End Hero */
 
 
 
@@ -373,6 +312,10 @@ nav .mb-nav-flex {
   margin: 15% 13% 7% ;
 }
 
+.unit-brosis .row  a {
+  text-decoration: none;
+}
+
 .unit-brosis h2 {
     font-size: 3.5rem;
     font-weight: bold;
@@ -390,15 +333,18 @@ nav .mb-nav-flex {
 .unit-brosis .card-body p {
     color: #979797;
     font-size: 1.5rem;
+     text-decoration: none;
 }
 
 .unit-brosis .card-body h3 {
-  margin-top: -1%;
-  margin-bottom: 3%;
+  margin-top: 0;
+  margin-bottom: 4%;
+   color: black;
 }
 
 .unit-brosis .card-body h4 {
     color: #0161FF;
+     text-decoration: none;
 }
 
 /* map */
@@ -498,7 +444,7 @@ nav .mb-nav-flex {
     position: absolute;
     bottom: 28%;
     color: #fff;
-    left: 20%;
+    left: 12%;
     font-size: 2.4rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
@@ -510,16 +456,16 @@ nav .mb-nav-flex {
     height: 2px;
     background-color: #edfe00;
     width: 40%;
-    left: 20.8%;
+    left: 12.8%;
     bottom: 20%;
   }
 
   .daftar-lokasi .text-lokasi {
     position: absolute;
-    width: 100%;
+    width: 120%;
     color: #ffffff;
-    bottom: 15%;
-    left: 20.7%;
+    bottom: 12%;
+    left: 12.7%;
     font-size: 1.3rem;
   }
 
@@ -530,12 +476,19 @@ nav .mb-nav-flex {
 
   /* Hero2 */
 
-.hero2 {
+  .clip-art {
   width: 110%;
-  height: 85vh;
-  background-color: #f8f5ff;
-  clip-path: polygon(18% 0, 100% 7%, 100% 96%, 78% 100%, 0 94%, 0 4%);
-  padding: 5% 15%;
+  height: 70vh;
+  margin-top: 7%;
+     clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
+    background-color: #f8f5ff;
+  position: absolute;
+}
+
+.hero2 {
+    margin-top: -2%;
+  padding: 10% 15% 0 15%;
+  width: 110%;
 }
 
 .hero2 .judul-hero2 {
@@ -749,8 +702,8 @@ nav .mb-nav-flex {
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 50vh;
-    width: 100%;
+    height: 60vh;
+    width: 90%;
   }
 
   /* End Vibes */
@@ -1075,7 +1028,6 @@ nav .mb-nav-flex {
 
   .swiper-container-lokasi {
     width: 90%;
-    margin-left: 57%;
   }
 
 .daftar-lokasi {
@@ -1117,11 +1069,15 @@ nav .mb-nav-flex {
 
   /* hero2 */
 
+.clip-art {
+  height: 55vh;
+}
+
 .hero2 {
-    clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
     padding: 15% 3%;
+    height: 65vh;
+    margin-top: 10%;
     width: 110%;
-    height: 70vh;
 }
 
 .hero2 .judul-hero2 {
@@ -1249,7 +1205,8 @@ nav .mb-nav-flex {
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 35vh;
+    height: 46vh;
+    width: 90%;
   }
 
   /* End Vibes */
