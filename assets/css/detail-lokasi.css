@@ -1028,6 +1028,7 @@ nav .mb-nav-flex {
 
   .swiper-container-lokasi {
     width: 90%;
+    margin-bottom: 10%;
   }
 
 .daftar-lokasi {
@@ -1086,7 +1087,7 @@ nav .mb-nav-flex {
   color: #003668;
   margin-top: 2%;
   text-align: center;
-  margin-left: 3%;
+  padding-top: 10%;
 }
 
 .hero2 .summary-hero2 {
@@ -1097,7 +1098,7 @@ nav .mb-nav-flex {
   font-weight: 200;
   margin-top: 10%;
   text-align: center;
-  margin-left: 2%;
+  margin-left: -1%;
 }
 
 .hero2 .hero-image2 {
@@ -1107,7 +1108,7 @@ nav .mb-nav-flex {
 .hero2 .hero-image2 img {
   width: 80%;
   height: 50%;
-  margin-left: -7%;
+  margin-left: -10%;
 }
 
 /* End Hero */
@@ -1168,14 +1169,17 @@ nav .mb-nav-flex {
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 60vh;
+    height: 65vh;
     padding: 10% 7%;
+    margin-top: 20%;
   }
 
   .testimony .judul-testimony {
     color: #003668;
+
     text-align: center;
-    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 15%;
     height: auto !important;
   }
 
