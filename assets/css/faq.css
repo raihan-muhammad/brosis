@@ -671,6 +671,7 @@ input[type="submit"] {
 
   .form {
     margin-left: 8%;
+    margin-top: 15%;
   }
 
   .form .form-right .form-group {
@@ -685,6 +686,7 @@ input[type="submit"] {
     margin-left: -3%;
     background-color: #f8f9f4;
     clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
+    margin-bottom: 5%;
   }
 
   .judul-clip {
