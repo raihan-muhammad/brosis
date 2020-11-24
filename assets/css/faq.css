@@ -164,12 +164,11 @@ nav .mb-nav-flex {
   font-size: 3.5rem;
 }
 .filter-box {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   border: 1px solid #707070;
   border-radius: 6px;
-  margin-top: -4%;
   float: right;
-  padding: 4% 6%;
+  padding: 3% 5%;
   text-align: center;
   color: black;
 }
@@ -186,33 +185,35 @@ nav .mb-nav-flex {
   width: 80%;
   height: 0.1vh;
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 .line-2 {
   margin: auto;
   background-color: #404040;
   width: 100%;
   height: 0.1vh;
-  margin-top: -3%;
+  margin-top: -4%;
 }
 .line-3 {
   margin: auto;
   background-color: #404040;
   width: 100%;
-    margin-top: -3%;
+    margin-top: -4%;
   height: 0.1vh;
 }
 .line-4 {
   margin: auto;
   background-color: #404040;
   width: 100%;
-    margin-top: -3%;
+    margin-top: -4%;
   height: 0.1vh;
 }
-.line-5 {
+.line-5,
+.line-6 {
   margin: auto;
   background-color: #404040;
   width: 100%;
-    margin-top: -3%;
+    margin-top: -4%;
   height: 0.1vh;
 }
 .faq2 {
@@ -239,19 +240,18 @@ nav .mb-nav-flex {
   border: none;
   font-size: 1.8rem;
   margin-left: -1rem;
+  width: 95%;
+  text-align: justify;
 }
 .card-header {
   background-color: #fff;
   outline: none;
   border: none;
 }
-.faq-active {
+.active {
   color: #003ea4;
 }
-.ask-button-1:focus {
-  outline: 0;
-  box-shadow: none;
-}
+
 .ask-button-2:hover,
 .ask-button-3:hover,
 .ask-button-4:hover,
@@ -259,14 +259,15 @@ nav .mb-nav-flex {
 .ask-button-1:hover {
   color: black;
 }
+.ask-button-1:focus,
 .ask-button-2:focus,
 .ask-button-3:focus,
 .ask-button-4:focus,
 .ask-button-5:focus {
   outline: 0;
   box-shadow: none;
-  color: #003ea4;
 }
+
 .ask-button-1 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -598,7 +599,7 @@ input[type="submit"] {
   .bg-header {
     width: 300%;
     position: absolute !important;
-    height: 70vh;
+    height: 55vh;
   }
 
   .bg-header img {
@@ -625,22 +626,46 @@ input[type="submit"] {
   /* End Hero */
 
   /* FAQ */
+  
+.faq {
+  margin-top: -15%;
+  margin-bottom: 10%;
+}
+
   .judul {
     font-size: 2.5rem;
-    text-align: center;
+    font-weight: 700;
   }
   .filter-box {
     font-size: 1.8rem;
     border: 1px solid #707070;
     border-radius: 6px;
-    margin-top: 10%;
-    margin-left: 28%;
+    margin-top: 8%;
+    float: left;
+    margin-left: 23%;
     padding: 3% 6%;
   }
   .path-1 {
     display: none;
   }
   /* End FAQ */
+
+  /* pertanyaan */
+
+  .detail .card-body {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .line-2,
+  .line-3,
+  .line-4,
+  .line-5,
+  .line-6 {
+    margin-top: -13%;
+  }
+
+  /* end pertanyaan */
 
   /* form */
 
@@ -672,7 +697,7 @@ input[type="submit"] {
   .desk-clip {
     width: 120%;
     font-size: 1.7rem;
-    margin-left: -17%;
+    margin-left: -13%;
     z-index: -1;
   }
 

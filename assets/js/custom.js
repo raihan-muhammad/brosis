@@ -137,4 +137,50 @@ var swiper2 = new Swiper('.swiper-container-vibes', {
 });
 
 
+// bantuan
+
+const tanya_1 = document.getElementById('tanya-1');
+const tanya_2 = document.getElementById('tanya-2');
+const tanya_3 = document.getElementById('tanya-3');
+const tanya_4 = document.getElementById('tanya-4');
+const tanya_5 = document.getElementById('tanya-5');
+
+tanya_1.addEventListener('click', () => {
+  tanya_1.classList.add('active');
+  tanya_2.classList.remove('active')
+  tanya_3.classList.remove('active')
+  tanya_4.classList.remove('active')
+  tanya_5.classList.remove('active')
+})
+
+tanya_2.addEventListener('click', () => {
+  tanya_2.classList.add('active');
+  tanya_1.classList.remove('active');
+  tanya_3.classList.remove('active');
+  tanya_4.classList.remove('active');
+  tanya_5.classList.remove('active');
+})
+tanya_3.addEventListener('click', () => {
+  tanya_3.classList.add('active');
+  tanya_1.classList.remove('active')
+  tanya_2.classList.remove('active')
+  tanya_4.classList.remove('active')
+  tanya_5.classList.remove('active')
+})
+tanya_4.addEventListener('click', () => {
+  tanya_4.classList.add('active');
+  tanya_1.classList.remove('active')
+  tanya_2.classList.remove('active')
+  tanya_3.classList.remove('active')
+  tanya_5.classList.remove('active')
+})
+tanya_5.addEventListener('click', () => {
+  tanya_5.classList.add('active');
+  tanya_1.classList.remove('active')
+  tanya_2.classList.remove('active')
+  tanya_3.classList.remove('active')
+  tanya_4.classList.remove('active')
+})
+
+
 
