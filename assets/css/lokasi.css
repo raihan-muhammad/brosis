@@ -436,28 +436,35 @@ input[type="text"] {
   box-sizing: border-box;
   font-size: 1.5rem;
 }
-input[placeholder] {
-  font-size: 1.5rem;
-  font-style: italic;
-}
+
+
 input[type="submit"] {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   font-style: normal;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
+
 
 /* end form */
 
 /* Hero2 */
 
-.hero2 {
+
+
+.clip-art {
   width: 110%;
   height: 70vh;
-  margin-top: -2%;
-  background-color: #f8f5ff;
-  clip-path: polygon(18% 0, 100% 7%, 100% 96%, 78% 100%, 0 94%, 0 4%);
-  padding: 7% 15%;
+     clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
+    background-color: #f8f5ff;
+  position: absolute;
 }
+
+.hero2 {
+    margin-top: -2%;
+  padding: 10% 15% 0 15%;
+  width: 110%;
+}
+
 
 .hero2 .judul-hero2 {
   font-size: 4.5rem;
@@ -671,11 +678,13 @@ input[type="submit"] {
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 50vh;
-    width: 100%;
+    height: 60vh;
+    width: 90%;
   }
 
   /* End Vibes */
+
+
 /* Footer */
 
   .text-footer {
@@ -1043,8 +1052,12 @@ margin-left: 3%;
 
 /* hero2 */
 
+
+.clip-art {
+  height: 53vh;
+}
+
 .hero2 {
-    clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
     padding: 15% 3%;
     height: 65vh;
     margin-top: 10%;
@@ -1073,15 +1086,12 @@ margin-left: 3%;
 
 .hero2 .hero-image2 {
     width: 100%;
-    position: relative;
 }
 
 .hero2 .hero-image2 img {
   width: 80%;
   height: 60%;
-  position: absolute;
   top: 10%;
-  z-index: 99;
 }
 
 /* End Hero */
@@ -1143,7 +1153,7 @@ margin-left: 3%;
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 55vh;
+    height: 60vh;
     padding: 10% 7%;
   }
 
@@ -1160,16 +1170,16 @@ margin-left: 3%;
   /* Vibes */
 
   .vibes {
-    margin: 10% 0;
     padding: 0 5%;
   }
 
   .vibes .judul-vibes {
     font-size: 2.9rem;
+    margin-top: 20%;
   }
 
   .vibes .summary-vibes {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #7a7a7a;
     margin-bottom: 10%;
   }
@@ -1181,7 +1191,8 @@ margin-left: 3%;
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 35vh;
+    height: 46vh;
+    width: 90%;
   }
 
   /* End Vibes */

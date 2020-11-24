@@ -115,13 +115,13 @@ var swiper2 = new Swiper('.swiper-container-testi', {
 });
 
 var swiper3 = new Swiper('.swiper-container-vibes', {
-    slidesPerView: 4,
+    slidesPerView: 6,
     spaceBetween: 5,
     freeMode: true,
     breakpoints: {
         285: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 1,
+            spaceBetween: 10,
         },
         768: {
             slidesPerView: 3,
@@ -132,8 +132,8 @@ var swiper3 = new Swiper('.swiper-container-vibes', {
             spaceBetween: 30,
         },
         1025: {
-            slidesPerView: 4,
-            spaceBetween: 30,
+            slidesPerView: 3,
+            spaceBetween: 0,
         },
     },
 });
