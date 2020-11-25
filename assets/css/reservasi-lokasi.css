@@ -1337,7 +1337,7 @@ input[type="submit"] {
 
   .hal {
     width: 85%;
-    height: 110vh;
+    height: 93vh;
     background-color: #fff9eb;
     margin-top: 10%;
   }
@@ -1351,7 +1351,6 @@ input[type="submit"] {
   }
   .desc-hal-1 p {
     font-size: 1.5rem;
-    font-weight: 500;
     width: 90%;
     text-align: justify;
     padding-top: 2rem;
