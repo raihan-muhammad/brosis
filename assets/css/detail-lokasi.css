@@ -61,7 +61,7 @@ header {
   width: 120%;
   position: absolute;
   left: -15em;
-  height: 110%;
+  height: 90vh;
   top: -5em;
 }
 
@@ -237,7 +237,7 @@ header {
   width: 120%;
   position: absolute;
   left: -15em;
-  height: 100%;
+  height: 90vh;
   top: -5em;
 }
 
@@ -297,19 +297,21 @@ nav .mb-nav-flex {
 
 /* hero */
 .hero {
-  padding: 0 11%;
+  padding: 5% 0% 0 11%;
+  margin-left: -1%;
 }
 
 .hero .judul-hero {
-  font-size: 5.5rem;
+  font-size: 6rem;
   color: #003668;
-  margin-top: 15%;
+  margin-top: 8%;
+  font-weight: 700;
 }
 /* end hero */
 
 /* unit */
 .unit-brosis {
-  margin: 15% 13% 7% ;
+  margin: 15% 13% 7% 11.5%;
 }
 
 .unit-brosis .row  a {
@@ -349,7 +351,7 @@ nav .mb-nav-flex {
 
 /* map */
 .map {
-  margin: 0 13% 5%;
+  margin: 0 13% 5% 11.5%;
   width: 80%;
 }
 
@@ -374,7 +376,7 @@ nav .mb-nav-flex {
 /* Lokasi Brosis */
 
   .lokasi-brosis {
-    padding: 0% 10% 2% 10%;
+    padding: 0% 10% 2% 9.5%;
   }
 
   .lokasi-brosis .judul-lokasi-brosis {
@@ -487,7 +489,7 @@ nav .mb-nav-flex {
 
 .hero2 {
     margin-top: -2%;
-  padding: 10% 15% 0 15%;
+  padding: 10% 15% 0 11.5%;
   width: 110%;
 }
 
@@ -510,7 +512,7 @@ nav .mb-nav-flex {
   width: 600px;
   height: 380px;
   margin-right: 20%;
-  margin-left: 20%;
+  margin-left: -5%;
   margin-top: 10%;
 }
 
@@ -527,7 +529,7 @@ nav .mb-nav-flex {
 /* Feature */
 
   .feature {
-    margin: 5% 13% 10%;
+    margin: 5% 13% 10% 11.5%;
   }
 
   .feature .judul-feature.hide-start {
@@ -875,7 +877,7 @@ nav .mb-nav-flex {
   /* Hero */
 
   .hero {
-    padding-top: 14%;
+    padding-top: 25%;
   }
 
   /* End Hero */
@@ -960,7 +962,7 @@ nav .mb-nav-flex {
   /* unit brosis */
   .unit-brosis {
   width: 80%;
-  margin: 40% 13% 5% 5% !important;
+  margin: 35% 13% 5% 5% !important;
 }
 
   .unit-brosis h2 {
@@ -1113,7 +1115,7 @@ nav .mb-nav-flex {
 .hero2 .hero-image2 img {
   width: 80%;
   height: 50%;
-  margin-left: -10%;
+  margin-left: 15%;
 }
 
 /* End Hero */
@@ -1174,7 +1176,7 @@ nav .mb-nav-flex {
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 75vh;
+    height: 80vh;
     padding: 10% 3%;
     margin-top: 20%;
   }

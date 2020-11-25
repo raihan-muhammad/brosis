@@ -620,7 +620,9 @@ input[type="submit"] {
   /* Hero */
 
   .hero {
-    padding-top: 14%;
+    padding-top: 20%;
+    width: 120%;
+    margin-left: -10%;
   }
 
   /* End Hero */
