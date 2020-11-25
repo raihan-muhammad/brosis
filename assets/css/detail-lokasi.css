@@ -875,7 +875,7 @@ nav .mb-nav-flex {
   /* Hero */
 
   .hero {
-    padding-top: 24%;
+    padding-top: 14%;
   }
 
   /* End Hero */
@@ -960,18 +960,19 @@ nav .mb-nav-flex {
   /* unit brosis */
   .unit-brosis {
   width: 80%;
-  margin: 50% 13% 5% 5% !important;
+  margin: 40% 13% 5% 5% !important;
 }
 
   .unit-brosis h2 {
+    width: 100%;
     margin-left: 7%;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
 .unit-brosis .card {
-  width: 16.5rem;
-  margin-left: 15%;
+  width: 15rem;
+  margin-left: 5%;
 }
 
 .unit-brosis .card-body {
@@ -979,13 +980,14 @@ nav .mb-nav-flex {
 }
 
 .unit-brosis .card-body p {
-  width: 130%;
+  width: 150%;
     color: #979797;
     font-size: 1rem;
 }
 
 .unit-brosis .card-body h4 {
     font-size: 1.2rem;
+    width: 150%;
 }
 
 .unit-brosis .card-body h3 {
@@ -1074,7 +1076,7 @@ nav .mb-nav-flex {
   /* hero2 */
 
 .clip-art {
-  height: 55vh;
+  height: 65vh;
 }
 
 .hero2 {
@@ -1121,7 +1123,7 @@ nav .mb-nav-flex {
 /* Feature */
 
   .feature {
-    padding-top: 10vh;
+    padding-top: 20vh;
   }
 
   .feature .judul-feature.hide-start,
@@ -1147,7 +1149,7 @@ nav .mb-nav-flex {
   .feature .summary-feature {
     font-weight: 300;
     width: 110%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 5%;
     margin-left: -4%;
     text-align: center;
@@ -1172,8 +1174,8 @@ nav .mb-nav-flex {
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 65vh;
-    padding: 10% 7%;
+    height: 75vh;
+    padding: 10% 3%;
     margin-top: 20%;
   }
 
@@ -1212,8 +1214,8 @@ nav .mb-nav-flex {
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 35vh;
-    width: 100%;
+    height: 46vh;
+    width: 90%;
   }
 
   /* End Vibes */

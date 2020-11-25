@@ -456,7 +456,7 @@ input[type="submit"] {
 
 .clip-art {
   width: 110%;
-  height: 70vh;
+  height: 74vh;
      clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
     background-color: #f8f5ff;
   position: absolute;
@@ -487,8 +487,8 @@ input[type="submit"] {
 .hero2 .hero-image2 {
   width: 600px;
   height: 380px;
-  margin-right: 20%;
-  margin-left: 10%;
+  margin-right: 10%;
+  margin-left: -2%;
   margin-top: -3%;
 }
 
@@ -845,7 +845,7 @@ input[type="submit"] {
   .bg-header {
     width: 300%;
     position: absolute !important;
-    height: 58vh;
+    height: 60vh;
   }
 
   .bg-header img {
@@ -866,9 +866,7 @@ input[type="submit"] {
 
   /* Hero */
 
-  .hero {
-    padding-top: 24%;
-  }
+
 
   /* End Hero */
 
@@ -944,7 +942,7 @@ input[type="submit"] {
   /* hero */
 .hero {
   padding: 0 11%;
-  margin-top: 30%;
+  margin-top: 15%;
   margin-bottom: 13%;
 }
 
@@ -955,6 +953,7 @@ input[type="submit"] {
   font-weight: 700;
   text-align: center;
   margin-left: 2%;
+  margin-bottom: 15%;
 }
 
 .hero .judul-hero #text-top {
@@ -1033,7 +1032,7 @@ margin-left: 3%;
 
 .clip-path {
   width: 100%;
-  height: 25vh !important;
+  height: 35vh !important;
   margin-left: -3%;
   background-color: #f8f9f4;
   clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
@@ -1041,16 +1040,16 @@ margin-left: 3%;
 
   
 .judul-clip {
-  width: 100%;
+  width: 120%;
   font-size: 2.7rem;
   text-align: center;
   padding-top: 4rem;
-  margin-left: -10%;
+  margin-left: -20%;
 
 }
 .desk-clip {
-  width: 120%;
-  font-size: 1.7rem;
+  width: 150%;
+  font-size: 1.5rem;
   margin-left: -17%;
   z-index: -1;
 }
@@ -1061,7 +1060,7 @@ margin-left: 3%;
 
 
 .clip-art {
-  height: 53vh;
+  height: 63vh;
 }
 
 .hero2 {
@@ -1099,6 +1098,7 @@ margin-left: 3%;
   width: 80%;
   height: 60%;
   top: 10%;
+  margin-left: 10%;
 }
 
 /* End Hero */
@@ -1106,7 +1106,7 @@ margin-left: 3%;
 /* Feature */
 
   .feature {
-    padding-top: 5vh;
+    padding-top: 20vh;
     width: 70%;
   }
 
@@ -1134,7 +1134,7 @@ margin-left: 3%;
   .feature .summary-feature {
     font-weight: 300;
     width: 110%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 5%;
     margin-left: -4%;
     text-align: center;
@@ -1160,8 +1160,8 @@ margin-left: 3%;
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 60vh;
-    padding: 10% 7%;
+    height: 75vh;
+    padding: 10% 3%;
     margin-top: 10%;
   }
 
@@ -1199,8 +1199,8 @@ margin-left: 3%;
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 35vh;
-    width: 100%;
+    height: 46vh;
+    width: 90%;
   }
 
   /* End Vibes */

@@ -1691,7 +1691,7 @@ nav .mb-nav-flex {
   /* Hero */
 
   .hero {
-    padding-top: 24%;
+    padding-top: 10%;
   }
 
   /* End Hero */
@@ -1768,9 +1768,10 @@ nav .mb-nav-flex {
   /* Hero */
 
   .hero .judul-hero {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     font-weight: bold;
+    width: 100%;
   }
 
   .hero .summary-hero {
@@ -1792,7 +1793,7 @@ nav .mb-nav-flex {
   /* Feature */
 
   .feature {
-    padding-top: 15vh;
+    padding-top: 10vh;
   }
 
   .feature .judul-feature.hide-start,
@@ -1843,8 +1844,8 @@ nav .mb-nav-flex {
   .fasilitas {
     clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
     padding: 15% 3%;
-    height: 135vh;
-    margin-top: 10%;
+    height: 155vh;
+    margin-top: 15%;
   }
 
   .fasilitas .judul-fasilitas {
@@ -1896,7 +1897,7 @@ nav .mb-nav-flex {
 
   .brosis-flow .line-flow {
     width: 0.4rem;
-    height: 1100px;
+    height: 1150px;
   }
 
   .brosis-flow #flow-mobile-card {
@@ -2006,8 +2007,9 @@ nav .mb-nav-flex {
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 63vh;
+    height: 75vh;
     margin-top: 10%;
+     padding: 10% 5%;
   }
 
   .testimony .judul-testimony {
@@ -2049,8 +2051,8 @@ nav .mb-nav-flex {
 
   .vibes .image-vibes {
     border-radius: 20px !important;
-    height: 35vh;
-    width: 100%;
+    height: 46vh;
+    width: 90%;
   }
 
   /* End Vibes */

@@ -205,6 +205,7 @@ nav .mb-nav-flex {
 .welcome p {
   font-size: 1.8rem;
   width: 100%;
+  text-align: justify;
 }
 #more {
   display: none;
@@ -638,7 +639,7 @@ input[type="submit"] {
 
   /* unit */
   .unit-brosis {
-    margin: 10% 13% 0%;
+    margin: 5% 13% 0%;
   }
 
   .unit-brosis h2 {
@@ -996,7 +997,7 @@ input[type="submit"] {
     margin: auto;
   }
   .welcome h2 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: 700;
        padding-top: 30%;
       width: 100%;
@@ -1155,7 +1156,7 @@ input[type="submit"] {
 
   .fasilitas .judul-fasilitas {
     font-size: 3.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     padding-left: 5%;
     margin-left: -0.1%;
     font-weight: 700;
@@ -1173,7 +1174,7 @@ input[type="submit"] {
     color: #7a7a7a;
   }
   .fasilitas #bungkus-icon {
-    margin-left: -3%;
+   margin-left: -6%;
   }
   .fasilitas .row {
     display: flex;
@@ -1186,7 +1187,7 @@ input[type="submit"] {
   /* Room Section */
 
 .judul-ruangan {
-  margin-top: -50%;
+  margin-top: -35%;
 }
 
   .image-card {
@@ -1196,7 +1197,7 @@ input[type="submit"] {
     border: none;
   }
   .outer-room {
-    margin-bottom: 25rem;
+    margin-bottom: 30rem;
   }
 
   .outer-room .bungkus-card .border-room .image-card {
@@ -1206,7 +1207,7 @@ input[type="submit"] {
   }
 
   .border-room {
-    height: 60vh;
+    height: 70vh;
     border: 1px solid  #707070;
   }
   .bungkus-card {
@@ -1224,20 +1225,20 @@ input[type="submit"] {
   .desc-room-left-1 {
     width: 50%;
     font-size: 1.8rem;
-    margin-top: -3%;
-    margin-right: 33%;
+    margin-top: -5%;
+    margin-right: 35%;
     border: none;
     width: 60%;
   }
   .desc-room-right-2 {
     font-size: 1.8rem;
-    margin-top: -45%;
-    margin-right: 5%;
+    margin-top: -49%;
+    margin-right: 2%;
     border: none;
   }
 
   .room-right {
-    height: 20vh;
+    height: 25vh;
     background-color: #f8f9f4;
     border-right: 1px solid #707070;
   }
@@ -1248,39 +1249,39 @@ input[type="submit"] {
   }
 
   .outer-room .bungkus-card .room-right .card-text {
-    margin-left: -1%;
+    margin-left: -3%;
     font-size: 1.3rem;
-    margin-top: 10%;
+    margin-top: 12%;
   }
 
   .unit-available {
     color: #00a82d;
     padding-bottom: 0;
-    margin-left: -1%;
+    margin-left: -3%;
   }
 
   .unit-warning {
     padding-bottom: 0;
-    margin-left: -1%;
+    margin-left: -3%;
   }
   .price {
     font-size: 1.4rem;
-    margin-left: -1%;
+    margin-left: -3%;
   }
   .room-right .button-1 {
    margin-left: 50%;
    margin-right: -10%;
-   margin-top: -30%;
+   margin-top: -35%;
   }
 
   .room-right .btn-reservasi {
     margin-bottom: 3%;
    padding: 2%;
-   width: 80%;
+   width: 85%;
   }
 
   .room-right .btn-info {
-       width: 80%;
+       width: 85%;
   }
 
   /* End Room Section */
@@ -1337,7 +1338,7 @@ input[type="submit"] {
 
   .hal {
     width: 85%;
-    height: 93vh;
+    height: 140vh;
     background-color: #fff9eb;
     margin-top: 10%;
   }
@@ -1378,7 +1379,7 @@ input[type="submit"] {
 
   .clip-path {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     margin-left: -5%;
     margin-bottom: 5%;
     background-color: #f8f9f4;
@@ -1388,20 +1389,20 @@ input[type="submit"] {
   .judul-clip {
     width: 100%;
     font-size: 3rem;
-    margin-left: 3%;
+    margin-left: -2%;
   }
   .clip-path h3 {
-    width: 100%;
+    width: 110%;
     font-size: 2.2rem;
     text-align: center;
     padding-top: 4%;
-      margin-left: -7%;
+      margin-left: -13%;
     color: #003ea4;
   }
   .desk-clip {
-    width: 100%;
+    width: 110%;
     font-size: 1.8rem;
-    margin-left: -8%;
+    margin-left: -13%;
     z-index: -1;
     text-align: center;
   }
@@ -1415,18 +1416,19 @@ input[type="submit"] {
 /* unit brosis */
   .unit-brosis {
   width: 80%;
-  margin: 10% 13% 15% 5% !important;
+  margin: 15% 13% 5% 5% !important;
 }
 
   .unit-brosis h2 {
+    width: 100%;
     margin-left: 7%;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
 .unit-brosis .card {
-  width: 16.5rem;
-  margin-left: 15%;
+  width: 15rem;
+  margin-left: 5%;
 }
 
 .unit-brosis .card-body {
@@ -1434,13 +1436,14 @@ input[type="submit"] {
 }
 
 .unit-brosis .card-body p {
-  width: 130%;
+  width: 150%;
     color: #979797;
     font-size: 1rem;
 }
 
 .unit-brosis .card-body h4 {
     font-size: 1.2rem;
+    width: 150%;
 }
 
 .unit-brosis .card-body h3 {
@@ -1453,7 +1456,7 @@ input[type="submit"] {
 
   .testimony {
     clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     padding: 10% 7%;
   }

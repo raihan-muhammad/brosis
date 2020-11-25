@@ -159,3 +159,12 @@ const small_img_4 = document.getElementById('img-small-4');
 small_img_1.addEventListener('click', () => {
     big_img.innerHTML = `<img src="assets/img/Image 13.png" class="img-thumbnail float-left" alt="...">`
 })
+small_img_2.addEventListener('click', () => {
+    big_img.innerHTML = `<img src="assets/img/Image 11.png" class="img-thumbnail float-left" alt="...">`
+})
+small_img_3.addEventListener('click', () => {
+    big_img.innerHTML = `<img src="assets/img/Image 11.png" class="img-thumbnail float-left" alt="...">`
+})
+small_img_4.addEventListener('click', () => {
+    big_img.innerHTML = `<img src="assets/img/Image 11.png" class="img-thumbnail float-left" alt="...">`
+})

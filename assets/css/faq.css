@@ -599,7 +599,7 @@ input[type="submit"] {
   .bg-header {
     width: 300%;
     position: absolute !important;
-    height: 55vh;
+    height: 65vh;
   }
 
   .bg-header img {
@@ -620,7 +620,7 @@ input[type="submit"] {
   /* Hero */
 
   .hero {
-    padding-top: 24%;
+    padding-top: 14%;
   }
 
   /* End Hero */
@@ -628,11 +628,12 @@ input[type="submit"] {
   /* FAQ */
   
 .faq {
-  margin-top: -15%;
+  margin-top: 0%;
   margin-bottom: 10%;
 }
 
   .judul {
+    width: 120%;
     font-size: 2.5rem;
     font-weight: 700;
   }
@@ -653,8 +654,8 @@ input[type="submit"] {
   /* pertanyaan */
 
   .detail .card-body {
+    font-size: 1.6rem;
     width: 100%;
-    text-align: justify;
   }
 
   .line-2,
@@ -682,7 +683,7 @@ input[type="submit"] {
 
   .clip-path {
     width: 100%;
-    height: 25vh;
+    height: 35vh;
     margin-left: -3%;
     background-color: #f8f9f4;
     clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
@@ -690,16 +691,16 @@ input[type="submit"] {
   }
 
   .judul-clip {
-    width: 100%;
+    width: 120%;
     font-size: 2.7rem;
     text-align: center;
     padding-top: 4rem;
-    margin-left: -10%;
+    margin-left: -20%;
   }
   .desk-clip {
     width: 120%;
     font-size: 1.7rem;
-    margin-left: -13%;
+    margin-left: -20%;
     z-index: -1;
   }
 
