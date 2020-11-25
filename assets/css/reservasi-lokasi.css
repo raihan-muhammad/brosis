@@ -312,13 +312,13 @@ nav .mb-nav-flex {
 .room-right {
   border-left: 1px solid #707070;
   border-bottom: 1px solid #707070;
-  height: 44.9vh;
+  height: auto;
   background-color: #f8f9f4;
 }
 .unit-available {
   font-size: 1.5rem;
   color: #00a82d;
-  padding-bottom: 30%;
+  padding-bottom: 31%;
 }
 
 .room-right .card-text {
@@ -326,7 +326,7 @@ nav .mb-nav-flex {
 }
 
 .unit-warning {
-padding-bottom: 30%;
+padding-bottom: 31%;
 font-size: 1.5rem;
 color: #FF4C27;
 }
