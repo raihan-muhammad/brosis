@@ -119,8 +119,8 @@ var swiper2 = new Swiper('.swiper-container-vibes', {
   freeMode: true,
   breakpoints: {
     285: {
-      slidesPerView: 1,
-      spaceBetween: 10,
+      slidesPerView: 2,
+      spaceBetween: 20,
     },
     768: {
       slidesPerView: 3,
