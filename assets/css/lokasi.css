@@ -901,7 +901,7 @@ input[type="submit"] {
     position: fixed;
     transition: all 0.8s ease;
     z-index: 2;
-    margin-top: -15%;
+    margin-top: 8%;
   }
 
   .mb-nav ul {
@@ -910,6 +910,7 @@ input[type="submit"] {
     list-style: none;
     padding: 10px 5% 10px 10% !important;
     display: none;
+    margin-top: -5%;
   }
 
   .mb-nav ul li {
