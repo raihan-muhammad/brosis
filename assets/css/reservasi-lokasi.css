@@ -262,20 +262,20 @@ nav .mb-nav-flex {
   margin-left: 10%;
 }
 
+
 .image-card {
   width: 45%;
   height: 30vh;
   margin: 2rem 0 0 3rem;
+  border-radius: 10px;
 }
 .bungkus-card {
   border: 1px solid #707070;
   max-width: 80%;
-  height: 45vh;
+  height: 48vh;
 }
-.judul-card-1,
-.judul-card-2,
-.judul-card-3 {
-  font-size: 2.5rem;
+.judul-card-1 {
+  font-size: 3rem;
   font-weight: bold;
   margin: 2rem 0 0 3rem;
 }
@@ -318,21 +318,27 @@ nav .mb-nav-flex {
 .unit-available {
   font-size: 1.5rem;
   color: #00a82d;
-  padding-bottom: 31%;
+  padding-bottom: 36.8%;
+    margin-left: 9%;
 }
 
 .room-right .card-text {
   color: #979797;
+    margin-left: 9%;
+    margin-top: 3%;
 }
 
 .unit-warning {
-padding-bottom: 31%;
+padding-bottom: 36.8%;
 font-size: 1.5rem;
 color: #FF4C27;
+  margin-left: 9%;
 }
 
 .price {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-left: 9%;
 }
 
 .room-right .button-1 {
