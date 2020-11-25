@@ -631,7 +631,7 @@ nav .mb-nav-flex {
   }
 
   .daftar-lokasi .img-lokasi img {
-      width: 110%;
+      width: 120%;
       height: 38vh;
       border-radius: 20px;
       cursor: pointer;
@@ -1346,8 +1346,8 @@ nav .mb-nav-flex {
   }
 
   .daftar-lokasi .img-lokasi img {
-      width: 110%;
-      height: 38vh;
+      width: 120%;
+      height: 35vh;
       border-radius: 20px;
       cursor: pointer;
   }
@@ -1368,7 +1368,7 @@ nav .mb-nav-flex {
     position: absolute;
     height: 2px;
     background-color: #edfe00;
-    width: 60%;
+    width: 40%;
     left: 10.8%;
     bottom: 19%;
   }
