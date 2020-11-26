@@ -86,7 +86,7 @@ var swiper4 = new Swiper('.swiper-container-lokasi', {
     },
     1025: {
       slidesPerView: 5,
-      spaceBetween: 50,
+      spaceBetween: 40,
     },
   },
 });
