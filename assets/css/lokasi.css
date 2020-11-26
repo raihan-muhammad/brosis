@@ -243,7 +243,7 @@ nav .mb-nav-flex {
 /* hero */
 .hero {
   padding: 0 11%;
-  margin-top: -2%;
+  margin-top: -1%;
   margin-bottom: 4%;
 }
 
@@ -270,10 +270,11 @@ nav .mb-nav-flex {
     text-align: center;
     color: black;
     text-decoration: none;
+     background-color: #ffff;
 }
 
 .hero .filter-box:hover {
-  background-color: #dfdddd;
+  background-color: #ddd;
 }
 
 
@@ -464,7 +465,7 @@ input[type="submit"] {
 
 .hero2 {
     margin-top: -2%;
-  padding: 10% 15% 0 15%;
+  padding: 10% 15% 0 11.5%;
   width: 110%;
 }
 
@@ -504,7 +505,7 @@ input[type="submit"] {
 /* Feature */
 
   .feature {
-    margin: 5% 5% 10% 15%;
+    margin: 5% 5% 10% 13%;
   }
 
   .feature .judul-feature.hide-start {
@@ -845,7 +846,7 @@ input[type="submit"] {
   .bg-header {
     width: 300%;
     position: absolute !important;
-    height: 60vh;
+    height: 90vh;
   }
 
   .bg-header img {

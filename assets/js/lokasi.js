@@ -73,6 +73,7 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.button-prev',
     },
     slidesPerGroup: 1,
+    slidesPerColumn: 1,
     breakpoints: {
         285: {
             slidesPerView: 2,

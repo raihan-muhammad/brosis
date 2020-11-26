@@ -164,13 +164,14 @@ nav .mb-nav-flex {
   font-size: 3.5rem;
 }
 .filter-box {
-  font-size: 1.6rem;
-  border: 1px solid #707070;
-  border-radius: 6px;
-  float: right;
-  padding: 3% 5%;
-  text-align: center;
-  color: black;
+  font-size: 1.8rem;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    float: right;
+    padding: 1.5% 3%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
 }
 
 .filter-box:hover {
