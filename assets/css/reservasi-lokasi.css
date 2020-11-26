@@ -355,6 +355,11 @@ color: #FF4C27;
   margin-bottom: 5%;
 }
 
+.room-right .button-1 .btn-reservasi a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .room-right .button-1 .btn-info {
    padding: 3% 19%;
   font-size: 1.5rem;
