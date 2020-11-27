@@ -627,13 +627,14 @@ input[type="submit"] {
     margin-bottom: 2%;
   }
   .desc-hal-1 .row {
-    margin-left: 5%;
+    padding-left: 15%;
   }
   .desc-hal-1 p {
     float: left;
     font-size: 1.8rem;
-    width: 80%;
+    width: 85%;
     padding-top: 2rem;
+    text-align: justify;
   }
   .desc-hal-1 span {
     color: #0061fe;

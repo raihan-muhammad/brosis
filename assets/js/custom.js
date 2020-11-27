@@ -165,70 +165,71 @@ const text_tanya_5 = document.getElementById('text-tanya-5');
 const buka_5 = document.getElementById('collapseFive')
 const panah_5 = document.getElementById('panah-5');
 
-tanya_1.addEventListener('click', () => {
-  if (buka_1.classList == 'collapse') {
-    panah.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-    panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  } else {
-    panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  }
-  return
-})
 
-tanya_2.addEventListener('click', () => {
-  if (buka_2.classList == 'collapse') {
-    panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-    panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  } else {
-    panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  }
-  return
-})
+// tanya_1.addEventListener('click', () => {
+//   if (buka_1.classList == 'collapse') {
+//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
+//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   } else {
+//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   }
+//   return
+// })
 
-tanya_3.addEventListener('click', () => {
-  if (buka_3.classList == 'collapse') {
-    panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-    panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  } else {
-    panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  }
-  return
-})
+// tanya_2.addEventListener('click', () => {
+//   if (buka_2.classList == 'collapse') {
+//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
+//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   } else {
+//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   }
+//   return
+// })
 
-tanya_4.addEventListener('click', () => {
-  if (buka_4.classList == 'collapse') {
-    panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-    panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  } else {
-    panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  }
-  return
-})
+// tanya_3.addEventListener('click', () => {
+//   if (buka_3.classList == 'collapse') {
+//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
+//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   } else {
+//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   }
+//   return
+// })
 
-tanya_5.addEventListener('click', () => {
-  if (buka_5.classList == 'collapse') {
-    panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-    panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-    panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  } else {
-    panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-  }
-  return
-})
+// tanya_4.addEventListener('click', () => {
+//   if (buka_4.classList == 'collapse') {
+//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
+//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   } else {
+//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   }
+//   return
+// })
+
+// tanya_5.addEventListener('click', () => {
+//   if (buka_5.classList == 'collapse') {
+//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
+//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   } else {
+//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
+//   }
+//   return
+// })
 
 
 
@@ -237,12 +238,18 @@ tanya_5.addEventListener('click', () => {
 tanya_1.addEventListener('click', () => {
   if (buka_1.classList == "collapse show") {
     text_tanya_1.classList.remove('active')
+    panah.src = `assets/img/Path 74.png`
   } else {
     text_tanya_1.classList.add('active')
     text_tanya_2.classList.remove('active')
     text_tanya_3.classList.remove('active')
     text_tanya_4.classList.remove('active')
     text_tanya_5.classList.remove('active')
+    panah.src = `assets/img/Path 75.png`
+    panah_2.src = `assets/img/Path 74.png`
+    panah_3.src = `assets/img/Path 74.png`
+    panah_4.src = `assets/img/Path 74.png`
+    panah_5.src = `assets/img/Path 74.png`
   }
   return
 })
@@ -252,12 +259,18 @@ tanya_1.addEventListener('click', () => {
 tanya_2.addEventListener('click', () => {
   if (buka_2.classList == "collapse show") {
     text_tanya_2.classList.remove('active')
+    panah_2.src = `assets/img/Path 74.png`
   } else {
     text_tanya_2.classList.add('active')
     text_tanya_1.classList.remove('active')
     text_tanya_3.classList.remove('active')
     text_tanya_4.classList.remove('active')
     text_tanya_5.classList.remove('active')
+    panah_2.src = `assets/img/Path 75.png`
+    panah.src = `assets/img/Path 74.png`
+    panah_3.src = `assets/img/Path 74.png`
+    panah_4.src = `assets/img/Path 74.png`
+    panah_5.src = `assets/img/Path 74.png`
   }
   return
 })
@@ -265,12 +278,18 @@ tanya_2.addEventListener('click', () => {
 tanya_3.addEventListener('click', () => {
   if (buka_3.classList == "collapse show") {
     text_tanya_3.classList.remove('active')
+    panah_3.src = `assets/img/Path 74.png`
   } else {
     text_tanya_3.classList.add('active')
     text_tanya_1.classList.remove('active')
     text_tanya_2.classList.remove('active')
     text_tanya_4.classList.remove('active')
     text_tanya_5.classList.remove('active')
+    panah_3.src = `assets/img/Path 75.png`
+    panah_2.src = `assets/img/Path 74.png`
+    panah.src = `assets/img/Path 74.png`
+    panah_4.src = `assets/img/Path 74.png`
+    panah_5.src = `assets/img/Path 74.png`
   }
   return
 })
@@ -278,12 +297,18 @@ tanya_3.addEventListener('click', () => {
 tanya_4.addEventListener('click', () => {
   if (buka_4.classList == "collapse show") {
     text_tanya_4.classList.remove('active')
+    panah_4.src = `assets/img/Path 74.png`
   } else {
     text_tanya_4.classList.add('active')
     text_tanya_1.classList.remove('active')
     text_tanya_2.classList.remove('active')
     text_tanya_3.classList.remove('active')
     text_tanya_5.classList.remove('active')
+    panah_4.src = `assets/img/Path 75.png`
+    panah.src = `assets/img/Path 74.png`
+    panah_2.src = `assets/img/Path 74.png`
+    panah_3.src = `assets/img/Path 74.png`
+    panah_5.src = `assets/img/Path 74.png`
   }
   return
 })
@@ -291,12 +316,18 @@ tanya_4.addEventListener('click', () => {
 tanya_5.addEventListener('click', () => {
   if (buka_5.classList == "collapse show") {
     text_tanya_5.classList.remove('active')
+    panah_5.src = `assets/img/Path 74.png`
   } else {
     text_tanya_5.classList.add('active')
     text_tanya_1.classList.remove('active')
     text_tanya_2.classList.remove('active')
     text_tanya_3.classList.remove('active')
     text_tanya_4.classList.remove('active')
+    panah_5.src = `assets/img/Path 75.png`
+    panah.src = `assets/img/Path 74.png`
+    panah_2.src = `assets/img/Path 74.png`
+    panah_3.src = `assets/img/Path 74.png`
+    panah_4.src = `assets/img/Path 74.png`
   }
   return
 })

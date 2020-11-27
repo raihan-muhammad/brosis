@@ -665,6 +665,15 @@ input[type="submit"] {
     width: 100%;
   }
 
+.putar{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
   .line-2,
   .line-3,
   .line-4,
