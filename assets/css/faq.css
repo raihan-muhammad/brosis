@@ -377,6 +377,10 @@ input[type="text"] {
   font-size: 1.5rem;
 }
 
+input::placeholder{
+  font-style: italic;
+}
+
 
 input[type="submit"] {
   padding: 1rem 0;
