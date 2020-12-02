@@ -96,6 +96,7 @@ header {
 .image-first img {
   width: 50%;
   height: 60vh;
+  cursor: pointer;
 }
 .image-first-2 img {
   width: 50%;
@@ -119,6 +120,7 @@ header {
 }
 .image-1-4 {
   width: 100%;
+  cursor: pointer;
 }
 
 .image-2-4 {

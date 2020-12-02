@@ -168,3 +168,23 @@ small_img_3.addEventListener('click', () => {
 small_img_4.addEventListener('click', () => {
     big_img.innerHTML = `<img src="assets/img/img-feature-lok-1.png" class="img-thumbnail float-left" alt="...">`
 })
+
+const big_img_2 = document.getElementById('img-big-2');
+const small_img_1_2 = document.getElementById('img-small-1-2');
+const small_img_2_2 = document.getElementById('img-small-2-2');
+const small_img_3_2 = document.getElementById('img-small-3-2');
+const small_img_4_2 = document.getElementById('img-small-4-2');
+
+small_img_1_2.addEventListener('click', () => {
+    big_img_2.innerHTML = ` <img src="assets/img/Image 11.png" class="img-thumbnail float-left" alt="...">`
+})
+
+small_img_2_2.addEventListener('click', () => {
+    big_img_2.innerHTML = ` <img src="assets/img/img-feature-lok-2.png" class="img-thumbnail float-left" alt="...">`
+})
+small_img_3_2.addEventListener('click', () => {
+    big_img_2.innerHTML = ` <img src="assets/img/feature-two.png" class="img-thumbnail float-left" alt="...">`
+})
+small_img_4_2.addEventListener('click', () => {
+    big_img_2.innerHTML = ` <img src="assets/img/img-feature-lok-1.png" class="img-thumbnail float-left" alt="...">`
+})

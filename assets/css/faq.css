@@ -158,10 +158,11 @@ nav .mb-nav-flex {
 
 /* Pertanyaan */
 .faq {
-  margin: 15% 9% 0 9%;
+  margin: 12.5% 9% 0 9%;
 }
 .judul {
   font-size: 3.5rem;
+  font-weight: 700;
 }
 .filter-box {
   font-size: 1.8rem;
@@ -186,27 +187,29 @@ nav .mb-nav-flex {
   width: 80%;
   height: 0.1vh;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 .line-2 {
-  margin: auto;
   background-color: #404040;
   width: 100%;
   height: 0.1vh;
-  margin-top: -4%;
+  margin-top: -3%;
+  margin-bottom: 3%;
 }
 .line-3 {
   margin: auto;
   background-color: #404040;
   width: 100%;
-    margin-top: -4%;
+    margin-top: -3%;
+    margin-bottom: 3%;
   height: 0.1vh;
 }
 .line-4 {
   margin: auto;
   background-color: #404040;
   width: 100%;
-    margin-top: -4%;
+    margin-top: -3%;
+    margin-bottom: 3%;
   height: 0.1vh;
 }
 .line-5,
@@ -214,7 +217,8 @@ nav .mb-nav-flex {
   margin: auto;
   background-color: #404040;
   width: 100%;
-    margin-top: -4%;
+  margin-top: -3%;
+  margin-bottom: 3%;
   height: 0.1vh;
 }
 .faq2 {
@@ -271,7 +275,6 @@ nav .mb-nav-flex {
 
 .ask-button-1 {
   font-size: 2.5rem;
-  font-weight: bold;
   margin-left: -2rem;
 }
 .ask-button-2,
@@ -279,10 +282,11 @@ nav .mb-nav-flex {
 .ask-button-4,
 .ask-button-5,
 .ask-button-1 {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2.8rem;
+  font-weight: 700;
   color: #000000;
   margin-left: -2rem;
+  margin-top: -1%;
 }
 
 .container {
@@ -294,7 +298,7 @@ nav .mb-nav-flex {
 }
 .path-1 {
   float: right;
-  margin-top: 1rem;
+  padding-top: 1%;
 }
 .path-row-1 {
   margin-top: -5%;
