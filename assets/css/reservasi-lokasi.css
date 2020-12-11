@@ -1,74 +1,4 @@
-/* Font-Face */
-
-@font-face {
-  font-family: "swis";
-  src: url("../fonts/swis.ttf");
-}
-
-/* End Font-Face */
-
-/* Utils */
-
-.cs-bg {
-  box-shadow: 0 0px 20px #bfbbbb;
-}
-
-.btn-wa-xl {
-  border: none;
-  background-color: #25d366;
-  border-radius: 10em;
-  color: #ffffff !important;
-  width: 140px;
-  height: 45px;
-  line-height: 35px;
-  right: -10px !important;
-  text-align: center;
-  position: relative;
-}
-
-.wa-text {
-  padding-left: 1.5em;
-}
-
-#wa-icon {
-  left: 15px;
-  position: absolute;
-  font-size: 2.2rem;
-}
-
-/* End Utils */
-
-html {
-  font-family: "swis";
-  font-size: 10px;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-/* Header Section */
-
-header {
-  height: 60vh;
-}
-
-/* End Header Section */
-
-/* Bg Header */
-
-.bg-header {
-  width: 120%;
-  position: absolute;
-  left: -15em;
-  height: 110%;
-  top: -5em;
-}
-
-.bg-header img {
-  width: 100%;
-  height: 100%;
-}
+@media (max-width: 1600px) {
 
 .carousel-indicators {
   left: -80%;
@@ -145,54 +75,6 @@ header {
   float: right;
   padding: 0;
 }
-/* End Bg Header */
-
-/* Nav */
-
-nav {
-  font-size: 1.7rem;
-  background-color: #fff;
-  height: 70px;
-  padding: 0 7% 0 10% !important;
-}
-
-nav .nav-link {
-  margin-right: 1.5em !important;
-  color: #000000;
-  border-bottom: 1.5px solid #fff;
-  transition: all 0.5s ease;
-}
-
-nav #navbar-nav-satu .nav-item .lokasi {
-  border-bottom: 1.5px solid royalblue;
-}
-
-nav #navbar-nav-satu .nav-item .nav-link:hover {
-  border-bottom: 1.5px solid royalblue;
-  transition: all 0.5s ease;
-}
-
-.navbar-nav .nav-item .panah {
-  margin-top: 11px;
-  margin-left: -25px;
-  margin-right: 30px;
-  color: black;
-  text-decoration: none;
-}
-
-nav .logo img {
-  width: 140px;
-}
-
-nav .mb-nav {
-  display: none;
-}
-
-nav .mb-nav-flex {
-  display: none;
-}
-
-/* End Nav */
 
 /* Welcome */
 .welcome {
@@ -226,29 +108,29 @@ nav .mb-nav-flex {
 
 /* Fasilitas */
 
-.fasilitas {
+.fasilitas-reservasi {
   width: 100%;
   height: 75vh;
   padding: 7% 5%;
   margin-top: -3%;
 }
 
-.fasilitas .judul-fasilitas {
+.fasilitas-reservasi .judul-fasilitas {
   font-size: 3.5rem;
   margin-left: 5.5%;
 }
 
-.fasilitas .icon-fas {
+.fasilitas-reservasi .icon-fas {
   width: 60%;
   height: 60%;
 }
 
-.fasilitas .summary-icon-fas {
+.fasilitas-reservasi .summary-icon-fas {
   padding-top: 1rem;
   font-size: 1.8rem;
   color: #7a7a7a;
 }
-.fasilitas #bungkus-icon {
+.fasilitas-reservasi #bungkus-icon {
   margin-top: 3%;
   margin-left: 5%;
   margin-right: -3%;
@@ -258,7 +140,7 @@ nav .mb-nav-flex {
 /* End Fasilitas */
 
 /* Room Section */
-.judul-ruangan {
+.judul-ruangan-reservasi {
   font-size: 3.5rem;
   font-weight: 700;
   margin-top: -6%;
@@ -272,34 +154,39 @@ nav .mb-nav-flex {
   margin: 2rem 0 0 3rem;
   border-radius: 10px;
 }
+
 .bungkus-card {
   border: 1px solid #707070;
   max-width: 80%;
   height: 48vh;
 }
-.judul-card-1 {
+
+.judul-card-reservasi {
   font-size: 3rem;
   font-weight: bold;
   margin: 2rem 0 0 3rem;
 }
+
 .outer-room {
   margin: 4rem 0;
 }
-.judul-desc {
+
+.judul-desc-reservasi {
   float: right;
   font-weight: normal;
   font-size: 1.8rem;
   margin-right: 26%;
   margin-top: 2%;
 }
-.desc-room-left-1 {
+
+.desc-room-left {
   float: right;
   font-weight: lighter;
   font-size: 1.8rem;
   margin-top: -18%;
   margin-right: 27%;
 }
-.desc-room-right-2 {
+.desc-room-right {
   float: right;
   font-weight: lighter;
   font-size: 1.8rem;
@@ -372,189 +259,143 @@ color: #FF4C27;
 }
 /* End Room Section */
 
+ /* end form */
 
-@media (max-width: 1600px) {
-  /* Utils */
-
-  .cs-bg {
-    box-shadow: 0 0px 20px #bfbbbb;
+  /* Map */
+  .map-reservasi {
+    margin-left: 10%;
+    margin-top: 5%;
   }
-
-  .btn-wa-xl {
-    border: none;
-    background-color: #25d366;
-    border-radius: 10em;
-    color: #ffffff !important;
-    width: 140px;
-    height: 45px;
-    line-height: 35px;
-    right: -10px !important;
-    text-align: center;
-    position: relative;
+  .map-reservasi h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    margin-bottom: 2%;
   }
-
-  .wa-text {
-    padding-left: 1.5em;
+  .map-reservasi h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
   }
-
-  #wa-icon {
-    left: 15px;
-    position: absolute;
-    font-size: 2.2rem;
+  .map-reservasi p {
+    line-height: 4rem;
   }
-
-  /* End Utils */
-
-  html {
-    font-family: "swis";
-    font-size: 10px;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  /* Header Section */
-
-  header {
+  .map-reservasi img {
+    width: 80%;
     height: 60vh;
   }
 
-  /* End Header Section */
-
-  /* Bg Header */
-
-  .bg-header {
-    width: 120%;
-    position: absolute;
-    left: -15em;
-    height: 90%;
-    top: -5em;
+  .map-reservasi .right {
+    margin-left: -3%;
   }
 
-  .bg-header img {
-    width: 100%;
-    height: 105%;
+
+  .desc-map-reservasi {
+    margin-top: -3%;
+    font-size: 1.5rem;
+  }
+  /* end Map */
+
+
+   /* Hal */
+  .hal-reservasi {
+    width: 80%;
+    height: 75vh;
+    background-color: #fff9eb;
+    margin-left: 10%;
+    margin-top: 6%;
   }
 
-  /* End Bg Header */
+  .hal-reservasi h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 3%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+  }
 
-  /* Nav */
+   .hal-reservasi .desc-hal-1 .row {
+    padding-left: 15%;
+  }
+  
+   .hal-reservasi .desc-hal-1 p {
+    float: left;
+    font-size: 1.8rem;
+    width: 85%;
+    padding-top: 2rem;
+    text-align: justify;
+  }
+   .hal-reservasi .desc-hal-1 span {
+    color: #0061fe;
+    margin-left: -5%;
+  }
 
-nav {
-  font-size: 1.7rem;
-  background-color: #fff;
-  height: 70px;
-  padding: 0 7% 0 10% !important;
-}
-
-nav .nav-link {
-  margin-right: 1.5em !important;
-  color: #000000;
-  border-bottom: 1.5px solid #fff;
-  transition: all 0.5s ease;
-}
-
-nav #navbar-nav-satu .nav-item .lokasi {
-  border-bottom: 1.5px solid royalblue;
-}
-
-nav #navbar-nav-satu .nav-item .nav-link:hover {
-  border-bottom: 1.5px solid royalblue;
-  transition: all 0.5s ease;
-}
-
-.navbar-nav .nav-item .panah {
-  margin-top: 11px;
-  margin-left: -25px;
-  margin-right: 30px;
-  color: black;
-  text-decoration: none;
-}
-
-nav .logo img {
-  width: 140px;
-}
-
-nav .mb-nav {
-  display: none;
-}
-
-nav .mb-nav-flex {
-  display: none;
-}
-
-/* End Nav */
+  /* end Hal */
 
   /* form */
 
-  .form {
+  .form-reservasi {
     margin-left: 16%;
     margin-top: 7%;
     margin-bottom: 5%;
   }
 
-  .clip-path {
+  .clip-path-reservasi {
     width: 60rem;
     height: 40vh;
     background-color: #f8f9f4;
     clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0% 100%, 0 50%, 0% 0%);
     margin-left: -15%;
   }
-  .image-path {
-    display: none;
-  }
-  .form-box {
-    margin: 5% 10% 0 10%;
-  }
-
-  .judul-clip {
+ 
+  .judul-clip-reservasi {
     font-size: 4rem;
     font-weight: 700;
     padding: 3rem 0 0 5rem;
   }
-  .desk-clip-1 {
+  .desk-clip-1-reservasi {
     font-size: 3rem;
     color: #003EA4;
     padding-top: 1rem;
     padding-left: 5rem;
   }
 
-  .desk-clip {
+  .desk-clip-reservasi {
     font-size: 1.8rem;
     padding-top: 0.5rem;
     padding-left: 5rem;
     width: 60%;
   }
 
-  .form .form-right {
+  .form-reservasi .form-right {
     margin-top: -3%;
     margin-left: -6%;
   }
 
-  .form .form-right .form-group {
+  .form-reservasi .form-right .form-group {
     width: 78%;
     margin-top: 5.4%;
     margin-left: 10%;
   }
 
-  .form .form-right .form-group label {
+  .form-reservasi .form-right .form-group label {
     font-size: 1.4rem;
   }
 
-  .form .form-right .form-group .input-group-text .text-ponsel {
+  .form-reservasi .form-right .form-group .input-group-text .text-ponsel {
     font-size: 1.5rem;
     margin: auto 1rem;
   }
 
-  .form .form-right .form-group .btn-form {
+  .form-reservasi .form-right .form-group .btn-form {
     border-radius: 8px;
     padding: 3% 0;
   }
 
-   .form .form-right .form-group input:active {
+   .form-reservasi .form-right .form-group input:active {
     outline: none;
    }
+
 input[type="text"] {
   width: 100%;
   padding: 2rem 1.5rem;
@@ -575,354 +416,47 @@ input[type="submit"] {
   font-size: 1.5rem;
 }
 
-  /* end form */
-
-  /* Map */
-  .map {
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-  .map h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    padding-bottom: 2rem;
-    margin-bottom: 2%;
-  }
-  .map h3 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding-bottom: 2rem;
-  }
-  .map p {
-    line-height: 4rem;
-  }
-  .map img {
-    width: 80%;
-    height: 60vh;
-  }
-
-  .map .right {
-    margin-left: -3%;
-  }
-
-
-  .desc-map {
-    margin-top: -3%;
-    font-size: 1.5rem;
-  }
-  /* end Map */
-
-  /* Hal */
-  .hal {
-    width: 80%;
-    height: 75vh;
-    background-color: #fff9eb;
-    margin-left: 10%;
-    margin-top: 6%;
-  }
-
-  .hal h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    padding-top: 3%;
-    margin-left: 4%;
-    margin-bottom: 2%;
-  }
-  .desc-hal-1 .row {
-    padding-left: 15%;
-  }
-  .desc-hal-1 p {
-    float: left;
-    font-size: 1.8rem;
-    width: 85%;
-    padding-top: 2rem;
-    text-align: justify;
-  }
-  .desc-hal-1 span {
-    color: #0061fe;
-    margin-left: -5%;
-  }
-
-  /* end Hal */
 
   /* unit */
-  .unit-brosis {
+  .unit-brosis-reservasi {
     margin: 5% 13% 0%;
   }
 
-  .unit-brosis h2 {
+  .unit-brosis-reservasi h2 {
     font-size: 3.5rem;
     font-weight: 700;
     margin-left: -3%;
   }
 
-  .unit-brosis .card {
+  .unit-brosis-reservasi .card {
     border: none;
     width: 30rem;
     margin-left: -8%;
   }
 
-  .unit-brosis .card-body {
+  .unit-brosis-reservasi .card-body {
     margin-left: -4%;
   }
 
-    .unit-brosis  a {
+    .unit-brosis-reservasi  a {
       text-decoration: none;
     }
 
-  .unit-brosis .card-body p {
+  .unit-brosis-reservasi .card-body p {
     color: #979797;
     font-size: 1.5rem;
   }
 
-  .unit-brosis .card-body h3 {
+  .unit-brosis-reservasi .card-body h3 {
     margin-top: -1%;
     color: black;
   }
 
-  .unit-brosis .card-body h4 {
+  .unit-brosis-reservasi .card-body h4 {
     color: #0161ff;
     margin-top: 3%;
   }
 }
-/* Testimony */
-
-.testimony {
-  width: 100%;
-  padding: 10% 10% 0% 10%;
-  height: 90vh;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
-  -ms-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
-  -moz-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
-  background-color: #f8f9f4;
-}
-
-.testimony .judul-testimony {
-  font-size: 2.8rem;
-  margin-bottom: 3%;
-  margin-top: -5%;
-  font-weight: 700;
-  color: #003668;
-  margin-left: 1.5rem;
-}
-
-.testimony .gambar-petik {
-  position: absolute;
-  width: 40px;
-  height: 100px;
-  top: -1%;
-}
-
-.testimony .card-testi {
-  width: 95%;
-  height: 100%;
-  background-color: #ffffff;
-  border-radius: 5px;
-  padding: 10%;
-  margin: 5%;
-  font-size: 1.5rem;
-  box-shadow: 0 0px 10px #d8d8d8;
-  min-height: 180px;
-}
-
-.testimony .person-testi {
-  display: flex;
-  margin: 10% 0 0 15%;
-}
-
-.testimony .person-testi .foto-person {
-  width: 65px;
-  height: 65px;
-  object-fit: contain;
-}
-
-.testimony .person-testi .foto-person img {
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-}
-
-.testimony .person-testi .person-text {
-  margin-left: 5%;
-  padding-top: 3%;
-}
-
-.testimony .person-testi .person-text .judul-person {
-  font-size: 1.8rem;
-}
-
-.testimony .person-testi .person-text .status-person {
-  font-size: 1.4rem;
-}
-
-/* Swipper Testimony */
-
-.swiper-container-testi {
-  width: 100%;
-  height: auto;
-  overflow-x: hidden;
-}
-
-.swiper-slide {
-  font-size: 18px;
-
-  /* Center slide text vertically */
-  /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex; */
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide:hover {
-  cursor: grab;
-}
-
-/* End Swipper Testimony */
-
-/* Vibes */
-
-.vibes {
-  margin-top: -5%;
-  padding: 0 5%;
-}
-
-.vibes .judul-vibes {
-  font-size: 3.5rem;
-  font-weight: bold;
-}
-
-.vibes .summary-vibes {
-  font-size: 1.8rem;
-  color: #7a7a7a;
-  margin-bottom: 3%;
-}
-
-.vibes .swiper-container-vibes {
-  width: 100%;
-  height: auto;
-}
-
-.vibes .image-vibes {
-  border-radius: 20px !important;
-  height: 60vh;
-  width: 90%;
-}
-
-/* End Vibes */
-
-/* Footer */
-
-  .text-footer {
-    margin: 5% 0;
-  }
-
-  .text-footer .judul-footer {
-    font-weight: bold;
-    font-size: 3.5rem;
-  }
-
-  .text-footer .summary-footer {
-    font-size: 1.6rem;
-    color: #7a7a7a;
-  }
-
-  .bg-footer {
-    position: absolute;
-    z-index: -1;
-    left: -5%;
-    width: 120%;
-    top: 6%;
-    max-height: 300px;
-  }
-
-  .bg-footer img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .footer {
-    width: 100%;
-    height: 90vh;
-    overflow: hidden;
-    position: relative;
-    padding: 0 5%;
-  }
-
-  .footer .kotak-white {
-    width: 100%;
-    height: 40vh;
-    background-color: #fff;
-    border: 1px solid #434343;
-  }
-
-  .text-footer .menu-footer {
-    color: #acebff;
-  }
-
-
-  .text-footer .row a {
-    font-size: 1.5rem;
-    margin: 1% 0;
-    color: white;
-  }
-
-  .text-footer .item-tentang a {
-    color: white;
-    margin: 3% 0;
-  }
-
-  .text-footer #item-hubungi a {
-    color: white;
-    margin: 2% 0;
-  }
-
-   .text-footer #hide-footer-mobile {
-     position: relative;
-   }
-  .text-footer #hide-footer-mobile .logo-brand-footer {
-    position: absolute;
-  }
-
-  .text-footer .text-footer-life, .text-footer .text-footer-privacy {
-    font-size: 1.2rem !important;
-    color: #acebff !important;
-    margin: 1.5% 0 0% 12% !important;
-  }
-
-  .text-footer .text-footer-privacy-1,
-  .text-footer .text-footer-life-1 {
-    font-size: 1.2rem !important;
-    color: #acebff !important;
-    margin: 1.5% 0 !important;
-  }
-
-  .footer .text-footer-mobile {
-    font-size: 1.5rem !important;
-    margin-right: 3% !important;
-  }
-
-  .footer .judul-footer-komunitas {
-    margin-top: 19% !important; 
-  }
-
-  .footer #show-footer-end {
-    display: none;
-  }
-
-  .footer #bungkus-hide-komunitas {
-    display: none;
-  }
-  /* End Footer */
 
 /* Mobile */
 @media (max-width: 570px) {
@@ -1019,150 +553,16 @@ input[type="submit"] {
 
   /* end Welcome */
 
-  /* Utils */
-  .btn-burger {
-    font-size: 3.5rem;
-  }
-
-  .btn-wa {
-    font-size: 25px;
-    width: 50px;
-    padding: 0;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #25d366;
-    color: #fff;
-    border: none;
-  }
-
-  .text-close-nav {
-    position: relative;
-    bottom: -10px;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-    display: none;
-  }
-
-  /* End Utils */
-
-  /* Bg Header */
-
-  .bg-header {
-    width: 300%;
-    position: absolute !important;
-    height: 69vh;
-  }
-
-  .bg-header img {
-    width: 100%;
-    height: 100%;
-  }
-
-  /* End Bg Header */
-
-  /* Nav */
-
-  nav {
-    z-index: 1;
-    height: 70px;
-  }
-
-  /* End Nav */
-
-  /* Hero */
-
-  .hero {
-    padding-top: 24%;
-  }
-
-  /* End Hero */
-
-  /* Mb Nav Flex */
-
-  .mb-nav-flex {
-    display: flex !important;
-    justify-content: inherit !important;
-    align-items: center !important;
-    width: 100%;
-    height: 100%;
-  }
-
-  #cs-bg {
-    z-index: 9;
-    position: fixed;
-    width: 100%;
-  }
-
-  /* End Mb Nav Flex */
-
-  .mb-nav {
-    width: 100%;
-    height: 0%;
-    position: fixed;
-    z-index: 7;
-  }
-
-  .mb-nav.mb-nav-active {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    transition: all 0.8s ease;
-    z-index: 2;
-    margin-top: 15%;
-  }
-
-  .mb-nav ul {
-    background-color: #ffffff;
-    border-radius: 0 0 15% 15%;
-    list-style: none;
-    padding: 10px 5% 10px 10% !important;
-    display: none;
-  }
-
-  .mb-nav ul li {
-    padding: 5% 5%;
-    width: 95%;
-    text-align: center;
-    font-weight: bold;
-    border-bottom: 1px solid #bebebe;
-    font-size: 2.6rem;
-  }
-
-  .mb-nav .mb-menu-nav.active {
-    color: #0161ff;
-  }
-
-  .mb-nav .mb-menu-nav:active,
-  .mb-nav .mb-menu-nav:hover {
-    color: #0161ff;
-    text-decoration: none;
-  }
-
-  .mb-nav ul li a {
-    color: #000000;
-  }
-
-  .mb-nav ul li:nth-child(3) {
-    border: none;
-  }
-
-
-
 
   /* Fasilitas */
 
-  .fasilitas {
+  .fasilitas-reservasi {
     width: 100%;
     padding: 7% 5%;
     margin-top: 10%;
   }
 
-  .fasilitas .judul-fasilitas {
+  .fasilitas-reservasi .judul-fasilitas {
     font-size: 3.5rem;
     padding-bottom: 2rem;
     padding-left: 5%;
@@ -1171,20 +571,20 @@ input[type="submit"] {
   }
 
 
-  .fasilitas .icon-fas {
+  .fasilitas-reservasi .icon-fas {
     width: 50%;
     height: 50%;
   }
 
-  .fasilitas .summary-icon-fas {
+  .fasilitas-reservasi .summary-icon-fas {
     padding-top: 1rem;
     font-size: 1.8rem;
     color: #7a7a7a;
   }
-  .fasilitas #bungkus-icon {
+  .fasilitas-reservasi #bungkus-icon {
    margin-left: -6%;
   }
-  .fasilitas .row {
+  .fasilitas-reservasi .row {
     display: flex;
     flex-direction: row;
     margin-left: 1%;
@@ -1194,7 +594,7 @@ input[type="submit"] {
 
   /* Room Section */
 
-.judul-ruangan {
+.judul-ruangan-reservasi {
   margin-top: -35%;
 }
 
@@ -1223,14 +623,14 @@ input[type="submit"] {
     max-width: 80%;
     height: 55vh;
   }
-  .judul-desc {
+  .judul-desc-reservasi {
     font-size: 1.8rem;
     margin-top: 10%;
     text-align: center;
     padding-bottom: 3rem;
     width: 80%;
   }
-  .desc-room-left-1 {
+  .desc-room-left {
     width: 50%;
     font-size: 1.8rem;
     margin-top: -5%;
@@ -1238,7 +638,7 @@ input[type="submit"] {
     border: none;
     width: 60%;
   }
-  .desc-room-right-2 {
+  .desc-room-right {
     font-size: 1.8rem;
     margin-top: -49%;
     margin-right: 2%;
@@ -1250,7 +650,7 @@ input[type="submit"] {
     background-color: #f8f9f4;
     border-right: 1px solid #707070;
   }
-  .judul-card-1 {
+  .judul-card-reservasi {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 6%;
@@ -1296,27 +696,27 @@ input[type="submit"] {
 
 
   /* Map */
-  .map {
+  .map-reservasi {
     margin-left: 0;
     width: 100%;
     padding-top: 5%;
   }
 
-  .map h2 {
+  .map-reservasi h2 {
     font-size: 3rem;
     font-weight: bold;
     padding-bottom: 1rem;
     margin-left: 10%;
   }
-  .map h3 {
+  .map-reservasi h3 {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 1rem;
   }
-  .map p {
+  .map-reservasi p {
     line-height: 4rem;
   }
-  .map img {
+  .map-reservasi img {
     margin: 0;
     margin-top: 5%;
     margin-left: 10%;
@@ -1324,19 +724,13 @@ input[type="submit"] {
     height: 100%;
   }
 
-  .desc-map {
+  .desc-map-reservasi {
     font-size: 2rem;
     margin-top: 3%;
     font-weight: small;
   }
-  .map-detail {
-    float: left;
-    margin-top: 2rem;
-    margin-right: 0;
-    margin-left: 3rem;
-  }
 
-  .map .right {
+  .map-reservasi .right {
     margin-top: 10%;
     margin-left: 10%;
   }
@@ -1344,20 +738,21 @@ input[type="submit"] {
 
   /* Hal */
 
-  .hal {
+  .hal-reservasi {
     width: 85%;
-    height: 140vh;
+    height: 190vh;
     background-color: #fff9eb;
     margin-top: 10%;
   }
 
-  .hal h1 {
+  .hal-reservasi h1 {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
     padding-top: 10%;
     margin-bottom: 5%;
   }
+
   .desc-hal-1 p {
     font-size: 1.5rem;
     width: 90%;
@@ -1374,18 +769,18 @@ input[type="submit"] {
 
   /* form */
 
-  .form {
+  .form-reservasi {
     margin-left: 10%;
     margin-top: 20%;
   }
 
-  .form .form-right .form-group {
+  .form-reservasi .form-right .form-group {
     width: 90%;
     margin-top: 5%;
     margin-left: 1%;
   }
 
-  .clip-path {
+  .clip-path-reservasi {
     width: 100%;
     height: 40vh;
     margin-left: -5%;
@@ -1394,12 +789,12 @@ input[type="submit"] {
     clip-path: polygon(100% 0, 100% 82%, 52% 100%, 0 83%, 0% 0%);
   }
 
-  .judul-clip {
+  .judul-clip-reservasi {
     width: 100%;
     font-size: 3rem;
     margin-left: -2%;
   }
-  .clip-path h3 {
+  .clip-path-reservasi h3 {
     width: 110%;
     font-size: 2.2rem;
     text-align: center;
@@ -1407,7 +802,7 @@ input[type="submit"] {
       margin-left: -13%;
     color: #003ea4;
   }
-  .desk-clip {
+  .desk-clip-reservasi {
     width: 110%;
     font-size: 1.8rem;
     margin-left: -13%;
@@ -1415,207 +810,49 @@ input[type="submit"] {
     text-align: center;
   }
 
-  .form .form-right {
+  .form-reservasi .form-right {
     margin-left: 1%;
   }
 
   /* end form */
 
 /* unit brosis */
-  .unit-brosis {
+  .unit-brosis-reservasi {
   width: 80%;
   margin: 15% 13% 5% 5% !important;
 }
 
-  .unit-brosis h2 {
+  .unit-brosis-reservasi h2 {
     width: 100%;
     margin-left: 7%;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.unit-brosis .card {
+.unit-brosis-reservasi .card {
   width: 15rem;
   margin-left: 5%;
 }
 
-.unit-brosis .card-body {
+.unit-brosis-reservasi .card-body {
   margin-left: -8%;
 }
 
-.unit-brosis .card-body p {
+.unit-brosis-reservasi .card-body p {
   width: 150%;
     color: #979797;
     font-size: 1rem;
 }
 
-.unit-brosis .card-body h4 {
+.unit-brosis-reservasi .card-body h4 {
     font-size: 1.2rem;
     width: 150%;
 }
 
-.unit-brosis .card-body h3 {
+.unit-brosis-reservasi .card-body h3 {
     font-size: 1.2rem;
 }
 
 
-
-  /* Testimony */
-
-  .testimony {
-    clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 70vh;
-    width: 100%;
-    padding: 10% 7%;
-  }
-
-  .testimony .judul-testimony {
-    color: #003668;
-    text-align: center;
-    margin-bottom: 5%;
-    margin-left: -5%;
-    height: auto !important;
-    padding-top: 10%;
-  }
-
-  /* End Testimony */
-  /* Vibes */
-
-  .vibes {
-    margin: 15% 0 0 0;
-    padding: 0 5%;
-  }
-
-  .vibes .judul-vibes {
-    font-size: 3.5rem;
-    margin-left: 8%;
-  }
-
-  .vibes .summary-vibes {
-    font-size: 1.8rem;
-    color: #7a7a7a;
-    margin-bottom: 10%;
-    margin-left: 8%;
-  }
-
-  .vibes .swiper-container-vibes {
-    width: 100%;
-    height: auto;
-  }
-
-  .vibes .image-vibes {
-    border-radius: 20px !important;
-    height: 35vh;
-    width: 100%;
-  }
-
-  /* End Vibes */
-
-  /* footer */
-
-  .bg-footer img {
-    height: 100vh;
-  }
-
-
-  .footer .kotak-white {
-    width: 90%;
-    margin-top: 10%;
-    margin-left: 5%;
-    height: 30vh;
-    background-color: #fff;
-    border: 1px solid #434343;
-  }
-
-  .footer {
-    background-color: #001A31;
-    height: auto;
-    margin-top: 15% !important;
-  }
-
-  .footer .menu-footer {
-    text-align: left;
-  }
-
-  .footer .text-footer-mobile, .footer .text-footer-mobile-dua {
-    font-size: 0.8rem !important;
-    margin-right: 4% !important;
-  }
-
-  .footer .text-footer-mobile-dua {
-    text-align: left !important;
-  }
-
-  .footer #hide-footer-mobile {
-    display: none;
-  }
-
-  .footer #jarak-bawah-mobile {
-    margin-bottom: 5%;
-  }
-
-  .footer .bungkus-hide-komunitas-mobile {
-    display: none;
-  }
-
-  .footer #bungkus-hide-komunitas {
-    display: block;
-    margin-top: -5% !important;
-  }
-  
-  .footer #show-footer-end {
-    display: block;
-  }
-
-  .footer .menu-footer {
-    font-size: 0.9rem;
-  }
-
-  #text-footer-top {
-    padding: 0 20%;
-    margin-top: 25%;
-  }
-
-  .text-footer .judul-footer {
-    font-size: 2.4rem !important;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    width: 100%;
-  }
-
-  .text-footer .summary-footer {
-margin-left: 6%;
-    width: 100%;
-  }
-
-  .footer #show-footer-end {
-    margin-top: -2% !important;
-    margin-left: 5% !important;
-    padding-bottom: 10% !important;
-  }
-
-  .footer .judul-brand-footer-mobile {
-    font-size: 1.5rem;
-    color: #ffffff;
-  }
-
-
-  .text-footer #hide-footer-mobile .logo-brand-footer {
-    width: 160%;
-  }
-
-   .text-footer #hide-footer-mobile .logo-brand-footer {
-    display: none;
-  }
-
-  .text-footer .text-footer-life, .text-footer .text-footer-privacy {
-    display: none;
-  }
-
-  .text-footer .text-footer-privacy-1,
-  .text-footer .text-footer-life-1 {
-    display: none;
-  }
-  /* end footer */
 }
 /* End Responsive Mobile */

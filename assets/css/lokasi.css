@@ -1,62 +1,6 @@
-/* Font-Face */
+/* Responsive  */
 
-@font-face {
-  font-family: 'swis';
-  src: url('../fonts/swis.ttf');
-}
-
-/* End Font-Face */
-
-/* Utils */
-
-.cs-bg {
-  box-shadow: 0 0px 20px #bfbbbb;
-}
-
-.btn-wa-xl {
-  border: none;
-  background-color: #25d366;
-  border-radius: 10em;
-  color: #ffffff !important;
-  width: 140px;
-  height: 45px;
-  line-height: 35px;
-  right: -10px !important;
-  text-align: center;
-  position: relative;
-}
-
-.wa-text {
-  padding-left: 1.5em;
-}
-
-#wa-icon {
-  left: 15px;
-  position: absolute;
-  font-size: 2.2rem;
-}
-
-/* End Utils */
-
-html {
-  font-family: 'swis';
-  font-size: 10px;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-/* Header Section */
-
-header {
-  height: 60vh;
-}
-
-/* End Header Section */
-
-/* Bg Header */
-
+@media (max-width: 1600px) {
 .bg-header {
   width: 120%;
   position: absolute;
@@ -67,205 +11,33 @@ header {
 
 .bg-header img {
   width: 100%;
-  height: 100%;
+  height: 95vh;
 }
-
-/* End Bg Header */
-
-/* Nav */
-
-nav {
-  font-size: 1.7rem;
-  background-color: #fff;
-  height: 70px;
-  padding: 0 7% 0 10% !important;
-}
-
-nav .nav-link {
-  margin-right: 1.5em !important;
-  color: #000000;
-  border-bottom: 1.5px solid #fff;
-  transition: all 0.5s ease;
-}
-
-nav #navbar-nav-satu .nav-item .lokasi {
-  border-bottom: 1.5px solid royalblue;
-}
-
-nav #navbar-nav-satu .nav-item .nav-link:hover {
-  border-bottom: 1.5px solid royalblue;
-  transition: all 0.5s ease;
-}
-
-.navbar-nav .nav-item .panah {
-  margin-top: 11px;
-  margin-left: -25px;
-  margin-right: 30px;
-  color: black;
-  text-decoration: none;
-}
-
-nav .logo img {
-  width: 140px;
-}
-
-nav .mb-nav {
-  display: none;
-}
-
-nav .mb-nav-flex {
-  display: none;
-}
-
-/* End Nav */
-
-
-
-
-
-
-/* Responsive  */
-
-@media (max-width: 1600px) {
- /* Utils */
-
-.cs-bg {
-  box-shadow: 0 0px 20px #bfbbbb;
-}
-
-.btn-wa-xl {
-  border: none;
-  background-color: #25d366;
-  border-radius: 10em;
-  color: #ffffff !important;
-  width: 140px;
-  height: 45px;
-  line-height: 35px;
-  right: -10px !important;
-  text-align: center;
-  position: relative;
-}
-
-.wa-text {
-  padding-left: 1.5em;
-}
-
-#wa-icon {
-  left: 15px;
-  position: absolute;
-  font-size: 2.2rem;
-}
-
-/* End Utils */
-
-html {
-  font-family: 'swis';
-  font-size: 10px;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-/* Header Section */
-
-header {
-  height: 60vh;
-}
-
-/* End Header Section */
-
-/* Bg Header */
-
-.bg-header {
-  width: 120%;
-  position: absolute;
-  left: -15em;
-  height: 85%;
-  top: -5em;
-}
-
-.bg-header img {
-  width: 100%;
-  height: 105%;
-}
-
-/* End Bg Header */
-
-/* Nav */
-
-nav {
-  font-size: 1.7rem;
-  background-color: #fff;
-  height: 70px;
-  padding: 0 7% 0 10% !important;
-}
-
-nav .nav-link {
-  margin-right: 1.5em !important;
-  color: #000000;
-  border-bottom: 1.5px solid #fff;
-  transition: all 0.5s ease;
-}
-
-nav #navbar-nav-satu .nav-item .lokasi {
-  border-bottom: 1.5px solid royalblue;
-}
-
-nav #navbar-nav-satu .nav-item .nav-link:hover {
-  border-bottom: 1.5px solid royalblue;
-  transition: all 0.5s ease;
-}
-
-.navbar-nav .nav-item .panah {
-  margin-top: 11px;
-  margin-left: -25px;
-  margin-right: 30px;
-  color: black;
-}
-
-nav .logo img {
-  width: 140px;
-}
-
-nav .mb-nav {
-  display: none;
-}
-
-nav .mb-nav-flex {
-  display: none;
-}
-
-/* End Nav */
-
-/* end nav */
 
 /* hero */
-.hero {
+.hero-lokasi {
   padding: 0 11%;
-  margin-top: -1%;
+  padding-top: 7%;
   margin-bottom: 4%;
 }
 
-.hero .judul-hero {
-  font-size: 5rem;
-  margin-top: 15%;
+.hero-lokasi .judul-hero-lokasi {
+  font-size: 6rem;
   font-weight: 700;
-  margin-bottom: 7%;
+  margin-bottom: 5%;
 }
 
-.hero .judul-hero #text-top {
+.hero-lokasi .judul-hero-lokasi #text-top {
     color: #003668;
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.hero .filter-box {
+.hero-lokasi .filter-box-lokasi {
     font-size: 1.8rem;
     border: 1px solid #707070;
     border-radius: 6px;
-    margin-top: 10%;
     padding: 1.2% 3%;
     text-align: center;
     color: black;
@@ -273,19 +45,19 @@ nav .mb-nav-flex {
      background-color: #ffff;
 }
 
-.hero .filter-box:hover {
+.hero-lokasi .filter-box-lokasi:hover {
   background-color: #ddd;
 }
 
 
-.hero .right .pagination {
-  margin-top: 57%;
+.hero-lokasi .right .pagination {
+  margin-top: 37%;
   margin-left: 70%;
 }
 
 
-.hero .right .pagination .button-next,
-.hero .right .pagination .button-prev {
+.hero-lokasi .right .pagination .button-next,
+.hero-lokasi .right .pagination .button-prev {
     color: black;
     padding: 10px 20px;
     text-decoration: none;
@@ -297,16 +69,16 @@ nav .mb-nav-flex {
     background-color: #ffff;
 }
 
-.hero .right .pagination .button-next:active,
-.hero .right .pagination .button-next:focus{
+.hero-lokasi .right .pagination .button-next:active,
+.hero-lokasi .right .pagination .button-next:focus{
   outline: none;
 }
-.hero .right .pagination .button-prev:active,
-.hero .right .pagination .button-prev:focus{
+.hero-lokasi .right .pagination .button-prev:active,
+.hero-lokasi .right .pagination .button-prev:focus{
   outline: none;
 }
 
-.hero .right .pagination .button-next:hover {
+.hero-lokasi .right .pagination .button-next:hover {
   background-color: #ddd;
 }
 .hero .right .pagination .button-prev:hover {
@@ -335,7 +107,9 @@ nav .mb-nav-flex {
 
   .daftar-lokasi .img-lokasi img {
       width: 140%;
+      height: 150%;
       cursor: pointer;
+      padding-top: 5%;
   }
 
 .daftar-lokasi .judul-lokasi {
@@ -372,7 +146,7 @@ nav .mb-nav-flex {
 
 /* form */
 
-.form {
+.form-lokasi {
   margin-left: 7%;
   margin-top: 4%;
   margin-bottom: 5%;
@@ -392,7 +166,7 @@ nav .mb-nav-flex {
   margin: 5% 10% 0 10%;
 }
 
-.judul-clip {
+.judul-clip-lokasi {
   font-size: 3.5rem;
   font-weight: 700;
   padding: 8rem 0 0 7rem;
@@ -404,26 +178,26 @@ nav .mb-nav-flex {
   z-index: -1;
 }
 
-.form .form-right {
+.form-lokasi .form-right {
   margin-top: -2%;
 }
 
-.form .form-right .form-group {
+.form-lokasi .form-right .form-group {
   width: 70%;
   margin-top: 3%;
   margin-left: 10%;
 }
 
-.form .form-right .form-group label {
+.form-lokasi .form-right .form-group label {
   font-size: 1.4rem;
 }
 
-.form .form-right .form-group .input-group-text .text-ponsel {
+.form-lokasi .form-right .form-group .input-group-text .text-ponsel {
   font-size: 1.5rem;
   margin: auto 1rem;
 }
 
-.form .form-right .form-group .btn-form {
+.form-lokasi .form-right .form-group .btn-form {
   border-radius: 8px;
   font-size: 1.8rem;
 }
@@ -455,7 +229,7 @@ input[type="submit"] {
 
 
 
-.clip-art {
+.clip-art-hero2-lokasi {
   width: 110%;
   height: 74vh;
      clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
@@ -463,21 +237,21 @@ input[type="submit"] {
   position: absolute;
 }
 
-.hero2 {
-    margin-top: -2%;
+.hero2-lokasi {
+   margin-top: -2%;
   padding: 10% 15% 0 11.5%;
   width: 110%;
 }
 
 
-.hero2 .judul-hero2 {
+.hero2-lokasi .judul-hero2-lokasi {
   font-size: 4.5rem;
   color: #003668;
   margin-top: 5%;
   font-weight: bold;
 }
 
-.hero2 .summary-hero2 {
+.hero2-lokasi .summary-hero2-lokasi {
   font-size: 1.8rem;
   color: #434343;
   width: 85%;
@@ -485,7 +259,7 @@ input[type="submit"] {
   margin-top: 5%;
 }
 
-.hero2 .hero-image2 {
+.hero2-lokasi .hero-image2-lokasi {
   width: 600px;
   height: 380px;
   margin-right: 10%;
@@ -493,7 +267,7 @@ input[type="submit"] {
   margin-top: -3%;
 }
 
-.hero2 .hero-image2 img {
+.hero2-lokasi .hero-image2-lokasi img {
   border-radius: 180px;
   width: 80%;
   height: 80%;
@@ -505,297 +279,8 @@ input[type="submit"] {
 /* Feature */
 
   .feature {
-    margin: 5% 5% 10% 13%;
+    margin: 5% 13% 10% 13%;
   }
-
-  .feature .judul-feature.hide-start {
-    display: none;
-  }
-
-  .feature .image-feature {
-    width: 90%;
-    height: 45vh;
-  }
-
-  .feature .image-feature img {
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-  }
-
-  .feature .judul-feature {
-    font-size: 3.5rem;
-    color: #003ea4;
-    font-weight: 600;
-    line-height: 4.5rem;
-    padding-top: 6%;
-  }
-
-  .feature #text-feature {
-    padding-left: 5%;
-  }
-
-  .feature .summary-feature {
-    width: 90%;
-    font-size: 1.8rem;
-    margin-top: 5%;
-  }
-
-  .feature #bungkus-feature {
-    margin-bottom: 6%;
-  }
-
-  .feature .summary-feature.hide-start-summary {
-    display: none;
-  }
-
-  .feature #image-feature-mid {
-    padding-left: 8%;
-  }
-  /* End Feature */
-
-  /* Testimony */
-
-  .testimony {
-    width: 100%;
-    padding: 10% 10% 0% 10%;
-    height: 90vh;
-    margin: -5% 0 8% 0;
-    clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
-    -ms-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
-    -moz-clip-path: polygon(15% 0, 100% 5%, 100% 100%, 75% 91%, 0 100%, 0 5%);
-    background-color: #f8f9f4;
-  }
-
-  .testimony .judul-testimony {
-    font-size: 2.8rem;
-    margin-bottom: 3%;
-    margin-top: -6%;
-      color: #003668;
-      font-weight: 700;
-      margin-left: 1.5%;
-  }
-
-  .testimony .gambar-petik {
-    position: absolute;
-    width: 40px;
-    height: 100px;
-    top: -1%;
-  }
-
-  .testimony .card-testi {
-    width: 95%;
-    height: 100%;
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 10%;
-    margin: 5%;
-    font-size: 1.5rem;
-    box-shadow: 0 0px 10px #d8d8d8;
-    min-height: 180px;
-  }
-
-  .testimony .person-testi {
-    display: flex;
-    margin: 10% 0 0 15%;
-  }
-
-  .testimony .person-testi .foto-person {
-    width: 65px;
-    height: 65px;
-    object-fit: contain;
-  }
-
-  .testimony .person-testi .foto-person img {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-  }
-
-  .testimony .person-testi .person-text {
-    margin-left: 5%;
-    padding-top: 3%;
-  }
-
-  .testimony .person-testi .person-text .judul-person {
-    font-size: 1.8rem;
-  }
-
-  .testimony .person-testi .person-text .status-person {
-    font-size: 1.4rem;
-  }
-
-  /* Swipper Testimony */
-
-  .testimony .swiper-container-testi {
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-  }
-
-
-  .swiper-slide {
-    font-size: 18px;
-
-    /* Center slide text vertically */
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex; */
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-
-  .swiper-slide:hover {
-    cursor: grab;
-  }
-
-  /* End Swipper Testimony */
-
-  /* End Testimony */
-
-  /* Vibes */
-
-  .vibes {
-    margin-top: -5%;
-    padding: 0 5%;
-  }
-
-  .vibes .judul-vibes {
-    font-size: 3.5rem;
-    font-weight: bold;
-  }
-
-  .vibes .summary-vibes {
-    font-size: 1.8rem;
-    color: #7a7a7a;
-    margin-bottom: 3%;
-  }
-
-  .vibes .swiper-container-vibes {
-    width: 100%;
-    height: auto;
-  }
-
-  .vibes .image-vibes {
-    border-radius: 20px !important;
-    height: 60vh;
-    width: 90%;
-  }
-
-  /* End Vibes */
-
-
-/* Footer */
-
-  .text-footer {
-    margin: 5% 0;
-  }
-
-  .text-footer .judul-footer {
-    font-weight: bold;
-    font-size: 3.5rem;
-  }
-
-  .text-footer .summary-footer {
-    font-size: 1.6rem;
-    color: #7a7a7a;
-  }
-
-  .bg-footer {
-    position: absolute;
-    z-index: -1;
-    left: -5%;
-    width: 120%;
-    top: 6%;
-    max-height: 300px;
-  }
-
-  .bg-footer img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .footer {
-    width: 100%;
-    height: 90vh;
-    overflow: hidden;
-    position: relative;
-    padding: 0 5%;
-  }
-
-  .footer .kotak-white {
-    width: 100%;
-    height: 40vh;
-    background-color: #fff;
-    border: 1px solid #434343;
-  }
-
-  .text-footer .menu-footer {
-    color: #acebff;
-  }
-
-
-  .text-footer .row a {
-    font-size: 1.5rem;
-    margin: 1% 0;
-    color: white;
-  }
-
-  .text-footer .item-tentang a {
-    color: white;
-    margin: 3% 0;
-  }
-
-  .text-footer #item-hubungi a {
-    color: white;
-    margin: 2% 0;
-  }
-
-   .text-footer #hide-footer-mobile {
-     position: relative;
-   }
-  .text-footer #hide-footer-mobile .logo-brand-footer {
-    position: absolute;
-  }
-
-  .text-footer .text-footer-life, .text-footer .text-footer-privacy {
-    font-size: 1.2rem !important;
-    color: #acebff !important;
-    margin: 1.5% 0 0% 12% !important;
-  }
-
-  .text-footer .text-footer-privacy-1,
-  .text-footer .text-footer-life-1 {
-    font-size: 1.2rem !important;
-    color: #acebff !important;
-    margin: 1.5% 0 !important;
-  }
-
-  .footer .text-footer-mobile {
-    font-size: 1.5rem !important;
-    margin-right: 3% !important;
-  }
-
-  .footer .judul-footer-komunitas {
-    margin-top: 19% !important; 
-  }
-
-  .footer #show-footer-end {
-    display: none;
-  }
-
-  .footer #bungkus-hide-komunitas {
-    display: none;
-  }
-  /* End Footer */
-
 }
 
 
@@ -810,145 +295,26 @@ input[type="submit"] {
 
 /* Mobile */
 @media (max-width: 570px) {
-  /* Utils */
-  .btn-burger {
-    font-size: 3.5rem;
-  }
-
-  .btn-wa {
-    font-size: 25px;
-    width: 50px;
-    padding: 0;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #25d366;
-    color: #fff;
-    border: none;
-  }
-
-  .text-close-nav {
-    position: relative;
-    bottom: -10px;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    display: block;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-    display: none;
-  }
-
-  /* End Utils */
-
-  /* Bg Header */
 
   .bg-header {
     width: 300%;
     position: absolute !important;
-    height: 90vh;
+    height: 65vh;
   }
 
   .bg-header img {
     width: 100%;
-    height: 100%;
-  }
-
-  /* End Bg Header */
-
- /* Nav */
-
-  nav {
-    z-index: 1;
-    height: 70px;
-  }
-
-  /* End Nav */
-
-  /* Hero */
-
-
-
-  /* End Hero */
-
-  /* Mb Nav Flex */
-
-  .mb-nav-flex {
-    display: flex !important;
-    justify-content: inherit !important;
-    align-items: center !important;
-    width: 100%;
-    height: 100%;
-  }
-
-  #cs-bg {
-    z-index: 9;
-    position: fixed;
-    width: 100%;
-  }
-
-  /* End Mb Nav Flex */
-
-  .mb-nav {
-    width: 100%;
-    height: 0%;
-    position: fixed;
-    z-index: 7;
-  }
-
-  .mb-nav.mb-nav-active {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    transition: all 0.8s ease;
-    z-index: 2;
-    margin-top: 8%;
-  }
-
-  .mb-nav ul {
-    background-color: #ffffff;
-    border-radius: 0 0 15% 15%;
-    list-style: none;
-    padding: 10px 5% 10px 10% !important;
-    display: none;
-    margin-top: -5%;
-  }
-
-  .mb-nav ul li {
-    padding: 5% 5%;
-    width: 95%;
-    text-align: center;
-    font-weight: bold;
-    border-bottom: 1px solid #bebebe;
-    font-size: 2.6rem;
-  }
-
-  .mb-nav .mb-menu-nav.active {
-    color: #0161ff;
-  }
-
-  .mb-nav .mb-menu-nav:active,
-  .mb-nav .mb-menu-nav:hover {
-    color: #0161ff;
-    text-decoration: none;
-  }
-
-  .mb-nav ul li a {
-    color: #000000;
-  }
-
-  .mb-nav ul li:nth-child(3) {
-    border: none;
+    height: 110%;
   }
 
   /* hero */
-.hero {
+.hero-lokasi {
   padding: 0 11%;
   margin-top: 15%;
   margin-bottom: 13%;
 }
 
-.hero .judul-hero {
+.hero-lokasi .judul-hero-lokasi {
   width: 100%;
   font-size: 4.5rem;
   margin-top: 15%;
@@ -958,11 +324,11 @@ input[type="submit"] {
   margin-bottom: 15%;
 }
 
-.hero .judul-hero #text-top {
+.hero-lokasi .judul-hero-lokasi #text-top {
   font-size: 3.5rem;
 }
 
-.hero .filter-box {
+.hero-lokasi .filter-box-lokasi {
     font-size: 1.8rem;
     border: 1px solid #707070;
     border-radius: 6px;
@@ -971,7 +337,7 @@ input[type="submit"] {
     padding: 3% 6%;
 }
 
-.hero .right .pagination {
+.hero-lokasi .right .pagination {
   display: none;
 }
 
@@ -1021,12 +387,12 @@ margin-left: 3%;
 
   /* form */
 
-.form {
+.form-lokasi {
   margin-left: 8%;
   margin-bottom: 10%;
 }
 
-.form .form-right .form-group {
+.form-lokasi .form-right .form-group {
     width: 90%;
     margin-top: 5%;
     margin-left: 1%;
@@ -1041,7 +407,7 @@ margin-left: 3%;
 }
 
   
-.judul-clip {
+.judul-clip-lokasi {
   width: 120%;
   font-size: 2.7rem;
   text-align: center;
@@ -1061,18 +427,19 @@ margin-left: 3%;
 /* hero2 */
 
 
-.clip-art {
+.clip-art-hero2-lokasi {
   height: 63vh;
 }
 
-.hero2 {
+.hero2-lokasi {
     padding: 15% 3%;
     height: 65vh;
     margin-top: 10%;
+    margin-bottom: 20%;
     width: 110%;
 }
 
-.hero2 .judul-hero2 {
+.hero2-lokasi .judul-hero2-lokasi {
   font-size: 3.5rem;
   color: #003668;
   margin-top: 2%;
@@ -1080,7 +447,7 @@ margin-left: 3%;
   margin-left: -1%;
 }
 
-.hero2 .summary-hero2 {
+.hero2-lokasi .summary-hero2-lokasi {
   font-size: 1.7rem;
   color: #434343;
   width: 95%;
@@ -1092,11 +459,11 @@ margin-left: 3%;
   text-align: center;
 }
 
-.hero2 .hero-image2 {
+.hero2-lokasi .hero-image2-lokasi {
     width: 100%;
 }
 
-.hero2 .hero-image2 img {
+.hero2-lokasi .hero-image2-lokasi img {
   width: 80%;
   height: 60%;
   top: 10%;
@@ -1105,207 +472,7 @@ margin-left: 3%;
 
 /* End Hero */
 
-/* Feature */
 
-  .feature {
-    padding-top: 20vh;
-    width: 70%;
-  }
-
-  .feature .judul-feature.hide-start,
-  .feature .judul-feature {
-    width: 110%;
-    display: block;
-    font-size: 2.5rem;
-    line-height: 3.4rem;
-    text-align: center;
-    padding: 11% 0;
-    margin-left: -3%;
-  }
-
-  .feature .image-feature {
-    margin-left: 1.2% !important;
-    width: 100%;
-    height: 25vh;
-  }
-
-  .feature #hide-end {
-    display: none;
-  }
-
-  .feature .summary-feature {
-    font-weight: 300;
-    width: 110%;
-    font-size: 1.8rem;
-    padding-top: 5%;
-    margin-left: -4%;
-    text-align: center;
-  }
-
-  .feature .summary-feature.hide-end-summary {
-    display: none;
-  }
-
-  .feature .summary-feature.hide-start-summary {
-    display: block;
-    margin-right: -10%;
-  }
-
-  .feature #image-feature-mid {
-    padding-left: 0%;
-  }
-
-  /* End Feature */
-
-  
-  /* Testimony */
-
-  .testimony {
-    clip-path: polygon(25% 0%, 100% 3%, 100% 100%, 70% 97%, 0 100%, 0 3%);
-    height: 75vh;
-    padding: 10% 3%;
-    margin-top: 10%;
-  }
-
-  .testimony .judul-testimony {
-    color: #003668;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    height: auto !important;
-  }
-
-  /* End Testimony */
-
-  /* Vibes */
-
-  .vibes {
-    padding: 0 5%;
-  }
-
-  .vibes .judul-vibes {
-    font-size: 2.9rem;
-    margin-top: 20%;
-  }
-
-  .vibes .summary-vibes {
-    font-size: 1.6rem;
-    color: #7a7a7a;
-    margin-bottom: 10%;
-  }
-
-  .vibes .swiper-container-vibes {
-    width: 100%;
-    height: auto;
-  }
-
-  .vibes .image-vibes {
-    border-radius: 20px !important;
-    height: 46vh;
-    width: 90%;
-  }
-
-  /* End Vibes */
-
-/* footer */
-
-  .bg-footer img {
-    height: 100vh;
-  }
-
-
-  .footer .kotak-white {
-    width: 90%;
-    margin-top: 10%;
-    margin-left: 5%;
-    height: 30vh;
-    background-color: #fff;
-    border: 1px solid #434343;
-  }
-
-  .footer {
-    background-color: #001A31;
-    height: auto;
-    margin-top: 15% !important;
-  }
-
-  .footer .menu-footer {
-    text-align: left;
-  }
-
-  .footer .text-footer-mobile, .footer .text-footer-mobile-dua {
-    font-size: 0.8rem !important;
-    margin-right: 4% !important;
-  }
-
-  .footer .text-footer-mobile-dua {
-    text-align: left !important;
-  }
-
-  .footer #hide-footer-mobile {
-    display: none;
-  }
-
-  .footer #jarak-bawah-mobile {
-    margin-bottom: 5%;
-  }
-
-  .footer .bungkus-hide-komunitas-mobile {
-    display: none;
-  }
-
-  .footer #bungkus-hide-komunitas {
-    display: block;
-    margin-top: -5% !important;
-  }
-  
-  .footer #show-footer-end {
-    display: block;
-  }
-
-  .footer .menu-footer {
-    font-size: 0.9rem;
-  }
-
-  #text-footer-top {
-    padding: 0 20%;
-    margin-top: 25%;
-  }
-
-  .text-footer .judul-footer {
-    font-size: 2.4rem !important;
-    margin-bottom: 5%;
-  }
-
-  .footer #show-footer-end {
-    margin-top: -2% !important;
-    margin-left: 5% !important;
-    padding-bottom: 10% !important;
-  }
-
-  .footer .judul-brand-footer-mobile {
-    font-size: 1.5rem;
-    color: #ffffff;
-  }
-
-
-  .text-footer #hide-footer-mobile .logo-brand-footer {
-    width: 160%;
-  }
-
-   .text-footer #hide-footer-mobile .logo-brand-footer {
-    display: none;
-  }
-
-  .text-footer .text-footer-life, .text-footer .text-footer-privacy {
-    display: none;
-  }
-
-  .text-footer .text-footer-privacy-1,
-  .text-footer .text-footer-life-1 {
-    display: none;
-  }
-  /* end footer */
 
 
 

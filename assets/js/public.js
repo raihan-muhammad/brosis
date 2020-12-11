@@ -68,9 +68,42 @@ textCloseNav.addEventListener('click', () => {
 
 // Swipper Instance
 
+// lokasi
+var swiper1 = new Swiper('.swiper-container', {
+  slidesPerView: 5,
+  spaceBetween: 5,
+  navigation: {
+    nextEl: '.button-next',
+    prevEl: '.button-prev',
+  },
+  breakpoints: {
+    285: {
+      slidesPerView: 2,
+      spaceBetween: 5,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 6,
+      spaceBetween: 30,
+    },
+    1025: {
+      slidesPerView: 6,
+      spaceBetween: 30,
+    },
+  },
+});
+
 var swiper4 = new Swiper('.swiper-container-lokasi', {
   slidesPerView: 5,
   spaceBetween: 40,
+  navigation: {
+    nextEl: '.button-next',
+    prevEl: '.button-prev',
+  },
+  slidesPerGroup: 1,
   breakpoints: {
     285: {
       slidesPerView: 2,
@@ -138,7 +171,7 @@ var swiper2 = new Swiper('.swiper-container-vibes', {
 });
 
 
-// bantuan
+// bantuan.html
 
 const tanya_1 = document.getElementById('tanya-1');
 const text_tanya_1 = document.getElementById('text-tanya-1');
@@ -164,76 +197,6 @@ const tanya_5 = document.getElementById('tanya-5');
 const text_tanya_5 = document.getElementById('text-tanya-5');
 const buka_5 = document.getElementById('collapseFive')
 const panah_5 = document.getElementById('panah-5');
-
-
-// tanya_1.addEventListener('click', () => {
-//   if (buka_1.classList == 'collapse') {
-//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   } else {
-//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   }
-//   return
-// })
-
-// tanya_2.addEventListener('click', () => {
-//   if (buka_2.classList == 'collapse') {
-//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   } else {
-//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   }
-//   return
-// })
-
-// tanya_3.addEventListener('click', () => {
-//   if (buka_3.classList == 'collapse') {
-//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   } else {
-//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   }
-//   return
-// })
-
-// tanya_4.addEventListener('click', () => {
-//   if (buka_4.classList == 'collapse') {
-//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   } else {
-//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   }
-//   return
-// })
-
-// tanya_5.addEventListener('click', () => {
-//   if (buka_5.classList == 'collapse') {
-//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 75.png" alt="">`
-//     panah.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_2.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_3.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//     panah_4.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   } else {
-//     panah_5.innerHTML = `<img class="path-1" src="assets/img/Path 74.png" alt="">`
-//   }
-//   return
-// })
-
-
-
-
 
 tanya_1.addEventListener('click', () => {
   if (buka_1.classList == "collapse show") {
@@ -331,7 +294,4 @@ tanya_5.addEventListener('click', () => {
   }
   return
 })
-
-
-
 

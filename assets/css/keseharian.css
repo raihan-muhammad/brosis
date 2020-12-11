@@ -1,0 +1,1004 @@
+/* Hero */
+
+.hero {
+  padding: 5% 11%;
+}
+
+.hero .judul-hero {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #003668;
+  margin-top: 15%;
+}
+
+.hero .summary-hero {
+  font-size: 2.7rem;
+  color: #434343;
+  width: 85%;
+  font-weight: 200;
+  margin-top: 5%;
+}
+
+.hero .hero-image {
+  width: 600px;
+  height: 380px;
+  margin-left: 24%;
+  margin-top: 10%;
+}
+
+.hero .hero-image img {
+  border-radius: 180px;
+  width: 100%;
+  height: 100%;
+}
+
+/* End Hero */
+
+
+
+/* Fasilitas */
+
+.fasilitas {
+  width: 100%;
+  height: 95vh;
+  background-color: #f8f5ff;
+  clip-path: polygon(18% 0, 100% 7%, 100% 96%, 78% 100%, 0 94%, 0 4%);
+  padding: 7% 15%;
+}
+
+.fasilitas .judul-fasilitas {
+  font-size: 3.5rem;
+}
+
+.fasilitas .summary-fasilitas {
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+  color: #7a7a7a;
+}
+
+.fasilitas .icon-fas {
+  width: 40%;
+  height: 40%;
+}
+
+.fasilitas .summary-icon-fas {
+  font-size: 1.3rem;
+  color: #7a7a7a;
+}
+
+/* End Fasilitas */
+
+/* Brosis Flow */
+
+.brosis-flow {
+  padding: 5% 15%;
+}
+
+.brosis-flow .judul-brosis-flow {
+  font-size: 3.7rem;
+}
+
+.brosis-flow .summary-brosis-flow {
+  font-size: 1.6rem;
+  color: #7a7a7a;
+}
+
+.brosis-flow .back-flow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brosis-flow .bunder-orange {
+  width: 100px;
+  height: 100px;
+  margin-top: 5%;
+}
+
+.brosis-flow .bunder-orange {
+  width: 100%;
+  height: 100%;
+}
+
+.brosis-flow .bunder-biru {
+  margin-top: -1%;
+}
+
+.brosis-flow .line-flow {
+  width: 0.5rem;
+  background-color: #e5eaed;
+  height: 180vh;
+}
+
+.brosis-flow .dot-satu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 10% auto 10% auto;
+  width: 20px;
+  height: 20px;
+  background-color: #bbc5cc;
+  border-radius: 50%;
+}
+
+.brosis-flow .line-dot-kiri-satu {
+  position: absolute;
+  left: -10%;
+  top: 9.3%;
+  right: 0;
+  margin: 10% auto 10% auto;
+  width: 20vh;
+  height: 0.5rem;
+  background-color: #e5eaed;
+}
+
+.brosis-flow .dot-dua {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 25% auto 10% auto;
+  width: 20px;
+  height: 20px;
+  background-color: #bbc5cc;
+  border-radius: 50%;
+}
+
+.brosis-flow .line-dot-kanan-satu {
+  position: absolute;
+  left: 10%;
+  top: 24%;
+  right: 0;
+  margin: 10% auto 10% auto;
+  width: 20vh;
+  height: 0.5rem;
+  background-color: #e5eaed;
+}
+
+.brosis-flow .dot-tiga {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 40% auto 10% auto;
+  width: 20px;
+  height: 20px;
+  background-color: #bbc5cc;
+  border-radius: 50%;
+}
+
+.brosis-flow .line-dot-kiri-dua {
+  position: absolute;
+  left: -10%;
+  top: 38.7%;
+  right: 0;
+  margin: 10% auto 10% auto;
+  width: 20vh;
+  height: 0.5rem;
+  background-color: #e5eaed;
+}
+
+.brosis-flow .dot-empat {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 57% auto 10% auto;
+  width: 20px;
+  height: 20px;
+  background-color: #bbc5cc;
+  border-radius: 50%;
+}
+
+.brosis-flow .line-dot-kanan-dua {
+  position: absolute;
+  left: 10%;
+  top: 55.4%;
+  right: 0;
+  margin: 10% auto 10% auto;
+  width: 20vh;
+  height: 0.5rem;
+  background-color: #e5eaed;
+}
+
+.brosis-flow .dot-lima {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 72.9% auto 10% auto;
+  width: 20px;
+  height: 20px;
+  background-color: #bbc5cc;
+  border-radius: 50%;
+}
+
+.brosis-flow .line-dot-kiri-tiga {
+  position: absolute;
+  left: -10%;
+  top: 36.1%;
+  right: 0;
+  margin: 45.5% auto 10% auto;
+  width: 20vh;
+  height: 0.5rem;
+  background-color: #e5eaed;
+}
+
+.brosis-flow .jam-satu {
+  margin-top: 28%;
+}
+
+.brosis-flow .jam-satu .gambar-jam {
+  width: 85%;
+  height: 85%;
+  border-radius: 20px;
+}
+
+.brosis-flow .jam-satu .gambar-jam img {
+  width: 100%;
+  height: 100%;
+}
+
+.brosis-flow .jam-satu .judul-jam {
+  font-size: 2.7rem;
+  border-bottom: 2px solid royalblue;
+  width: 16%;
+  padding-bottom: 5px;
+}
+
+.brosis-flow .jam-satu .summary-jam {
+  font-size: 1.6rem;
+  width: 15%;
+  padding-bottom: 5px;
+  color: #404040;
+}
+
+.brosis-flow .jam-satu .line-judul-jam {
+  width: 10%;
+  height: 5px;
+  background-color: royalblue;
+}
+
+.brosis-flow .jam-dua {
+  position: absolute;
+  right: 16%;
+  margin-top: 34%;
+}
+
+.brosis-flow .jam-dua .gambar-jam {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  margin-left: 5%;
+}
+
+.brosis-flow .jam-dua .gambar-jam img {
+  width: 100%;
+  height: 100%;
+}
+
+.brosis-flow .jam-dua .judul-jam {
+  font-size: 2.7rem;
+  border-bottom: 2px solid royalblue;
+  width: 60%;
+  padding-bottom: 5px;
+  text-align: right;
+}
+
+.brosis-flow .jam-dua .summary-jam {
+  font-size: 1.6rem;
+  width: 60%;
+  padding-bottom: 5px;
+  color: #404040;
+  text-align: right;
+}
+
+.brosis-flow .jam-dua .line-judul-jam {
+  width: 10%;
+  height: 5px;
+  background-color: royalblue;
+}
+
+.brosis-flow .jam-tiga {
+  margin-top: 23%;
+}
+
+.brosis-flow .jam-tiga .gambar-jam {
+  width: 85%;
+  height: 85%;
+  border-radius: 20px;
+}
+
+.brosis-flow .jam-tiga .gambar-jam img {
+  width: 100%;
+  height: 100%;
+}
+
+.brosis-flow .jam-tiga .judul-jam {
+  font-size: 2.7rem;
+  border-bottom: 2px solid royalblue;
+  width: 16%;
+  padding-bottom: 5px;
+}
+
+.brosis-flow .jam-tiga .summary-jam {
+  font-size: 1.6rem;
+  width: 15%;
+  padding-bottom: 5px;
+  color: #404040;
+}
+
+.brosis-flow .jam-tiga .line-judul-jam {
+  width: 10%;
+  height: 5px;
+  background-color: royalblue;
+}
+
+.brosis-flow .jam-empat {
+  position: absolute;
+  right: 16%;
+  margin-top: 66%;
+}
+
+.brosis-flow .jam-empat .gambar-jam {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  margin-left: 5%;
+}
+
+.brosis-flow .jam-empat .gambar-jam img {
+  width: 100%;
+  height: 100%;
+}
+
+.brosis-flow .jam-empat .judul-jam {
+  font-size: 2.6rem;
+  border-bottom: 2px solid royalblue;
+  width: 60%;
+  padding-bottom: 5px;
+  text-align: right;
+}
+
+.brosis-flow .jam-empat .summary-jam {
+  font-size: 1.6rem;
+  width: 60%;
+  padding-bottom: 5px;
+  color: #404040;
+  text-align: right;
+}
+
+.brosis-flow .jam-empat .line-judul-jam {
+  width: 10%;
+  height: 5px;
+  background-color: royalblue;
+}
+
+.brosis-flow .jam-lima {
+  margin-top: 28.5%;
+}
+
+.brosis-flow .jam-lima .gambar-jam {
+  width: 85%;
+  height: 85%;
+  border-radius: 20px;
+}
+
+.brosis-flow .jam-lima .gambar-jam img {
+  width: 100%;
+  height: 100%;
+}
+
+.brosis-flow .jam-lima .judul-jam {
+  font-size: 2.7rem;
+  border-bottom: 2px solid royalblue;
+  width: 16%;
+  padding-bottom: 5px;
+}
+
+.brosis-flow .jam-lima .summary-jam {
+  font-size: 1.6rem;
+  width: 15%;
+  padding-bottom: 5px;
+  color: #404040;
+}
+
+.brosis-flow .jam-lima .line-judul-jam {
+  width: 10%;
+  height: 5px;
+  background-color: royalblue;
+}
+
+.brosis-flow #flow-mobile-card {
+  display: none;
+}
+
+.brosis-flow .bungkus-jam-flow-dua {
+  margin-left: -15%;
+}
+
+.brosis-flow .bungkus-jam-flow-empat {
+  margin-left: -15%;
+}
+
+/* End Brosis Flow */
+
+
+
+/* Responsive  */
+
+@media (max-width: 1600px) {
+  /* Hero */
+  .hero {
+    padding: 5% 11%;
+  }
+
+  .hero .judul-hero {
+    font-size: 6rem;
+    color: #003668;
+    margin-top: 13%;
+  }
+
+  .hero .summary-hero {
+    font-size: 1.8rem;
+    color: #434343;
+    width: 85%;
+    font-weight: 200;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image {
+    width: 450px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image img {
+    border-radius: 180px;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* End Hero */
+
+  
+
+  /* Fasilitas */
+
+  .fasilitas {
+    width: 100%;
+    height: 110vh;
+    background-color: #f8f5ff;
+    clip-path: polygon(18% 0, 100% 7%, 100% 96%, 78% 100%, 0 94%, 0 4%);
+    padding: 7% 15%;
+  }
+
+  .fasilitas .judul-fasilitas {
+    font-size: 3.5rem;
+  }
+
+  .fasilitas .summary-fasilitas {
+    font-size: 1.8rem;
+    margin-top: 1.5%;
+    padding-bottom: 5%;
+    color: #7a7a7a;
+  }
+
+  .fasilitas .icon-fas {
+    width: 40%;
+    height: 40%;
+  }
+
+  .fasilitas .summary-icon-fas {
+    font-size: 1.3rem;
+    color: #7a7a7a;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .fasilitas .row .judul-fas {
+    font-size: 2rem;
+  }
+
+  .fasilitas .row .summary-icon-fas {
+    font-size: 1.8rem;
+  }
+
+  .fasilitas .row #bungkus-icon {
+    margin-top: 2%;
+  }
+
+  /* End Fasilitas */
+
+  /* Brosis Flow */
+
+  .brosis-flow {
+    padding: 5% 15%;
+  }
+
+  .brosis-flow .judul-brosis-flow {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  .brosis-flow .summary-brosis-flow {
+    font-size: 1.8rem;
+    color: #7a7a7a;
+  }
+
+  .brosis-flow .back-flow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .brosis-flow .bunder-orange {
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+  }
+
+  .brosis-flow .bunder-orange {
+    width: 100%;
+    height: 100%;
+  }
+
+  .brosis-flow .bunder-biru {
+    margin-top: -1%;
+  }
+
+  .brosis-flow .line-flow {
+    width: 0.5rem;
+    background-color: #e5eaed;
+    height: 190vh;
+  }
+
+  .brosis-flow .dot-satu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 10% auto 10% auto;
+    width: 20px;
+    height: 20px;
+    background-color: #bbc5cc;
+    border-radius: 50%;
+  }
+
+  .brosis-flow .line-dot-kiri-satu {
+    position: absolute;
+    left: -10%;
+    top: 11%;
+    right: 0;
+    margin: 10% auto 10% auto;
+    width: 20vh;
+    height: 0.5rem;
+    background-color: #e5eaed;
+  }
+
+  .brosis-flow .dot-dua {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 25% auto 10% auto;
+    width: 20px;
+    height: 20px;
+    background-color: #bbc5cc;
+    border-radius: 50%;
+  }
+
+  .brosis-flow .line-dot-kanan-satu {
+    position: absolute;
+    left: 10%;
+    top: 25.2%;
+    right: 0;
+    margin: 10% auto 10% auto;
+    width: 20vh;
+    height: 0.5rem;
+    background-color: #e5eaed;
+  }
+
+  .brosis-flow .dot-tiga {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 40% auto 10% auto;
+    width: 20px;
+    height: 20px;
+    background-color: #bbc5cc;
+    border-radius: 50%;
+  }
+
+  .brosis-flow .line-dot-kiri-dua {
+    position: absolute;
+    left: -10%;
+    top: 39.5%;
+    right: 0;
+    margin: 10% auto 10% auto;
+    width: 20vh;
+    height: 0.5rem;
+    background-color: #e5eaed;
+  }
+
+  .brosis-flow .dot-empat {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 57% auto 10% auto;
+    width: 20px;
+    height: 20px;
+    background-color: #bbc5cc;
+    border-radius: 50%;
+  }
+
+  .brosis-flow .line-dot-kanan-dua {
+    position: absolute;
+    left: 10%;
+    top: 55.5%;
+    right: 0;
+    margin: 10% auto 10% auto;
+    width: 20vh;
+    height: 0.5rem;
+    background-color: #e5eaed;
+  }
+
+  .brosis-flow .dot-lima {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 72.9% auto 10% auto;
+    width: 20px;
+    height: 20px;
+    background-color: #bbc5cc;
+    border-radius: 50%;
+  }
+
+  .brosis-flow .line-dot-kiri-tiga {
+    position: absolute;
+    left: -10%;
+    top: 37%;
+    right: 0;
+    margin: 45.5% auto 10% auto;
+    width: 20vh;
+    height: 0.5rem;
+    background-color: #e5eaed;
+  }
+
+  .brosis-flow .jam-satu {
+    margin-top: 30.5%;
+    margin-left: 8%;
+  }
+
+  .brosis-flow .jam-satu .gambar-jam {
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+  }
+
+  .brosis-flow .jam-satu .gambar-jam img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .brosis-flow .jam-satu .judul-jam {
+    font-size: 2.6rem;
+    border-bottom: 2px solid royalblue;
+    width: 14%;
+    padding-bottom: 5px;
+  }
+
+  .brosis-flow .jam-satu .summary-jam {
+    font-size: 1.4rem;
+    width: 21%;
+    padding-bottom: 5px;
+    color: #404040;
+  }
+
+  .brosis-flow .jam-satu .line-judul-jam {
+    width: 20%;
+    height: 5px;
+    background-color: royalblue;
+  }
+
+  .brosis-flow .jam-dua {
+    position: absolute;
+    right: 10%;
+    margin-top: 35.5%;
+    margin-right: 1%;
+  }
+
+  .brosis-flow .jam-dua .gambar-jam {
+    width: 83%;
+    height: 70%;
+    border-radius: 20px;
+    margin-left: 5%;
+  }
+
+  .brosis-flow .jam-dua .gambar-jam img {
+    width: 100%;
+    height: 100%;
+    margin-left: -20%;
+  }
+
+  .brosis-flow .jam-dua .judul-jam {
+    font-size: 2.6rem;
+    border-bottom: 2px solid royalblue;
+    width: 40%;
+    padding-bottom: 5px;
+    text-align: right;
+  }
+
+  .brosis-flow .jam-dua .summary-jam {
+    font-size: 1.4rem;
+    width: 55%;
+    padding-bottom: 5px;
+    color: #404040;
+    text-align: right;
+    margin-left: -10%;
+  }
+
+  .brosis-flow .jam-dua .line-judul-jam {
+    width: 10%;
+    height: 5px;
+    background-color: royalblue;
+  }
+
+  .brosis-flow .jam-tiga {
+    margin-top: 25%;
+    margin-left: 8%;
+  }
+
+  .brosis-flow .jam-tiga .gambar-jam {
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+  }
+
+  .brosis-flow .jam-tiga .gambar-jam img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .brosis-flow .jam-tiga .judul-jam {
+    font-size: 2.6rem;
+    border-bottom: 2px solid royalblue;
+    width: 14%;
+    padding-bottom: 5px;
+  }
+
+  .brosis-flow .jam-tiga .summary-jam {
+    font-size: 1.4rem;
+    width: 21%;
+    padding-bottom: 5px;
+    color: #404040;
+  }
+
+  .brosis-flow .jam-tiga .line-judul-jam {
+    width: 10%;
+    height: 5px;
+    background-color: royalblue;
+  }
+
+  .brosis-flow .jam-empat {
+    position: absolute;
+    right: 7%;
+    margin-top: 71%;
+    margin-right: 1%;
+  }
+
+  .brosis-flow .jam-empat .gambar-jam {
+    width: 75%;
+    height: 70%;
+    border-radius: 20px;
+    margin-left: -4%;
+    margin-top: -16%;
+  }
+
+  .brosis-flow .jam-empat .gambar-jam img {
+    width: 133%;
+    height: 100%;
+    margin-left: -40%;
+  }
+
+  .brosis-flow .jam-empat .judul-jam {
+    font-size: 2.6rem;
+    border-bottom: 2px solid royalblue;
+    width: 40%;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-top: -18%;
+  }
+
+  .brosis-flow .jam-empat .summary-jam {
+    font-size: 1.4rem;
+    width: 55%;
+    margin-left: -10%;
+    padding-bottom: 5px;
+    color: #404040;
+    text-align: right;
+  }
+
+  .brosis-flow .jam-empat .line-judul-jam {
+    width: 10%;
+    height: 5px;
+    background-color: royalblue;
+  }
+
+  .brosis-flow .jam-lima {
+    margin-top: 30%;
+    margin-left: 8%;
+  }
+
+  .brosis-flow .jam-lima .gambar-jam {
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+  }
+
+  .brosis-flow .jam-lima .gambar-jam img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .brosis-flow .jam-lima .judul-jam {
+    font-size: 2.6rem;
+    border-bottom: 2px solid royalblue;
+    width: 14%;
+    padding-bottom: 5px;
+  }
+
+  .brosis-flow .jam-lima .summary-jam {
+    font-size: 1.4rem;
+    width: 21%;
+    padding-bottom: 5px;
+    color: #404040;
+  }
+
+  .brosis-flow .jam-lima .line-judul-jam {
+    width: 10%;
+    height: 5px;
+    background-color: royalblue;
+  }
+
+  .brosis-flow #flow-mobile-card {
+    display: none;
+  }
+
+  .brosis-flow .bungkus-jam-flow-dua {
+    margin-left: -20%;
+  }
+
+  .brosis-flow .bungkus-jam-flow-empat {
+    margin-left: -14%;
+  }
+
+  /* End Brosis Flow */
+
+  
+
+
+}
+
+/* Mobile */
+@media (max-width: 570px) {
+  /* Hero */
+
+ .hero {
+  margin-top: 15%;
+  padding: 0 11%;
+}
+
+  .hero .judul-hero {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 15%;
+  }
+
+  .hero .summary-hero {
+    text-align: center;
+    width: 100% !important;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 5%;
+  }
+
+  .hero .hero-image {
+    margin-left: -0.5% !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* End Hero */
+
+
+  /* Fasilitas */
+
+  .fasilitas {
+    clip-path: polygon(18% 0, 100% 2%, 100% 96%, 78% 100%, 0 98%, 0 3%);
+    padding: 15% 3%;
+    height: 155vh;
+    margin-top: 15%;
+  }
+
+  .fasilitas .judul-fasilitas {
+    font-size: 2.7rem;
+  }
+
+  .fasilitas .summary-icon-fas {
+    width: 70%;
+    margin: auto;
+  }
+
+  .fasilitas #bungkus-icon {
+    margin: 8% 0;
+  }
+
+  /* End Fasilitas */
+
+  /* Brosis Flow */
+
+  .brosis-flow {
+    padding: 5% 10%;
+  }
+
+  .brosis-flow .judul-brosis-flow {
+    margin-top: 9%;
+  }
+
+  .brosis-flow .bunder-biru {
+    margin-top: -3%;
+  }
+
+  .brosis-flow .jam-satu,
+  .brosis-flow .jam-dua,
+  .brosis-flow .jam-tiga,
+  .brosis-flow .jam-empat,
+  .brosis-flow .jam-lima,
+  .brosis-flow .dot-satu,
+  .brosis-flow .dot-dua,
+  .brosis-flow .dot-tiga,
+  .brosis-flow .dot-lima,
+  .brosis-flow .dot-empat,
+  .brosis-flow .line-dot-kiri-satu,
+  .brosis-flow .line-dot-kanan-satu,
+  .brosis-flow .line-dot-kiri-dua,
+  .brosis-flow .line-dot-kanan-dua,
+  .brosis-flow .line-dot-kiri-tiga {
+    display: none !important;
+  }
+
+  .brosis-flow .line-flow {
+    width: 0.4rem;
+    height: 1150px;
+  }
+
+  .brosis-flow #flow-mobile-card {
+    display: block;
+  }
+
+  .brosis-flow #flow-mobile-card-child {
+    margin-top: 51.5% !important;
+    border: 1px solid #e1e1e1 !important;
+    padding: 5%;
+    border-radius: 20px;
+  }
+
+  .brosis-flow #gambar-flow img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .brosis-flow .card-body .card-title {
+    font-size: 2.4rem;
+  }
+
+  .brosis-flow .card-body .card-text {
+    font-size: 1.4rem;
+  }
+
+  /* End Brosis Flow */
+
+}
+/* End Responsive Mobile */
