@@ -1,5 +1,9 @@
 @media (max-width: 1600px) {
 
+.bg-header img {
+  display: none;
+}
+
 .carousel-indicators {
   left: -80%;
   top: 110%;
@@ -17,7 +21,7 @@
   background-color: #0161ff;
 }
 .carousel-swiper {
-  margin-top: -1%;
+  padding-top: 5%;
 }
 .carousel-item {
   border: none;
@@ -466,6 +470,11 @@ input[type="submit"] {
   .carousel-indicators {
    margin-left: 100%;
   }
+
+  .carousel-swiper {
+  padding-top: -5%;
+}
+  
   .carousel-indicators li {
     opacity: 100%;
     width: 1rem;
@@ -474,12 +483,13 @@ input[type="submit"] {
     border: none;
     border-radius: 10px;
     background-color: #e2e2e2;
+
   }
 
-  .bg-header img {
-    width: 100%;
-    height: 100%;
-  }
+ .carousel-swiper {
+  margin-top: -2%;
+}
+
   .image-first img {
     width: 100%;
     height: 40vh;
