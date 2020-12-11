@@ -1,8 +1,10 @@
 @media (max-width: 1600px) {
 
-.bg-header img {
-  display: none;
-}
+.bg-header img,
+.mb-nav {
+    display: none;
+  }
+
 
 .carousel-indicators {
   left: -80%;
@@ -21,7 +23,7 @@
   background-color: #0161ff;
 }
 .carousel-swiper {
-  padding-top: 5%;
+  padding-top: 5%
 }
 .carousel-item {
   border: none;
@@ -465,6 +467,14 @@ input[type="submit"] {
 /* Mobile */
 @media (max-width: 570px) {
   /* End Utils */
+
+  .mb-nav {
+    display: block;
+  }
+
+  .bg-header img {
+    display: none;
+  }
 
   /* Bg Header */
   .carousel-indicators {
