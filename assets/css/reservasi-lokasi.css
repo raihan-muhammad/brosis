@@ -479,6 +479,7 @@ input[type="submit"] {
   /* Bg Header */
   .carousel-indicators {
    margin-left: 100%;
+   z-index: 0;
   }
 
   .carousel-swiper {
